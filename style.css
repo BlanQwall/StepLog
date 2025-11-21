@@ -371,7 +371,7 @@ body {
 
 .week-table.small th,
 .week-table.small td {
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   padding: 0.3rem 0.5rem;
 }
 
@@ -602,4 +602,56 @@ body {
 
 .week-subtitle-margin-small {
   margin-top: 1rem;
+}
+
+/* Week executed sessions: alternate background color by day group */
+.week-table tbody tr.day-group-even {
+  background-color: #ffffff;
+}
+
+.week-table tbody tr.day-group-odd {
+  background-color: #eef2ff;
+}
+
+/* Executed sessions comment column width */
+.week-table.small td:nth-child(8),
+.week-table.small th:nth-child(8) {
+  width: 15%;
+  max-width: 25%;
+  white-space: normal;
+  word-break: break-word;
+}
+/* --- Collapsible comment styles --- */
+.comment-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.comment-text {
+  max-width: 100%;
+  white-space: pre-wrap;
+  font-size: 0.78rem;
+  line-height: 1.25rem;
+}
+
+.comment-text.collapsed {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.comment-toggle {
+  align-self: flex-start;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.72rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: #fafafa;
+  cursor: pointer;
+}
+
+.comment-toggle:hover {
+  background: #f0f0f0;
 }

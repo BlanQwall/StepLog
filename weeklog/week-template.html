@@ -190,6 +190,8 @@
             <th>Avg pace</th>
             <th>Avg HR</th>
             <th>Session</th>
+            <th>Location</th>
+            <th>Comment</th>
           </tr>
         </thead>
         <tbody id="exec-session-body">
@@ -207,7 +209,7 @@
 
       <div class="week-final-note">
         <h3 class="week-subtitle">Weekly notes</h3>
-        <p>I will complete this at the end of week.</p>
+        <p>I will complete this homework at the end of week.</p>
       </div>
     </div>
   </section>
@@ -303,6 +305,9 @@
               const name = act.name || "Session";
               const speed = typeof act.average_speed_m_s === "number" ? act.average_speed_m_s : null;
               const hr = typeof act.average_heartrate === "number" ? act.average_heartrate : null;
+              const city = act.city || null;
+              const country = act.country || null;
+              const description = act.description || "";
 
               if (!byDate[dateStr]) {
                 byDate[dateStr] = { totalKm: 0, sessions: [] };
@@ -325,6 +330,9 @@
                 id,
                 speed,
                 hr,
+                city,
+                country,
+                description,
               });
             });
           }
@@ -413,88 +421,146 @@
           }
 
           cell.appendChild(box);
-          container.appendChild(cell);
-        }
+      container.appendChild(cell);
+    }
+  }
+
+      function formatLocationCell(item) {
+        const city = item.city;
+        const country = item.country;
+        if (city && country) return `${city} (${country})`;
+        if (city) return city;
+        if (country) return country;
+        return "";
       }
 
-      // 执行 sessions 表格（按天合并行 + 平均配速 + 平均心率）
-      function renderExecSessionsTable(rows) {
-        const tbody = document.getElementById("exec-session-body");
-        if (!tbody) return;
+  // 执行 sessions 表格（按天合并行 + 平均配速 + 平均心率 + 位置 + 每日评论）
+  function renderExecSessionsTable(rows) {
+    const tbody = document.getElementById("exec-session-body");
+    if (!tbody) return;
 
-        tbody.innerHTML = "";
+    tbody.innerHTML = "";
 
-        if (!rows || rows.length === 0) {
-          const tr = document.createElement("tr");
-          const td = document.createElement("td");
-          td.colSpan = 6;
-          td.textContent = "No executed sessions for this week yet.";
-          tr.appendChild(td);
-          tbody.appendChild(tr);
-          return;
+    if (!rows || rows.length === 0) {
+      const tr = document.createElement("tr");
+      const td = document.createElement("td");
+      td.colSpan = 8;
+      td.textContent = "No executed sessions for this week yet.";
+      tr.appendChild(td);
+      tbody.appendChild(tr);
+      return;
+    }
+
+    // 按日期分组：{ date: [row, row, ...] }
+    const groups = {};
+    rows.forEach((item) => {
+      if (!groups[item.date]) {
+        groups[item.date] = [];
+      }
+      groups[item.date].push(item);
+    });
+
+    const dates = Object.keys(groups).sort();
+
+    dates.forEach((dateStr, groupIndex) => {
+      const group = groups[dateStr];
+
+      // 当天的评论：把所有非空 description 合并在一起
+      const comments = group
+        .map((item) => (item.description || "").trim())
+        .filter((txt) => txt.length > 0);
+      const commentText = comments.join(" ");
+
+      group.forEach((item, idx) => {
+        const tr = document.createElement("tr");
+
+        // 同一天的行使用相同的背景色，奇偶天交替
+        if (groupIndex % 2 === 0) {
+          tr.classList.add("day-group-even");
+        } else {
+          tr.classList.add("day-group-odd");
         }
 
-        // 按日期分组：{ date: [row, row, ...] }
-        const groups = {};
-        rows.forEach((item) => {
-          if (!groups[item.date]) {
-            groups[item.date] = [];
+        // 第一行写 Day/Date，并设置 rowSpan
+        if (idx === 0) {
+          const tdDay = document.createElement("td");
+          tdDay.textContent = item.day;
+          tdDay.rowSpan = group.length;
+
+          const tdDate = document.createElement("td");
+          tdDate.textContent = item.date;
+          tdDate.rowSpan = group.length;
+
+          tr.appendChild(tdDay);
+          tr.appendChild(tdDate);
+        }
+
+        const tdDist = document.createElement("td");
+        tdDist.textContent = `${item.distance_km.toFixed(1)} km`;
+
+        const tdSpeed = document.createElement("td");
+        tdSpeed.textContent = formatPaceFromSpeed(item.speed);
+
+        const tdHr = document.createElement("td");
+        tdHr.textContent = formatHr(item.hr);
+
+        const tdSession = document.createElement("td");
+        if (item.id) {
+          const a = document.createElement("a");
+          a.href = `https://www.strava.com/activities/${item.id}`;
+          a.target = "_blank";
+          a.rel = "noopener noreferrer";
+          a.textContent = item.name;
+          tdSession.appendChild(a);
+        } else {
+          tdSession.textContent = item.name;
+        }
+
+        const tdLocation = document.createElement("td");
+        tdLocation.textContent = formatLocationCell(item);
+
+        tr.appendChild(tdDist);
+        tr.appendChild(tdSpeed);
+        tr.appendChild(tdHr);
+        tr.appendChild(tdSession);
+        tr.appendChild(tdLocation);
+
+        // 每天的评论列：只在该天的第一行输出，并设置 rowSpan（带“展开/收起”按钮；若无评论则留空）
+        if (idx === 0) {
+          const tdComment = document.createElement("td");
+          tdComment.rowSpan = group.length;
+
+          if (commentText && commentText.trim().length > 0) {
+            const wrap = document.createElement("div");
+            wrap.className = "comment-wrap";
+
+            const textDiv = document.createElement("div");
+            textDiv.className = "comment-text collapsed";
+            textDiv.textContent = commentText;
+
+            const btn = document.createElement("button");
+            btn.type = "button";
+            btn.className = "comment-toggle";
+            btn.textContent = "Show more";
+            btn.addEventListener("click", () => {
+              textDiv.classList.toggle("collapsed");
+              btn.textContent = textDiv.classList.contains("collapsed")
+                ? "Show more"
+                : "Show less";
+            });
+
+            wrap.appendChild(textDiv);
+            wrap.appendChild(btn);
+            tdComment.appendChild(wrap);
           }
-          groups[item.date].push(item);
-        });
 
-        const dates = Object.keys(groups).sort();
+          tr.appendChild(tdComment);
+        }
 
-        dates.forEach((dateStr) => {
-          const group = groups[dateStr];
-
-          group.forEach((item, idx) => {
-            const tr = document.createElement("tr");
-
-            // 第一行写 Day/Date，并设置 rowSpan
-            if (idx === 0) {
-              const tdDay = document.createElement("td");
-              tdDay.textContent = item.day;
-              tdDay.rowSpan = group.length;
-
-              const tdDate = document.createElement("td");
-              tdDate.textContent = item.date;
-              tdDate.rowSpan = group.length;
-
-              tr.appendChild(tdDay);
-              tr.appendChild(tdDate);
-            }
-
-            const tdDist = document.createElement("td");
-            tdDist.textContent = `${item.distance_km.toFixed(1)} km`;
-
-            const tdSpeed = document.createElement("td");
-            tdSpeed.textContent = formatPaceFromSpeed(item.speed);
-
-            const tdHr = document.createElement("td");
-            tdHr.textContent = formatHr(item.hr);
-
-            const tdSession = document.createElement("td");
-            if (item.id) {
-              const a = document.createElement("a");
-              a.href = `https://www.strava.com/activities/${item.id}`;
-              a.target = "_blank";
-              a.rel = "noopener noreferrer";
-              a.textContent = item.name;
-              tdSession.appendChild(a);
-            } else {
-              tdSession.textContent = item.name;
-            }
-
-            tr.appendChild(tdDist);
-            tr.appendChild(tdSpeed);
-            tr.appendChild(tdHr);
-            tr.appendChild(tdSession);
-
-            tbody.appendChild(tr);
-          });
-        });
-      }
+        tbody.appendChild(tr);
+      });
+    });
+  }
 
       document.addEventListener("DOMContentLoaded", loadWeekData);
     </script>
