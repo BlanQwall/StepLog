@@ -1,0 +1,57 @@
+{
+  "week_start": "2025-11-17",
+  "week_end": "2025-11-23",
+  "activity_types": [
+    "Run"
+  ],
+  "total_distance_km": 19.35,
+  "total_moving_time_min": 93.2,
+  "activity_count": 4,
+  "avg_suffer_score": 20.8,
+  "activities": [
+    {
+      "id": 16508329136,
+      "name": "(Slowly) coming back from sprained ankle",
+      "type": "Run",
+      "date": "2025-11-19",
+      "distance_km": 5.08,
+      "moving_time_min": 25.2,
+      "average_speed_m_s": 3.358,
+      "average_heartrate": 142.0,
+      "suffer_score": 23.0
+    },
+    {
+      "id": 16517907720,
+      "name": "WD",
+      "type": "Run",
+      "date": "2025-11-20",
+      "distance_km": 1.33,
+      "moving_time_min": 7.0,
+      "average_speed_m_s": 3.136,
+      "average_heartrate": 145.7,
+      "suffer_score": 4.0
+    },
+    {
+      "id": 16517902914,
+      "name": "Club 2x(15’+2’acc+1’r): you said MP?🤣",
+      "type": "Run",
+      "date": "2025-11-20",
+      "distance_km": 8.44,
+      "moving_time_min": 35.5,
+      "average_speed_m_s": 3.962,
+      "average_heartrate": 157.5,
+      "suffer_score": 47.0
+    },
+    {
+      "id": 16517902923,
+      "name": "Wu",
+      "type": "Run",
+      "date": "2025-11-20",
+      "distance_km": 4.51,
+      "moving_time_min": 25.4,
+      "average_speed_m_s": 2.956,
+      "average_heartrate": 132.1,
+      "suffer_score": 9.0
+    }
+  ]
+}

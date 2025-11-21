@@ -1,0 +1,76 @@
+{
+  "week_start": "2025-11-10",
+  "week_end": "2025-11-16",
+  "activity_types": [
+    "Run"
+  ],
+  "total_distance_km": 50.23,
+  "total_moving_time_min": 271.8,
+  "activity_count": 8,
+  "activities": [
+    {
+      "id": 16416810987,
+      "name": "Evening Run",
+      "type": "Run",
+      "date": "2025-11-10",
+      "distance_km": 1.47,
+      "moving_time_min": 9.8
+    },
+    {
+      "id": 16428151810,
+      "name": "Club 10’@SP42 + 10x1’: joined road group for marathon preparation",
+      "type": "Run",
+      "date": "2025-11-11",
+      "distance_km": 7.76,
+      "moving_time_min": 36.0
+    },
+    {
+      "id": 16428151680,
+      "name": "WU",
+      "type": "Run",
+      "date": "2025-11-11",
+      "distance_km": 6.14,
+      "moving_time_min": 32.9
+    },
+    {
+      "id": 16438538627,
+      "name": "Jog in night vineyards ✨",
+      "type": "Run",
+      "date": "2025-11-12",
+      "distance_km": 11.76,
+      "moving_time_min": 64.0
+    },
+    {
+      "id": 16448860838,
+      "name": "Club cote",
+      "type": "Run",
+      "date": "2025-11-13",
+      "distance_km": 7.11,
+      "moving_time_min": 44.4
+    },
+    {
+      "id": 16448852737,
+      "name": "WU",
+      "type": "Run",
+      "date": "2025-11-13",
+      "distance_km": 1.0,
+      "moving_time_min": 5.4
+    },
+    {
+      "id": 16462296528,
+      "name": "Mini trail Cécélès",
+      "type": "Run",
+      "date": "2025-11-15",
+      "distance_km": 9.42,
+      "moving_time_min": 49.9
+    },
+    {
+      "id": 16472939669,
+      "name": "End with an ankle sprain 😢",
+      "type": "Run",
+      "date": "2025-11-16",
+      "distance_km": 5.57,
+      "moving_time_min": 29.6
+    }
+  ]
+}

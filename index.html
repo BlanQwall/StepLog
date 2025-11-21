@@ -77,38 +77,16 @@
   </section>
 
   <!-- This Week（预留 Garmin 区） -->
-  <section id="week" class="section section-alt">
-    <div class="container">
-      <h2>This Week’s Training (Garmin)</h2>
-      <p class="section-subtitle">
-        For now, this is a placeholder. Later it will show the current week’s
-        Garmin calendar or a custom weekly view built from Garmin data.
-      </p>
+    <section class="section section-alt">
+      <div class="container">
+        <h2>Current month – training calendar</h2>
+        <p class="section-subtitle">
+          Garmin training plan via Outlook calendar, shown as a simple monthly view.
+        </p>
 
-      <div class="week-placeholder">
-  <p class="placeholder-title">This Week’s Garmin Calendar</p>
-  <p class="placeholder-text">
-    Screenshot of the current week from Garmin Connect. Updated manually once a week.
-  </p>
-
-  <figure class="week-figure">
-    <img
-      src="assets/garmin_week_calendar_20251120.png"
-      alt="Garmin calendar for the current week"
-      class="week-img"
-    />
-    <figcaption class="week-caption">
-      Garmin Connect · Current week overview
-    </figcaption>
-  </figure>
-
-  <p class="placeholder-text-cn">
-    上图是从 Garmin Connect 截取的本周训练日历截图。  
-    现在先用手动更新的方式，之后我们再尝试用脚本自动生成这一区域。
-  </p>
-</div>
-    </div>
-  </section>
+        <div id="month-calendar"></div>
+      </div>
+    </section>
 
   <!-- Training Log 概览（以后可以做列表/图表） -->
   <section id="log" class="section">
@@ -116,3 +94,156 @@
       <h2>Training Log</h2>
       <p class="section-subtitle">
         A quick overview of recent
+        weeks' training summaries and notes.
+      </p>
+    </div>
+  </section>
+
+
+  <script>
+  const CALENDAR_JSON_URL = "data/calendar-events.json";
+
+  function getCurrentMonthInfo() {
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = today.getMonth(); // 0 = Jan
+    const firstDay = new Date(year, month, 1);
+    const lastDay = new Date(year, month + 1, 0);
+    return { year, month, firstDay, lastDay, today };
+  }
+
+  function formatDateYMD(d) {
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
+    return `${y}-${m}-${day}`;
+  }
+
+  function renderMonthlyCalendar(events) {
+    const container = document.getElementById("month-calendar");
+    if (!container) return;
+
+    const { year, month, firstDay, lastDay, today } = getCurrentMonthInfo();
+
+    // group events by date: { "YYYY-MM-DD": [ {summary, ...}, ... ] }
+    const eventsByDate = {};
+    events.forEach(ev => {
+      if (!eventsByDate[ev.date]) {
+        eventsByDate[ev.date] = [];
+      }
+      eventsByDate[ev.date].push(ev);
+    });
+
+    const header = document.createElement("div");
+    header.className = "month-cal-header";
+
+    const title = document.createElement("div");
+    title.className = "month-cal-title";
+
+    const monthNames = [
+      "Jan","Feb","Mar","Apr","May","Jun",
+      "Jul","Aug","Sep","Oct","Nov","Dec"
+    ];
+    title.textContent = `${monthNames[month]} ${year}`;
+
+    const legend = document.createElement("div");
+    legend.style.fontSize = "0.7rem";
+    legend.style.color = "var(--text-muted)";
+    legend.textContent = "Blue cells = days with planned sessions";
+
+    header.appendChild(title);
+    header.appendChild(legend);
+
+    const grid = document.createElement("div");
+    grid.className = "month-cal-grid";
+
+    // weekday header (Mon–Sun)
+    ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].forEach(wd => {
+      const cell = document.createElement("div");
+      cell.style.textAlign = "center";
+      cell.style.fontSize = "0.7rem";
+      cell.style.color = "var(--text-muted)";
+      cell.style.fontWeight = "600";
+      cell.textContent = wd;
+      grid.appendChild(cell);
+    });
+
+    // offset: first day of month (convert to Mon-first)
+    let offset = firstDay.getDay(); // 0=Sun
+    offset = (offset + 6) % 7;      // Mon=0, Sun=6
+    for (let i = 0; i < offset; i++) {
+      const empty = document.createElement("div");
+      grid.appendChild(empty);
+    }
+
+    // fill days
+    for (let day = 1; day <= lastDay.getDate(); day++) {
+      const d = new Date(year, month, day);
+      const dateStr = formatDateYMD(d);
+      const wdIndex = d.getDay();
+      const wdShort = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"][wdIndex];
+
+      const cell = document.createElement("div");
+      cell.className = "month-cal-cell";
+
+      const headerRow = document.createElement("div");
+      headerRow.className = "month-cal-cell-header";
+
+      const numSpan = document.createElement("span");
+      numSpan.className = "month-cal-daynum";
+      numSpan.textContent = day;
+
+      const wdSpan = document.createElement("span");
+      wdSpan.className = "month-cal-weekday";
+      wdSpan.textContent = wdShort;
+
+      headerRow.appendChild(numSpan);
+      headerRow.appendChild(wdSpan);
+
+      cell.appendChild(headerRow);
+
+      const evBox = document.createElement("div");
+      evBox.className = "month-cal-events";
+
+      const todayStr = formatDateYMD(today);
+      if (dateStr === todayStr) {
+        cell.classList.add("today");
+      }
+
+      const evs = eventsByDate[dateStr];
+      if (evs && evs.length > 0) {
+        cell.classList.add("has-events");
+        evs.forEach(ev => {
+          const line = document.createElement("div");
+          line.textContent = "• " + ev.summary;
+          evBox.appendChild(line);
+        });
+      }
+
+      cell.appendChild(evBox);
+      grid.appendChild(cell);
+    }
+
+    container.innerHTML = "";
+    container.appendChild(header);
+    container.appendChild(grid);
+  }
+
+  async function loadCalendarEvents() {
+    try {
+      const res = await fetch(CALENDAR_JSON_URL);
+      if (!res.ok) {
+        console.error("Failed to load calendar events JSON:", res.status);
+        return;
+      }
+      const events = await res.json();
+      renderMonthlyCalendar(events);
+    } catch (err) {
+      console.error("Error loading calendar events:", err);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", loadCalendarEvents);
+</script>
+
+</body>

@@ -3,100 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>StepLog | Week {{WEEK_START}}</title>
+  <title>StepLog | Weekly Template</title>
+  <!-- 注意：模板在 weeklog/ 目录里，所以要用 ../style.css -->
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
+  <!-- 顶部脚本：统一控制这一周的起始日期 & 标题 & 日期范围 & 每日日期 -->
+  <script>
+    // ✅ 每周页面复制这个模板后，只需要改这一行：
+    // 这一周的「周一」日期，格式 YYYY-MM-DD
+    const WEEK_START = "2025-11-17";
+
+    // --- 日期工具：不受浏览器本地时区影响，全部按“UTC 日历日”计算 ---
+
+    // 把 "YYYY-MM-DD" 解析成一个“UTC 日期对象”
+    function makeUTCDate(ymdStr) {
+      const [y, m, d] = ymdStr.split("-").map(Number);
+      return new Date(Date.UTC(y, m - 1, d));
+    }
+
+    // 以“UTC 日历”输出 YYYY-MM-DD
+    function formatUTCDate(date) {
+      const y = date.getUTCFullYear();
+      const m = String(date.getUTCMonth() + 1).padStart(2, "0");
+      const d = String(date.getUTCDate()).padStart(2, "0");
+      return `${y}-${m}-${d}`;
+    }
+
+    function computeWeekDates(startStr) {
+      const start = makeUTCDate(startStr);
+      const end = new Date(start.getTime() + 6 * 24 * 60 * 60 * 1000); // +6 days
+
+      return {
+        startStr: formatUTCDate(start),
+        endStr: formatUTCDate(end),
+        label: `Week ${formatUTCDate(start)}`,
+        dateRange: `${formatUTCDate(start)} → ${formatUTCDate(end)}`,
+      };
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const info = computeWeekDates(WEEK_START);
+
+      // 设置页面标题
+      document.title = `StepLog | ${info.label}`;
+
+      // 填充顶部标题 & 周日期
+      document.querySelectorAll("[data-week-label]").forEach((el) => {
+        el.textContent = info.label;
+      });
+      document.querySelectorAll("[data-week-dates]").forEach((el) => {
+        el.textContent = info.dateRange;
+      });
+
+      // 为「每日计划表」自动填日期（Mon–Sun）
+      const base = makeUTCDate(info.startStr);
+      document.querySelectorAll("tr[data-day-offset]").forEach((row) => {
+        const offset = Number(row.getAttribute("data-day-offset") || "0");
+        const d = new Date(base.getTime() + offset * 24 * 60 * 60 * 1000);
+        const dateStr = formatUTCDate(d);
+        const cell = row.querySelector("[data-day-date]");
+        if (cell) {
+          cell.textContent = dateStr;
+        }
+      });
+    });
+  </script>
+
   <!-- 顶部导航 -->
   <header class="site-header">
     <div class="container header-inner">
       <div class="logo">StepLog</div>
       <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="week-{{WEEK_START}}.html" class="nav-active">Current Week</a>
+        <a href="../index.html">Home</a>
+        <a>Weekly View</a>
       </nav>
     </div>
   </header>
 
-  <!-- 当前周基本信息 -->
+  <!-- 当前周概览 -->
   <section class="section week-hero">
     <div class="container">
-      <h1>Week {{WEEK_LABEL}}</h1>
+      <h1 data-week-label>Week</h1>
       <p class="section-subtitle">
-        Planning first, execution later — this is your structured weekly cycle page.
+        Planning and execution of weekly running program.
       </p>
 
       <div class="week-meta-row">
         <div class="meta-pill">
           <span class="meta-label">Week dates</span>
-          <span class="meta-value">{{WEEK_DATES}}</span>
+          <span class="meta-value" data-week-dates>YYYY-MM-DD → YYYY-MM-DD</span>
         </div>
         <div class="meta-pill">
           <span class="meta-label">Training cycle</span>
-          <span class="meta-value">{{CYCLE_LABEL}}</span>
+    <!-- 🟢🟢To fillin training cycle!! 👇🟢🟢 -->
+          <span class="meta-value">##Cycle X · Week Y##</span>
         </div>
         <div class="meta-pill">
           <span class="meta-label">Focus</span>
-          <span class="meta-value">{{FOCUS}}</span>
+    <!-- 🟢🟢To fillin focus of week!! 👇🟢🟢 -->
+          <span class="meta-value">##Main focus of this week##</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 周计划 -->
+  <!-- 1 · Weekly Planning -->
   <section class="section section-alt">
     <div class="container">
       <h2>1 · Weekly Planning</h2>
       <p class="section-subtitle">
-        This section is filled **before** the week starts: plan, goals, and Garmin layout.
-      </p>
+        I'm current following Pfizinger 55-70 miles/week plan. This section is synchronized automatically with my Garmin training calendar.
+      </p>      
 
-      <div class="week-planning-grid">
-        <!-- Garmin 截图 -->
-        <div>
-          <h3 class="week-subtitle">Garmin calendar (planned)</h3>
-          <figure class="week-figure">
-            <img
-              src="{{CALENDAR_IMG}}"
-              alt="Planned Garmin calendar"
-              class="week-img"
-            />
-            <figcaption class="week-caption">
-              Garmin Connect · Weekly plan
-            </figcaption>
-          </figure>
-          <p class="week-note">
-            Replace the screenshot once a week. This represents your pre-written plan.
-          </p>
-        </div>
-
-        <!-- 周目标 -->
-        <div>
-          <h3 class="week-subtitle">Weekly goal</h3>
-          <div class="week-goal-card">
-            <p class="week-goal-main">
-              Main goal: <strong>{{WEEK_GOAL}}</strong>
-            </p>
-            <ul class="week-goal-list">
-              <li>Target weekly distance: <strong>{{PLANNED_DISTANCE}}</strong></li>
-              <li>Key session 1: <strong>{{KEY_SESSION_1}}</strong></li>
-              <li>Key session 2: <strong>{{KEY_SESSION_2}}</strong></li>
-              <li>Secondary focus: <strong>{{SECONDARY_FOCUS}}</strong></li>
-            </ul>
-          </div>
-
-          <h3 class="week-subtitle week-subtitle-margin">Context / constraints</h3>
-          <div class="week-context-card">
-            <ul class="week-context-list">
-              <li>{{CONTEXT_1}}</li>
-              <li>{{CONTEXT_2}}</li>
-              <li>{{CONTEXT_3}}</li>
-            </ul>
-          </div>
+      <!-- 新增：周日历视图（从 Outlook/ICS 转来的 JSON） -->
+      <div class="week-calendar-block">
+        <h3 class="week-subtitle">Weekly planning calendar</h3>
+        <div id="week-planning-calendar" class="week-cal-grid">
+          <!-- JS 会在这里填入一整周 Mon–Sun 的小格子 -->
         </div>
       </div>
 
-      <!-- 每日计划 -->
+      <!-- 下半部分：每日计划表（日期自动填充） -->
       <div class="week-table-block">
         <h3 class="week-subtitle">Planned sessions (day by day)</h3>
         <table class="week-table">
@@ -104,98 +132,537 @@
             <tr>
               <th>Day</th>
               <th>Date</th>
-              <th>Session type</th>
-              <th>Details</th>
-              <th>Priority</th>
+              <th>Session</th>
             </tr>
           </thead>
-          <tbody>
-            {{PLAN_ROWS}}
+          <tbody id="planned-session-body">
+            <tr>
+              <td colspan="3">Planned sessions will be loaded from calendar-events.json…</td>
+            </tr>
           </tbody>
         </table>
-        <p class="week-note">
-          Fill this before Monday. Execution details go in the summary section below.
-        </p>
       </div>
     </div>
   </section>
 
-  <!-- 周执行总结 -->
+  <!-- 2 · Execution & Weekly Summary -->
   <section id="summary" class="section">
     <div class="container">
       <h2>2 · Execution & Weekly Summary</h2>
       <p class="section-subtitle">
-        Filled during and after the week: what actually happened, how you felt, and adjustments.
+        This section is automatically filled during and after the week with Strava data.
       </p>
 
-      <!-- 指标 -->
+      <!-- 顶部：指标（部分自动填充） -->
+
       <div class="week-summary-metrics">
         <div class="metric-card">
-          <p class="metric-label">Planned distance</p>
-          <p class="metric-value">{{PLANNED_DISTANCE}}</p>
-        </div>
-        <div class="metric-card">
           <p class="metric-label">Completed distance</p>
-          <p class="metric-value">{{COMPLETED_DISTANCE}}</p>
+          <p class="metric-value"><span id="completed-distance">–</span></p>
         </div>
         <div class="metric-card">
-          <p class="metric-label">Completion</p>
-          <p class="metric-value">{{COMPLETION_RATE}}</p>
+          <p class="metric-label">Sessions</p>
+          <p class="metric-value"><span id="session-count">–</span></p>
         </div>
         <div class="metric-card">
-          <p class="metric-label">General feeling</p>
-          <p class="metric-value">{{GENERAL_FEELING}}</p>
+          <p class="metric-label">Everage effort</p>
+          <p class="metric-value"><span id="general-feeling">–</span></p>
         </div>
       </div>
 
       <div class="week-execution-grid">
-        <!-- 执行表 -->
+        <!-- 左侧：周日历 + 列表（来自 Strava） -->
         <div>
-          <h3 class="week-subtitle">By session (executed)</h3>
-          <table class="week-table small">
-            <thead>
-              <tr>
-                <th>Day</th>
-                <th>Planned</th>
-                <th>Executed</th>
-                <th>Feeling</th>
-                <th>Notes</th>
-              </tr>
-            </thead>
-            <tbody>
-              {{EXEC_ROWS}}
-            </tbody>
-          </table>
-        </div>
-
-        <!-- 反思 -->
-        <div>
-          <h3 class="week-subtitle">Overall reflection</h3>
-          <div class="week-reflection-card">
-            <h4>What went well</h4>
-            <p>{{REFLECT_GOOD}}</p>
-
-            <h4>What was difficult</h4>
-            <p>{{REFLECT_BAD}}</p>
-
-            <h4>Adjustments for next week</h4>
-            <p>{{REFLECT_ADJUST}}</p>
+          <h3 class="week-subtitle">Executed week calendar (from Strava)</h3>
+          <div id="week-exec-calendar" class="week-cal-grid">
+            <!-- JS will populate this with Mon–Sun cells -->
           </div>
+
+      <h4 class="week-subtitle week-subtitle-margin-small">
+        Executed sessions (day by day)
+      </h4>
+      <table class="week-table small">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Date</th>
+            <th>Distance</th>
+            <th>Avg pace</th>
+            <th>Avg HR</th>
+            <th>Session</th>
+          </tr>
+        </thead>
+        <tbody id="exec-session-body">
+          <tr>
+            <td colspan="6">
+              Executed sessions will be loaded from Strava week JSON…
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
         </div>
       </div>
 
       <div class="week-final-note">
-        <h3 class="week-subtitle">One-line takeaway for future me</h3>
-        <p>{{ONE_LINE}}</p>
+        <h3 class="week-subtitle">Weekly notes</h3>
+        <p>I will complete this at the end of week.</p>
       </div>
     </div>
   </section>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>StepLog · Weekly Template</p>
-      <p class="footer-sub">Copy · Replace · Run</p>
+      <p>StepLog · Weekly report</p>
+      <p class="footer-sub">Plan first, then learn from each week. © <a href="https://github.com/BlanQwall/">BAI Qiang</a> </p>
     </div>
   </footer>
+
+  <!-- 底部脚本：Strava 周数据 + Garmin/Outlook 周日历 -->
+
+    <script>
+      // Strava 周数据 JSON：由 build_week.py 生成，文件名约定为 week-<WEEK_START>.json
+      const WEEK_JSON = `../data/week-${WEEK_START}.json`;
+
+      // 工具：把 m/s 转成 "mm:ss /km"
+      function formatPaceFromSpeed(speed) {
+        if (typeof speed !== "number" || speed <= 0) return "–";
+        const secPerKm = 1000 / speed; // seconds per km
+        const totalSec = Math.round(secPerKm);
+        const min = Math.floor(totalSec / 60);
+        const sec = totalSec % 60;
+        return `${min}:${String(sec).padStart(2, "0")} min/km`;
+      }
+
+      function formatHr(hr) {
+        if (typeof hr !== "number" || hr <= 0) return "–";
+        return Math.round(hr) + " bpm";
+      }
+
+      async function loadWeekData() {
+        try {
+          const res = await fetch(WEEK_JSON);
+          if (!res.ok) {
+            console.error("Failed to load week JSON", res.status);
+            return;
+          }
+
+          const data = await res.json();
+          console.log("Week data loaded:", data);
+
+          // 1) 顶部指标：Completed distance & Sessions & General feeling
+          const completedSpan = document.getElementById("completed-distance");
+          const sessionsSpan = document.getElementById("session-count");
+          const feelingSpan = document.getElementById("general-feeling");
+
+          if (completedSpan && typeof data.total_distance_km === "number") {
+            completedSpan.textContent = data.total_distance_km + " km";
+          }
+          if (sessionsSpan && typeof data.activity_count === "number") {
+            sessionsSpan.textContent = data.activity_count;
+          }
+
+          if (feelingSpan) {
+            let score = data.avg_suffer_score;
+            // 如果后端没算到，就在前端用 activities 算一个
+            if (typeof score !== "number" && Array.isArray(data.activities)) {
+              let sSum = 0;
+              let sCount = 0;
+              data.activities.forEach((act) => {
+                if (typeof act.suffer_score === "number") {
+                  sSum += act.suffer_score;
+                  sCount += 1;
+                }
+              });
+              if (sCount > 0) score = sSum / sCount;
+            }
+            if (typeof score === "number") {
+              feelingSpan.textContent = (score).toFixed(1);
+            }
+          }
+
+          // 2) 聚合成 “按天” 的数据，用来画执行周日历 + 表格
+          const info = computeWeekDates(WEEK_START);
+          const weekStart = makeUTCDate(info.startStr);
+          const weekEnd = makeUTCDate(info.endStr);
+
+          const byDate = {};   // { "YYYY-MM-DD": { totalKm, sessions: [{id, name, distance_km, speed, hr}] } }
+          const flatList = []; // 执行列表表格行
+
+          if (Array.isArray(data.activities)) {
+            data.activities.forEach((act) => {
+              if (!act.date) return;
+              const dateStr = act.date; // "YYYY-MM-DD"
+              const d = makeUTCDate(dateStr);
+
+              if (d < weekStart || d > weekEnd) return; // 只保留这一周
+
+              const dist = typeof act.distance_km === "number" ? act.distance_km : 0;
+              const id = act.id;
+              const name = act.name || "Session";
+              const speed = typeof act.average_speed_m_s === "number" ? act.average_speed_m_s : null;
+              const hr = typeof act.average_heartrate === "number" ? act.average_heartrate : null;
+
+              if (!byDate[dateStr]) {
+                byDate[dateStr] = { totalKm: 0, sessions: [] };
+              }
+              byDate[dateStr].totalKm += dist;
+              byDate[dateStr].sessions.push({
+                id,
+                name,
+                distance_km: dist,
+                speed,
+                hr,
+              });
+
+              const dayLabel = weekdayShortUTC(d);
+              flatList.push({
+                day: dayLabel,
+                date: dateStr,
+                name,
+                distance_km: dist,
+                id,
+                speed,
+                hr,
+              });
+            });
+          }
+
+          // 3) 渲染执行周日历 + 执行 sessions 表格
+          renderExecWeeklyCalendar(byDate, info);
+          renderExecSessionsTable(flatList);
+        } catch (err) {
+          console.error("Error loading week data:", err);
+        }
+      }
+
+      // 执行周日历（左边那一排格子）
+      function renderExecWeeklyCalendar(byDate, info) {
+        const container = document.getElementById("week-exec-calendar");
+        if (!container) return;
+
+        const base = makeUTCDate(info.startStr);
+        const weekdays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+        container.innerHTML = "";
+
+        for (let i = 0; i < 7; i++) {
+          const d = new Date(base.getTime() + i * 24 * 60 * 60 * 1000);
+          const dateStr = formatUTCDate(d);
+
+          const cell = document.createElement("div");
+          cell.className = "week-cal-cell";
+
+          const header = document.createElement("div");
+          header.className = "week-cal-cell-header";
+
+          const dayLabel = document.createElement("span");
+          dayLabel.className = "week-cal-dayname";
+          dayLabel.textContent = weekdays[i];
+
+          const dateLabel = document.createElement("span");
+          dateLabel.className = "week-cal-daydate";
+          dateLabel.textContent = dateStr.slice(5); // MM-DD
+
+          header.appendChild(dayLabel);
+          header.appendChild(dateLabel);
+          cell.appendChild(header);
+
+          const box = document.createElement("div");
+          box.className = "week-cal-events";
+
+          const dayInfo = byDate[dateStr];
+          if (dayInfo) {
+            cell.classList.add("has-events");
+
+            // 当天总里程
+            const total = document.createElement("div");
+            total.className = "week-cal-total";
+            total.textContent = `Total: ${dayInfo.totalKm.toFixed(1)} km`;
+            box.appendChild(total);
+
+            // 每个 session：名字 + 距离（链接到 Strava）
+            dayInfo.sessions.forEach((s) => {
+              const line = document.createElement("div");
+              line.appendChild(document.createTextNode("• "));
+
+              if (s.id) {
+                const a = document.createElement("a");
+                a.href = `https://www.strava.com/activities/${s.id}`;
+                a.target = "_blank";
+                a.rel = "noopener noreferrer";
+                a.textContent = s.name;
+                line.appendChild(a);
+
+                const spanDist = document.createElement("span");
+                spanDist.textContent = ` – ${s.distance_km.toFixed(1)} km`;
+                spanDist.style.marginLeft = "0.25rem";
+                line.appendChild(spanDist);
+              } else {
+                line.textContent = `• ${s.name} – ${s.distance_km.toFixed(1)} km`;
+              }
+
+              box.appendChild(line);
+            });
+          } else {
+            const line = document.createElement("div");
+            line.className = "week-cal-empty";
+            line.textContent = "No run";
+            box.appendChild(line);
+          }
+
+          cell.appendChild(box);
+          container.appendChild(cell);
+        }
+      }
+
+      // 执行 sessions 表格（按天合并行 + 平均配速 + 平均心率）
+      function renderExecSessionsTable(rows) {
+        const tbody = document.getElementById("exec-session-body");
+        if (!tbody) return;
+
+        tbody.innerHTML = "";
+
+        if (!rows || rows.length === 0) {
+          const tr = document.createElement("tr");
+          const td = document.createElement("td");
+          td.colSpan = 6;
+          td.textContent = "No executed sessions for this week yet.";
+          tr.appendChild(td);
+          tbody.appendChild(tr);
+          return;
+        }
+
+        // 按日期分组：{ date: [row, row, ...] }
+        const groups = {};
+        rows.forEach((item) => {
+          if (!groups[item.date]) {
+            groups[item.date] = [];
+          }
+          groups[item.date].push(item);
+        });
+
+        const dates = Object.keys(groups).sort();
+
+        dates.forEach((dateStr) => {
+          const group = groups[dateStr];
+
+          group.forEach((item, idx) => {
+            const tr = document.createElement("tr");
+
+            // 第一行写 Day/Date，并设置 rowSpan
+            if (idx === 0) {
+              const tdDay = document.createElement("td");
+              tdDay.textContent = item.day;
+              tdDay.rowSpan = group.length;
+
+              const tdDate = document.createElement("td");
+              tdDate.textContent = item.date;
+              tdDate.rowSpan = group.length;
+
+              tr.appendChild(tdDay);
+              tr.appendChild(tdDate);
+            }
+
+            const tdDist = document.createElement("td");
+            tdDist.textContent = `${item.distance_km.toFixed(1)} km`;
+
+            const tdSpeed = document.createElement("td");
+            tdSpeed.textContent = formatPaceFromSpeed(item.speed);
+
+            const tdHr = document.createElement("td");
+            tdHr.textContent = formatHr(item.hr);
+
+            const tdSession = document.createElement("td");
+            if (item.id) {
+              const a = document.createElement("a");
+              a.href = `https://www.strava.com/activities/${item.id}`;
+              a.target = "_blank";
+              a.rel = "noopener noreferrer";
+              a.textContent = item.name;
+              tdSession.appendChild(a);
+            } else {
+              tdSession.textContent = item.name;
+            }
+
+            tr.appendChild(tdDist);
+            tr.appendChild(tdSpeed);
+            tr.appendChild(tdHr);
+            tr.appendChild(tdSession);
+
+            tbody.appendChild(tr);
+          });
+        });
+      }
+
+      document.addEventListener("DOMContentLoaded", loadWeekData);
+    </script>
+
+
+
+
+    <script>
+    // Garmin/Outlook 计划数据，来自 fetch_calendar.py 生成的 calendar-events.json
+    const CALENDAR_JSON_URL = "../data/calendar-events.json";
+
+    // 根据 WEEK_START 这一周，从 calendar-events.json 中筛选事件
+    async function loadPlanningWeek() {
+      try {
+        const res = await fetch(CALENDAR_JSON_URL);
+        if (!res.ok) {
+          console.error("Failed to load calendar events JSON:", res.status);
+          return;
+        }
+
+        const events = await res.json();
+
+        const info = computeWeekDates(WEEK_START);
+        const weekStart = makeUTCDate(info.startStr);
+        const weekEnd = makeUTCDate(info.endStr);
+
+        // 按日期聚合：{ "YYYY-MM-DD": [ {summary}, ... ] }
+        const eventsByDate = {};
+        events.forEach((ev) => {
+          const dateStr = ev.date; // 已经是 "YYYY-MM-DD"
+          const d = makeUTCDate(dateStr);
+
+          if (d < weekStart || d > weekEnd) return;
+
+          if (!eventsByDate[dateStr]) {
+            eventsByDate[dateStr] = [];
+          }
+          eventsByDate[dateStr].push(ev);
+        });
+
+        // 用同一批数据：
+        // 1) 画上面那行「周小格子」视图
+        renderWeeklyCalendar(eventsByDate, info);
+
+        // 2) 填下面的「Planned sessions (day by day)」表
+        const flatList = [];
+        Object.keys(eventsByDate)
+          .sort()
+          .forEach((dateStr) => {
+            const d = makeUTCDate(dateStr);
+            const dayLabel = weekdayShortUTC(d); // e.g. Mon, Tue...
+            eventsByDate[dateStr].forEach((ev) => {
+              flatList.push({
+                date: dateStr,
+                day: dayLabel,
+                summary: ev.summary,
+              });
+            });
+          });
+
+        renderPlannedSessionsTable(flatList);
+      } catch (err) {
+        console.error("Error loading planning week:", err);
+      }
+    }
+
+    // 用于把 UTC 日期映射到 "Mon/Tue/..." 文本
+    function weekdayShortUTC(date) {
+      const idx = date.getUTCDay(); // 0=Sun..6=Sat
+      const names = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+      return names[idx];
+    }
+
+    // 上面那一排「Weekly planning calendar」小格子
+    function renderWeeklyCalendar(eventsByDate, info) {
+      const container = document.getElementById("week-planning-calendar");
+      if (!container) return;
+
+      const base = makeUTCDate(info.startStr);
+      const weekdays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+      container.innerHTML = "";
+
+      for (let i = 0; i < 7; i++) {
+        const d = new Date(base.getTime() + i * 24 * 60 * 60 * 1000);
+        const dateStr = formatUTCDate(d);
+
+        const cell = document.createElement("div");
+        cell.className = "week-cal-cell";
+
+        const header = document.createElement("div");
+        header.className = "week-cal-cell-header";
+
+        const dayLabel = document.createElement("span");
+        dayLabel.className = "week-cal-dayname";
+        dayLabel.textContent = weekdays[i];
+
+        const dateLabel = document.createElement("span");
+        dateLabel.className = "week-cal-daydate";
+        dateLabel.textContent = dateStr.slice(5); // MM-DD
+
+        header.appendChild(dayLabel);
+        header.appendChild(dateLabel);
+
+        cell.appendChild(header);
+
+        const evBox = document.createElement("div");
+        evBox.className = "week-cal-events";
+
+        const evs = eventsByDate[dateStr];
+        if (evs && evs.length > 0) {
+          cell.classList.add("has-events");
+          evs.forEach((ev) => {
+            const line = document.createElement("div");
+            line.textContent = "• " + ev.summary;
+            evBox.appendChild(line);
+          });
+        } else {
+          const line = document.createElement("div");
+          line.className = "week-cal-empty";
+          line.textContent = "No session";
+          evBox.appendChild(line);
+        }
+
+        cell.appendChild(evBox);
+        container.appendChild(cell);
+      }
+    }
+
+    // 新增：自动填充「Planned sessions (day by day)」表格
+    function renderPlannedSessionsTable(flatList) {
+      const tbody = document.getElementById("planned-session-body");
+      if (!tbody) return;
+
+      tbody.innerHTML = "";
+
+      if (!flatList || flatList.length === 0) {
+        const tr = document.createElement("tr");
+        const td = document.createElement("td");
+        td.colSpan = 3;
+        td.textContent = "No planned sessions found for this week.";
+        tr.appendChild(td);
+        tbody.appendChild(tr);
+        return;
+      }
+
+      flatList.forEach((item) => {
+        const tr = document.createElement("tr");
+
+        const tdDay = document.createElement("td");
+        tdDay.textContent = item.day;
+
+        const tdDate = document.createElement("td");
+        tdDate.textContent = item.date;
+
+        const tdSession = document.createElement("td");
+        tdSession.textContent = item.summary;
+
+        tr.appendChild(tdDay);
+        tr.appendChild(tdDate);
+        tr.appendChild(tdSession);
+
+        tbody.appendChild(tr);
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", loadPlanningWeek);
+  </script>
+
 </body>
 </html>
