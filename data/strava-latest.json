@@ -5,6 +5,3339 @@
       "id": 118753503,
       "resource_state": 1
     },
+    "name": "Jog → progressive 7Km + 3Km@PM",
+    "distance": 11590.7,
+    "moving_time": 3310,
+    "elapsed_time": 3313,
+    "total_elevation_gain": 50.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3,
+    "device_name": "Garmin Forerunner 965",
+    "id": 16535345927,
+    "start_date": "2025-11-22T15:22:56Z",
+    "start_date_local": "2025-11-22T16:22:56Z",
+    "timezone": "(GMT+01:00) Europe/Paris",
+    "utc_offset": 3600.0,
+    "location_city": null,
+    "location_state": null,
+    "location_country": null,
+    "achievement_count": 0,
+    "kudos_count": 0,
+    "comment_count": 0,
+    "athlete_count": 1,
+    "photo_count": 0,
+    "map": {
+      "id": "a16535345927",
+      "polyline": "webjGscqVQ?sAWEDEb@Rp@FDJDpADHB@D@VEb@CbAAvC?@CAA@Lf@Cj@DRHNTD~BJHAJEHIDMBUE[MMMGk@?aBGOHGJE^DZRPrCFHCDEJS@MAOEOEIKIgBC_@EQDKHGLALD^FLHDpCJJEHIBEDUAQCQIIIG}BGS?IDKJELANDXLPD@`CJR?NMFOBOCYEMQKsCIMFIJCNARBNFLPJ~BJRAPMFMBSCQEMEGQIkCKMDIHEPAP@NFPNLv@DvABFANOHa@AQGMIIMEcAAgAIKFIHEPAPDZRRbCJJARIHOBQGa@GKKEs@E]@s@GM@IDKJEN?P@RBDFLLDlCHVOHW?SEMGMIIoCKQDKJENBd@FLHF|AJt@@JCJKFQ@QEYGKMEmCKMDIFGNAP?PFPPLLB\\?hAFR@JCJGHOBc@GWSMgCIM@ONELCRBPFNRJ|BJRCPOHYCYGMOKo@Ea@@k@ES?QJGLCN?PDNHJJFlCHNEHKFYGc@CCMImCKKBKFGLCNBZFLJHrAH|@@JEHIHU@SCOGKKI_@Cu@@m@ES?SLEV?TDNHJJDjCFLEJKDO@QGYIKMGaA?s@EW@MBILCLAPDXNNvCJPMFMBQAQGOCGKGuCIUPEN?PBNFNJHXBrBFRGJMDO?OESGMKGqCKMDIJGX?PDPHHJFZBt@?|@DJEHKDEBQASIWQKaAA_AGO@MDIJEZBRDNPJpCHRKFMBOASGQQM}BIS?QLI\\?PBNFJLFr@?xAFLEJIH[E]SUeBCk@EMDKJEVBZFLJHlCJRIHMDOASCQIKGEsCISHIVARDRHLDBv@FzADRKHMBQAQEOQOYEW@}AEMBIJIVBZHNJFlBDZDLEJGHQBQCOEOQMoACu@GM@C@MJEJCPDZHNJDr@DvABLEJKFY?OEOIKMGoA?y@GQHILCPD`@NNLBdCHPKHOBQCQEQQMo@A}AEKBKJIV@PFTDDPHbCDRIHKDO?[IOKIMCaCEQFILCN?PBPLNPD~BDPEDEDGDQ?QGSKMECoCISFINCPB\\HLLHdCHNCLIFQ@KA]KOMGmCGSJIV?TBPBFJHL@dCFJEJMFO?K?IGUCEMIMAo@?oAIODILG\\DZDHJFjCLLCLIJYASCQKOGCcCIO@KDGFGV@\\HNJHZBpBDLEJKF[?GGYOOmBEc@CG@KHINAP@RFPDDLFfCHHAJGHODS?IESEIMIsCGMDILEXF\\NL\\Dt@@h@DT?LGBCHS@SEYOQOCgCCSLENAP@HDNRNlCLFAJKJY?SESQOqCGODILC\\FZJJFBjCHFAFCJMD]I]EGMIcBAi@CMBKLEZF\\HJFDbCHNAFCJKHYAUEOEGMGuCESNE^HZPNVBvBDFAJKHY?SEQQOMCm@?sAEMDKJGZDZNP^D|@@p@DLEHKDGD[Ok@GE]D[AQCC@o@?IAED~@CbA@NBFHDL@N?TMVOFiCGOIGKEOAODUHIJEJAfBDTAVHHPBNG^IJQJaCIIAECMOE_@DSDKDCJCpCBJDFJDXCZGLOJW@uBKQIGKEWH_@BEPGpCDHHFJBVCXGJMJk@A_AGY@OCOMG[F_@HKJCpA?|@@NHDJD^CVELIHIBqCMIEKSE]@GHUNIfAAjAFHDHJDL@VERIPGBIG",
+      "resource_state": 3,
+      "summary_polyline": ""
+    },
+    "trainer": false,
+    "commute": false,
+    "manual": false,
+    "private": false,
+    "visibility": "everyone",
+    "flagged": false,
+    "gear_id": "g26900758",
+    "start_latlng": [],
+    "end_latlng": [],
+    "average_speed": 3.502,
+    "max_speed": 4.48,
+    "average_cadence": 80.0,
+    "average_watts": 404.3,
+    "max_watts": 554,
+    "weighted_average_watts": 414,
+    "device_watts": true,
+    "kilojoules": 1333.8,
+    "has_heartrate": true,
+    "average_heartrate": 155.3,
+    "max_heartrate": 173.0,
+    "heartrate_opt_out": false,
+    "display_hide_heartrate_option": true,
+    "elev_high": 94.0,
+    "elev_low": 85.4,
+    "upload_id": 17622483097,
+    "upload_id_str": "17622483097",
+    "external_id": "garmin_ping_504876559291",
+    "from_accepted_tag": false,
+    "pr_count": 0,
+    "total_photo_count": 0,
+    "has_kudoed": false,
+    "suffer_score": 78.0,
+    "description": "That's what happens when you'd jog a little to prepare for tommorow's long run, but you see another club training on the piste. That's not a jog any more... ",
+    "calories": 858.0,
+    "perceived_exertion": 6.0,
+    "prefer_perceived_exertion": false,
+    "segment_efforts": [
+      {
+        "id": 3427350190153239292,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 90,
+        "moving_time": 90,
+        "start_date": "2025-11-22T15:24:57Z",
+        "start_date_local": "2025-11-22T16:24:57Z",
+        "distance": 255.8,
+        "start_index": 119,
+        "end_index": 209,
+        "average_cadence": 77.1,
+        "device_watts": true,
+        "average_watts": 343.3,
+        "average_heartrate": 114.0,
+        "max_heartrate": 119.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190149425916,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 82,
+        "moving_time": 82,
+        "start_date": "2025-11-22T15:26:28Z",
+        "start_date_local": "2025-11-22T16:26:28Z",
+        "distance": 255.8,
+        "start_index": 210,
+        "end_index": 292,
+        "average_cadence": 77.7,
+        "device_watts": true,
+        "average_watts": 375.3,
+        "average_heartrate": 121.5,
+        "max_heartrate": 123.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190148272892,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 78,
+        "moving_time": 78,
+        "start_date": "2025-11-22T15:27:51Z",
+        "start_date_local": "2025-11-22T16:27:51Z",
+        "distance": 255.8,
+        "start_index": 293,
+        "end_index": 371,
+        "average_cadence": 78.3,
+        "device_watts": true,
+        "average_watts": 381.2,
+        "average_heartrate": 124.8,
+        "max_heartrate": 133.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190148009724,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 77,
+        "moving_time": 77,
+        "start_date": "2025-11-22T15:29:11Z",
+        "start_date_local": "2025-11-22T16:29:11Z",
+        "distance": 255.8,
+        "start_index": 373,
+        "end_index": 450,
+        "average_cadence": 78.4,
+        "device_watts": true,
+        "average_watts": 361.2,
+        "average_heartrate": 150.1,
+        "max_heartrate": 153.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190146531068,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 76,
+        "moving_time": 76,
+        "start_date": "2025-11-22T15:30:29Z",
+        "start_date_local": "2025-11-22T16:30:29Z",
+        "distance": 255.8,
+        "start_index": 451,
+        "end_index": 527,
+        "average_cadence": 79.2,
+        "device_watts": true,
+        "average_watts": 407.9,
+        "average_heartrate": 153.3,
+        "max_heartrate": 156.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190147263228,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 76,
+        "moving_time": 76,
+        "start_date": "2025-11-22T15:31:46Z",
+        "start_date_local": "2025-11-22T16:31:46Z",
+        "distance": 255.8,
+        "start_index": 528,
+        "end_index": 604,
+        "average_cadence": 79.1,
+        "device_watts": true,
+        "average_watts": 409.5,
+        "average_heartrate": 155.9,
+        "max_heartrate": 157.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190148563708,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 74,
+        "moving_time": 74,
+        "start_date": "2025-11-22T15:33:03Z",
+        "start_date_local": "2025-11-22T16:33:03Z",
+        "distance": 255.8,
+        "start_index": 605,
+        "end_index": 679,
+        "average_cadence": 78.9,
+        "device_watts": true,
+        "average_watts": 411.9,
+        "average_heartrate": 155.6,
+        "max_heartrate": 157.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190146119420,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 75,
+        "moving_time": 75,
+        "start_date": "2025-11-22T15:34:18Z",
+        "start_date_local": "2025-11-22T16:34:18Z",
+        "distance": 255.8,
+        "start_index": 680,
+        "end_index": 755,
+        "average_cadence": 79.1,
+        "device_watts": true,
+        "average_watts": 406.1,
+        "average_heartrate": 156.1,
+        "max_heartrate": 157.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190148183804,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 72,
+        "moving_time": 72,
+        "start_date": "2025-11-22T15:35:35Z",
+        "start_date_local": "2025-11-22T16:35:35Z",
+        "distance": 255.8,
+        "start_index": 757,
+        "end_index": 829,
+        "average_cadence": 79.7,
+        "device_watts": true,
+        "average_watts": 416.4,
+        "average_heartrate": 158.4,
+        "max_heartrate": 161.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190147957500,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 73,
+        "moving_time": 73,
+        "start_date": "2025-11-22T15:36:48Z",
+        "start_date_local": "2025-11-22T16:36:48Z",
+        "distance": 255.8,
+        "start_index": 830,
+        "end_index": 903,
+        "average_cadence": 79.4,
+        "device_watts": true,
+        "average_watts": 424.2,
+        "average_heartrate": 159.7,
+        "max_heartrate": 162.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190145759996,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 71,
+        "moving_time": 71,
+        "start_date": "2025-11-22T15:38:02Z",
+        "start_date_local": "2025-11-22T16:38:02Z",
+        "distance": 255.8,
+        "start_index": 904,
+        "end_index": 975,
+        "average_cadence": 79.5,
+        "device_watts": true,
+        "average_watts": 428.2,
+        "average_heartrate": 161.1,
+        "max_heartrate": 163.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190149414652,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 72,
+        "moving_time": 72,
+        "start_date": "2025-11-22T15:39:15Z",
+        "start_date_local": "2025-11-22T16:39:15Z",
+        "distance": 255.8,
+        "start_index": 977,
+        "end_index": 1049,
+        "average_cadence": 79.8,
+        "device_watts": true,
+        "average_watts": 420.5,
+        "average_heartrate": 162.4,
+        "max_heartrate": 163.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190147220220,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 74,
+        "moving_time": 74,
+        "start_date": "2025-11-22T15:40:29Z",
+        "start_date_local": "2025-11-22T16:40:29Z",
+        "distance": 255.8,
+        "start_index": 1051,
+        "end_index": 1125,
+        "average_cadence": 79.4,
+        "device_watts": true,
+        "average_watts": 408.9,
+        "average_heartrate": 159.5,
+        "max_heartrate": 161.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190146174716,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 71,
+        "moving_time": 71,
+        "start_date": "2025-11-22T15:41:45Z",
+        "start_date_local": "2025-11-22T16:41:45Z",
+        "distance": 255.8,
+        "start_index": 1127,
+        "end_index": 1198,
+        "average_cadence": 80.5,
+        "device_watts": true,
+        "average_watts": 415.5,
+        "average_heartrate": 159.1,
+        "max_heartrate": 160.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190145119996,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 73,
+        "moving_time": 73,
+        "start_date": "2025-11-22T15:42:57Z",
+        "start_date_local": "2025-11-22T16:42:57Z",
+        "distance": 255.8,
+        "start_index": 1199,
+        "end_index": 1272,
+        "average_cadence": 80.3,
+        "device_watts": true,
+        "average_watts": 415.3,
+        "average_heartrate": 160.5,
+        "max_heartrate": 161.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190142340860,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 71,
+        "moving_time": 71,
+        "start_date": "2025-11-22T15:44:11Z",
+        "start_date_local": "2025-11-22T16:44:11Z",
+        "distance": 255.8,
+        "start_index": 1273,
+        "end_index": 1344,
+        "average_cadence": 80.6,
+        "device_watts": true,
+        "average_watts": 421.2,
+        "average_heartrate": 161.5,
+        "max_heartrate": 163.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190143036156,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 71,
+        "moving_time": 71,
+        "start_date": "2025-11-22T15:45:24Z",
+        "start_date_local": "2025-11-22T16:45:24Z",
+        "distance": 255.8,
+        "start_index": 1346,
+        "end_index": 1417,
+        "average_cadence": 81.0,
+        "device_watts": true,
+        "average_watts": 422.9,
+        "average_heartrate": 162.5,
+        "max_heartrate": 163.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190142373628,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 70,
+        "moving_time": 70,
+        "start_date": "2025-11-22T15:46:36Z",
+        "start_date_local": "2025-11-22T16:46:36Z",
+        "distance": 255.8,
+        "start_index": 1418,
+        "end_index": 1488,
+        "average_cadence": 81.5,
+        "device_watts": true,
+        "average_watts": 439.3,
+        "average_heartrate": 163.1,
+        "max_heartrate": 165.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190142208764,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 73,
+        "moving_time": 73,
+        "start_date": "2025-11-22T15:47:47Z",
+        "start_date_local": "2025-11-22T16:47:47Z",
+        "distance": 255.8,
+        "start_index": 1489,
+        "end_index": 1562,
+        "average_cadence": 80.3,
+        "device_watts": true,
+        "average_watts": 429.0,
+        "average_heartrate": 161.4,
+        "max_heartrate": 163.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190144729852,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 69,
+        "moving_time": 69,
+        "start_date": "2025-11-22T15:49:01Z",
+        "start_date_local": "2025-11-22T16:49:01Z",
+        "distance": 255.8,
+        "start_index": 1563,
+        "end_index": 1632,
+        "average_cadence": 81.1,
+        "device_watts": true,
+        "average_watts": 426.5,
+        "average_heartrate": 161.8,
+        "max_heartrate": 163.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190142190332,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 71,
+        "moving_time": 71,
+        "start_date": "2025-11-22T15:50:11Z",
+        "start_date_local": "2025-11-22T16:50:11Z",
+        "distance": 255.8,
+        "start_index": 1633,
+        "end_index": 1704,
+        "average_cadence": 81.3,
+        "device_watts": true,
+        "average_watts": 435.1,
+        "average_heartrate": 163.4,
+        "max_heartrate": 165.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190144825084,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 70,
+        "moving_time": 70,
+        "start_date": "2025-11-22T15:51:23Z",
+        "start_date_local": "2025-11-22T16:51:23Z",
+        "distance": 255.8,
+        "start_index": 1705,
+        "end_index": 1775,
+        "average_cadence": 80.7,
+        "device_watts": true,
+        "average_watts": 434.1,
+        "average_heartrate": 162.2,
+        "max_heartrate": 164.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190142579452,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 70,
+        "moving_time": 70,
+        "start_date": "2025-11-22T15:52:34Z",
+        "start_date_local": "2025-11-22T16:52:34Z",
+        "distance": 255.8,
+        "start_index": 1776,
+        "end_index": 1846,
+        "average_cadence": 81.3,
+        "device_watts": true,
+        "average_watts": 421.1,
+        "average_heartrate": 162.3,
+        "max_heartrate": 165.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190144420604,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 70,
+        "moving_time": 70,
+        "start_date": "2025-11-22T15:53:45Z",
+        "start_date_local": "2025-11-22T16:53:45Z",
+        "distance": 255.8,
+        "start_index": 1847,
+        "end_index": 1917,
+        "average_cadence": 81.1,
+        "device_watts": true,
+        "average_watts": 424.7,
+        "average_heartrate": 163.6,
+        "max_heartrate": 166.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190145249020,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 71,
+        "moving_time": 71,
+        "start_date": "2025-11-22T15:54:56Z",
+        "start_date_local": "2025-11-22T16:54:56Z",
+        "distance": 255.8,
+        "start_index": 1918,
+        "end_index": 1989,
+        "average_cadence": 80.6,
+        "device_watts": true,
+        "average_watts": 418.6,
+        "average_heartrate": 163.3,
+        "max_heartrate": 166.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190142708476,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 66,
+        "moving_time": 66,
+        "start_date": "2025-11-22T15:56:08Z",
+        "start_date_local": "2025-11-22T16:56:08Z",
+        "distance": 255.8,
+        "start_index": 1990,
+        "end_index": 2056,
+        "average_cadence": 82.8,
+        "device_watts": true,
+        "average_watts": 444.1,
+        "average_heartrate": 168.3,
+        "max_heartrate": 172.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190143838972,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 66,
+        "moving_time": 66,
+        "start_date": "2025-11-22T15:57:15Z",
+        "start_date_local": "2025-11-22T16:57:15Z",
+        "distance": 255.8,
+        "start_index": 2057,
+        "end_index": 2123,
+        "average_cadence": 83.2,
+        "device_watts": true,
+        "average_watts": 448.7,
+        "average_heartrate": 169.1,
+        "max_heartrate": 170.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190143175420,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 67,
+        "moving_time": 67,
+        "start_date": "2025-11-22T15:58:22Z",
+        "start_date_local": "2025-11-22T16:58:22Z",
+        "distance": 255.8,
+        "start_index": 2124,
+        "end_index": 2191,
+        "average_cadence": 83.3,
+        "device_watts": true,
+        "average_watts": 458.0,
+        "average_heartrate": 167.9,
+        "max_heartrate": 169.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190142790396,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 64,
+        "moving_time": 64,
+        "start_date": "2025-11-22T15:59:30Z",
+        "start_date_local": "2025-11-22T16:59:30Z",
+        "distance": 255.8,
+        "start_index": 2192,
+        "end_index": 2256,
+        "average_cadence": 83.8,
+        "device_watts": true,
+        "average_watts": 469.8,
+        "average_heartrate": 169.7,
+        "max_heartrate": 171.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190141884156,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 67,
+        "moving_time": 67,
+        "start_date": "2025-11-22T16:00:35Z",
+        "start_date_local": "2025-11-22T17:00:35Z",
+        "distance": 255.8,
+        "start_index": 2257,
+        "end_index": 2324,
+        "average_cadence": 82.3,
+        "device_watts": true,
+        "average_watts": 457.9,
+        "average_heartrate": 169.7,
+        "max_heartrate": 172.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190144550652,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 66,
+        "moving_time": 66,
+        "start_date": "2025-11-22T16:01:43Z",
+        "start_date_local": "2025-11-22T17:01:43Z",
+        "distance": 255.8,
+        "start_index": 2325,
+        "end_index": 2391,
+        "average_cadence": 83.8,
+        "device_watts": true,
+        "average_watts": 460.1,
+        "average_heartrate": 168.8,
+        "max_heartrate": 170.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190143274748,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 67,
+        "moving_time": 67,
+        "start_date": "2025-11-22T16:02:50Z",
+        "start_date_local": "2025-11-22T17:02:50Z",
+        "distance": 255.8,
+        "start_index": 2392,
+        "end_index": 2459,
+        "average_cadence": 83.2,
+        "device_watts": true,
+        "average_watts": 453.8,
+        "average_heartrate": 169.7,
+        "max_heartrate": 170.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190144658172,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 64,
+        "moving_time": 64,
+        "start_date": "2025-11-22T16:03:58Z",
+        "start_date_local": "2025-11-22T17:03:58Z",
+        "distance": 255.8,
+        "start_index": 2460,
+        "end_index": 2524,
+        "average_cadence": 84.1,
+        "device_watts": true,
+        "average_watts": 462.2,
+        "average_heartrate": 169.4,
+        "max_heartrate": 170.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190145251068,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 62,
+        "moving_time": 62,
+        "start_date": "2025-11-22T16:05:03Z",
+        "start_date_local": "2025-11-22T17:05:03Z",
+        "distance": 255.8,
+        "start_index": 2525,
+        "end_index": 2587,
+        "average_cadence": 85.0,
+        "device_watts": true,
+        "average_watts": 478.3,
+        "average_heartrate": 170.9,
+        "max_heartrate": 172.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190143546108,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 65,
+        "moving_time": 65,
+        "start_date": "2025-11-22T16:06:06Z",
+        "start_date_local": "2025-11-22T17:06:06Z",
+        "distance": 255.8,
+        "start_index": 2588,
+        "end_index": 2653,
+        "average_cadence": 83.6,
+        "device_watts": true,
+        "average_watts": 469.2,
+        "average_heartrate": 170.8,
+        "max_heartrate": 173.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190145307388,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 66,
+        "moving_time": 66,
+        "start_date": "2025-11-22T16:07:12Z",
+        "start_date_local": "2025-11-22T17:07:12Z",
+        "distance": 255.8,
+        "start_index": 2654,
+        "end_index": 2720,
+        "average_cadence": 83.6,
+        "device_watts": true,
+        "average_watts": 464.8,
+        "average_heartrate": 171.8,
+        "max_heartrate": 173.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190143699708,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 121,
+        "moving_time": 109,
+        "start_date": "2025-11-22T16:08:19Z",
+        "start_date_local": "2025-11-22T17:08:19Z",
+        "distance": 255.8,
+        "start_index": 2721,
+        "end_index": 2842,
+        "average_cadence": 66.8,
+        "device_watts": true,
+        "average_watts": 207.9,
+        "average_heartrate": 157.8,
+        "max_heartrate": 172.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190143734524,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 88,
+        "moving_time": 88,
+        "start_date": "2025-11-22T16:11:42Z",
+        "start_date_local": "2025-11-22T17:11:42Z",
+        "distance": 255.8,
+        "start_index": 2924,
+        "end_index": 3012,
+        "average_cadence": 78.2,
+        "device_watts": true,
+        "average_watts": 360.9,
+        "average_heartrate": 146.3,
+        "max_heartrate": 150.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190142948092,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 84,
+        "moving_time": 84,
+        "start_date": "2025-11-22T16:13:07Z",
+        "start_date_local": "2025-11-22T17:13:07Z",
+        "distance": 255.8,
+        "start_index": 3009,
+        "end_index": 3093,
+        "average_cadence": 79.1,
+        "device_watts": true,
+        "average_watts": 370.1,
+        "average_heartrate": 150.3,
+        "max_heartrate": 153.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190144154364,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 86,
+        "moving_time": 86,
+        "start_date": "2025-11-22T16:14:28Z",
+        "start_date_local": "2025-11-22T17:14:28Z",
+        "distance": 255.8,
+        "start_index": 3090,
+        "end_index": 3176,
+        "average_cadence": 78.0,
+        "device_watts": true,
+        "average_watts": 380.1,
+        "average_heartrate": 155.5,
+        "max_heartrate": 158.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      },
+      {
+        "id": 3427350190142980860,
+        "resource_state": 2,
+        "name": "piste saint mathieu",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 90,
+        "moving_time": 90,
+        "start_date": "2025-11-22T16:15:51Z",
+        "start_date_local": "2025-11-22T17:15:51Z",
+        "distance": 255.8,
+        "start_index": 3173,
+        "end_index": 3263,
+        "average_cadence": 78.2,
+        "device_watts": true,
+        "average_watts": 362.8,
+        "average_heartrate": 155.1,
+        "max_heartrate": 157.0,
+        "segment": {
+          "id": 16649951,
+          "resource_state": 2,
+          "name": "piste saint mathieu",
+          "activity_type": "Run",
+          "distance": 255.8,
+          "average_grade": 0.0,
+          "maximum_grade": 13.5,
+          "elevation_high": 94.0,
+          "elevation_low": 91.0,
+          "start_latlng": [
+            43.761618,
+            3.859087
+          ],
+          "end_latlng": [
+            43.761567,
+            3.859098
+          ],
+          "elevation_profile": null,
+          "elevation_profiles": null,
+          "climb_category": 0,
+          "city": "Saint-Mathieu-de-Tréviers",
+          "state": "Occitanie",
+          "country": "France",
+          "private": false,
+          "hazardous": false,
+          "starred": false
+        },
+        "pr_rank": null,
+        "achievements": [],
+        "visibility": "only_me",
+        "kom_rank": null,
+        "hidden": false
+      }
+    ],
+    "splits_metric": [
+      {
+        "distance": 1001.2,
+        "elapsed_time": 345,
+        "elevation_difference": 0.8,
+        "moving_time": 342,
+        "split": 1,
+        "average_speed": 2.93,
+        "average_grade_adjusted_speed": 2.96,
+        "average_heartrate": 112.85545722713864,
+        "pace_zone": 1
+      },
+      {
+        "distance": 999.5,
+        "elapsed_time": 288,
+        "elevation_difference": -3.0,
+        "moving_time": 288,
+        "split": 2,
+        "average_speed": 3.47,
+        "average_grade_adjusted_speed": 3.48,
+        "average_heartrate": 150.68402777777777,
+        "pace_zone": 2
+      },
+      {
+        "distance": 1001.0,
+        "elapsed_time": 279,
+        "elevation_difference": 1.6,
+        "moving_time": 279,
+        "split": 3,
+        "average_speed": 3.59,
+        "average_grade_adjusted_speed": 3.63,
+        "average_heartrate": 157.69175627240142,
+        "pace_zone": 3
+      },
+      {
+        "distance": 999.5,
+        "elapsed_time": 277,
+        "elevation_difference": -0.2,
+        "moving_time": 277,
+        "split": 4,
+        "average_speed": 3.61,
+        "average_grade_adjusted_speed": 3.64,
+        "average_heartrate": 160.5812274368231,
+        "pace_zone": 3
+      },
+      {
+        "distance": 1000.3,
+        "elapsed_time": 272,
+        "elevation_difference": 0.8,
+        "moving_time": 272,
+        "split": 5,
+        "average_speed": 3.68,
+        "average_grade_adjusted_speed": 3.78,
+        "average_heartrate": 161.68382352941177,
+        "pace_zone": 3
+      },
+      {
+        "distance": 999.2,
+        "elapsed_time": 269,
+        "elevation_difference": 0.4,
+        "moving_time": 269,
+        "split": 6,
+        "average_speed": 3.71,
+        "average_grade_adjusted_speed": 3.85,
+        "average_heartrate": 162.40520446096653,
+        "pace_zone": 3
+      },
+      {
+        "distance": 1001.4,
+        "elapsed_time": 273,
+        "elevation_difference": 0.0,
+        "moving_time": 273,
+        "split": 7,
+        "average_speed": 3.67,
+        "average_grade_adjusted_speed": 3.71,
+        "average_heartrate": 162.86446886446888,
+        "pace_zone": 3
+      },
+      {
+        "distance": 999.2,
+        "elapsed_time": 250,
+        "elevation_difference": -0.8,
+        "moving_time": 250,
+        "split": 8,
+        "average_speed": 4.0,
+        "average_grade_adjusted_speed": 4.06,
+        "average_heartrate": 168.884,
+        "pace_zone": 4
+      },
+      {
+        "distance": 1002.1,
+        "elapsed_time": 254,
+        "elevation_difference": 1.6,
+        "moving_time": 254,
+        "split": 9,
+        "average_speed": 3.95,
+        "average_grade_adjusted_speed": 4.07,
+        "average_heartrate": 169.35826771653544,
+        "pace_zone": 4
+      },
+      {
+        "distance": 999.6,
+        "elapsed_time": 247,
+        "elevation_difference": -0.2,
+        "moving_time": 247,
+        "split": 10,
+        "average_speed": 4.05,
+        "average_grade_adjusted_speed": 4.13,
+        "average_heartrate": 171.0931174089069,
+        "pace_zone": 4
+      },
+      {
+        "distance": 1000.4,
+        "elapsed_time": 369,
+        "elevation_difference": -0.8,
+        "moving_time": 369,
+        "split": 11,
+        "average_speed": 2.71,
+        "average_grade_adjusted_speed": 2.74,
+        "average_heartrate": 146.76685393258427,
+        "pace_zone": 1
+      },
+      {
+        "distance": 589.3,
+        "elapsed_time": 190,
+        "elevation_difference": 0.0,
+        "moving_time": 190,
+        "split": 12,
+        "average_speed": 3.1,
+        "average_grade_adjusted_speed": 3.17,
+        "average_heartrate": 156.0212765957447,
+        "pace_zone": 2
+      }
+    ],
+    "splits_standard": [
+      {
+        "distance": 1610.4,
+        "elapsed_time": 522,
+        "elevation_difference": -4.2,
+        "moving_time": 519,
+        "split": 1,
+        "average_speed": 3.1,
+        "average_grade_adjusted_speed": 3.11,
+        "average_heartrate": 124.77131782945736,
+        "pace_zone": 2
+      },
+      {
+        "distance": 1609.4,
+        "elapsed_time": 449,
+        "elevation_difference": 2.8,
+        "moving_time": 449,
+        "split": 2,
+        "average_speed": 3.58,
+        "average_grade_adjusted_speed": 3.63,
+        "average_heartrate": 157.64587973273942,
+        "pace_zone": 3
+      },
+      {
+        "distance": 1610.9,
+        "elapsed_time": 445,
+        "elevation_difference": -0.8,
+        "moving_time": 445,
+        "split": 3,
+        "average_speed": 3.62,
+        "average_grade_adjusted_speed": 3.68,
+        "average_heartrate": 160.91685393258427,
+        "pace_zone": 3
+      },
+      {
+        "distance": 1609.3,
+        "elapsed_time": 433,
+        "elevation_difference": 2.8,
+        "moving_time": 433,
+        "split": 4,
+        "average_speed": 3.72,
+        "average_grade_adjusted_speed": 3.84,
+        "average_heartrate": 162.36720554272517,
+        "pace_zone": 3
+      },
+      {
+        "distance": 1608.0,
+        "elapsed_time": 416,
+        "elevation_difference": 0.8,
+        "moving_time": 416,
+        "split": 5,
+        "average_speed": 3.87,
+        "average_grade_adjusted_speed": 3.94,
+        "average_heartrate": 166.9278846153846,
+        "pace_zone": 4
+      },
+      {
+        "distance": 1611.5,
+        "elapsed_time": 402,
+        "elevation_difference": 0.4,
+        "moving_time": 402,
+        "split": 6,
+        "average_speed": 4.01,
+        "average_grade_adjusted_speed": 4.11,
+        "average_heartrate": 169.90796019900498,
+        "pace_zone": 4
+      },
+      {
+        "distance": 1606.1,
+        "elapsed_time": 539,
+        "elevation_difference": -1.6,
+        "moving_time": 539,
+        "split": 7,
+        "average_speed": 2.98,
+        "average_grade_adjusted_speed": 3.01,
+        "average_heartrate": 152.42395437262357,
+        "pace_zone": 1
+      },
+      {
+        "distance": 327.1,
+        "elapsed_time": 107,
+        "elevation_difference": 0.0,
+        "moving_time": 107,
+        "split": 8,
+        "average_speed": 3.06,
+        "average_grade_adjusted_speed": 3.16,
+        "average_heartrate": 155.61904761904762,
+        "pace_zone": 2
+      }
+    ],
+    "laps": [
+      {
+        "id": 58945032586,
+        "resource_state": 2,
+        "name": "Lap 1",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 345,
+        "moving_time": 342,
+        "start_date": "2025-11-22T15:22:56Z",
+        "start_date_local": "2025-11-22T16:22:56Z",
+        "distance": 1000.0,
+        "average_speed": 2.92,
+        "max_speed": 3.54,
+        "lap_index": 1,
+        "split": 1,
+        "start_index": 0,
+        "end_index": 0,
+        "total_elevation_gain": 4.4,
+        "average_cadence": 77.1,
+        "device_watts": true,
+        "average_watts": 337.7,
+        "average_heartrate": 112.9,
+        "max_heartrate": 125.0,
+        "pace_zone": 1
+      },
+      {
+        "id": 58945032594,
+        "resource_state": 2,
+        "name": "Lap 2",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 288,
+        "moving_time": 288,
+        "start_date": "2025-11-22T15:28:43Z",
+        "start_date_local": "2025-11-22T16:28:43Z",
+        "distance": 1000.0,
+        "average_speed": 3.47,
+        "max_speed": 3.86,
+        "lap_index": 2,
+        "split": 2,
+        "start_index": 0,
+        "end_index": 0,
+        "total_elevation_gain": 5.0,
+        "average_cadence": 78.8,
+        "device_watts": true,
+        "average_watts": 395.5,
+        "average_heartrate": 150.9,
+        "max_heartrate": 157.0,
+        "pace_zone": 2
+      },
+      {
+        "id": 58945032601,
+        "resource_state": 2,
+        "name": "Lap 3",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 278,
+        "moving_time": 278,
+        "start_date": "2025-11-22T15:33:31Z",
+        "start_date_local": "2025-11-22T16:33:31Z",
+        "distance": 1000.0,
+        "average_speed": 3.6,
+        "max_speed": 3.94,
+        "lap_index": 3,
+        "split": 3,
+        "start_index": 0,
+        "end_index": 0,
+        "total_elevation_gain": 4.0,
+        "average_cadence": 79.3,
+        "device_watts": true,
+        "average_watts": 417.7,
+        "average_heartrate": 157.7,
+        "max_heartrate": 162.0,
+        "pace_zone": 3
+      },
+      {
+        "id": 58945032610,
+        "resource_state": 2,
+        "name": "Lap 4",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 277,
+        "moving_time": 277,
+        "start_date": "2025-11-22T15:38:10Z",
+        "start_date_local": "2025-11-22T16:38:10Z",
+        "distance": 1000.0,
+        "average_speed": 3.61,
+        "max_speed": 3.96,
+        "lap_index": 4,
+        "split": 4,
+        "start_index": 0,
+        "end_index": 0,
+        "total_elevation_gain": 1.6,
+        "average_cadence": 79.8,
+        "device_watts": true,
+        "average_watts": 417.5,
+        "average_heartrate": 160.6,
+        "max_heartrate": 163.0,
+        "pace_zone": 3
+      },
+      {
+        "id": 58945032615,
+        "resource_state": 2,
+        "name": "Lap 5",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 271,
+        "moving_time": 271,
+        "start_date": "2025-11-22T15:42:47Z",
+        "start_date_local": "2025-11-22T16:42:47Z",
+        "distance": 1000.0,
+        "average_speed": 3.69,
+        "max_speed": 4.16,
+        "lap_index": 5,
+        "split": 5,
+        "start_index": 0,
+        "end_index": 0,
+        "total_elevation_gain": 5.0,
+        "average_cadence": 80.8,
+        "device_watts": true,
+        "average_watts": 422.6,
+        "average_heartrate": 161.7,
+        "max_heartrate": 165.0,
+        "pace_zone": 3
+      },
+      {
+        "id": 58945032620,
+        "resource_state": 2,
+        "name": "Lap 6",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 269,
+        "moving_time": 269,
+        "start_date": "2025-11-22T15:47:19Z",
+        "start_date_local": "2025-11-22T16:47:19Z",
+        "distance": 1000.0,
+        "average_speed": 3.72,
+        "max_speed": 4.04,
+        "lap_index": 6,
+        "split": 6,
+        "start_index": 0,
+        "end_index": 0,
+        "total_elevation_gain": 11.8,
+        "average_cadence": 81.0,
+        "device_watts": true,
+        "average_watts": 433.0,
+        "average_heartrate": 162.4,
+        "max_heartrate": 165.0,
+        "pace_zone": 3
+      },
+      {
+        "id": 58945032632,
+        "resource_state": 2,
+        "name": "Lap 7",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 272,
+        "moving_time": 272,
+        "start_date": "2025-11-22T15:51:48Z",
+        "start_date_local": "2025-11-22T16:51:48Z",
+        "distance": 1000.0,
+        "average_speed": 3.68,
+        "max_speed": 3.96,
+        "lap_index": 7,
+        "split": 7,
+        "start_index": 0,
+        "end_index": 0,
+        "total_elevation_gain": 3.2,
+        "average_cadence": 80.9,
+        "device_watts": true,
+        "average_watts": 425.3,
+        "average_heartrate": 162.9,
+        "max_heartrate": 167.0,
+        "pace_zone": 3
+      },
+      {
+        "id": 58945032640,
+        "resource_state": 2,
+        "name": "Lap 8",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 250,
+        "moving_time": 250,
+        "start_date": "2025-11-22T15:56:21Z",
+        "start_date_local": "2025-11-22T16:56:21Z",
+        "distance": 1000.0,
+        "average_speed": 4.0,
+        "max_speed": 4.38,
+        "lap_index": 8,
+        "split": 8,
+        "start_index": 0,
+        "end_index": 0,
+        "total_elevation_gain": 6.0,
+        "average_cadence": 83.3,
+        "device_watts": true,
+        "average_watts": 455.8,
+        "average_heartrate": 168.9,
+        "max_heartrate": 172.0,
+        "pace_zone": 4
+      },
+      {
+        "id": 58945032644,
+        "resource_state": 2,
+        "name": "Lap 9",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 253,
+        "moving_time": 253,
+        "start_date": "2025-11-22T16:00:31Z",
+        "start_date_local": "2025-11-22T17:00:31Z",
+        "distance": 1000.0,
+        "average_speed": 3.95,
+        "max_speed": 4.4,
+        "lap_index": 9,
+        "split": 9,
+        "start_index": 0,
+        "end_index": 0,
+        "total_elevation_gain": 12.6,
+        "average_cadence": 83.3,
+        "device_watts": true,
+        "average_watts": 456.1,
+        "average_heartrate": 169.4,
+        "max_heartrate": 172.0,
+        "pace_zone": 4
+      },
+      {
+        "id": 58945032648,
+        "resource_state": 2,
+        "name": "Lap 10",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 247,
+        "moving_time": 247,
+        "start_date": "2025-11-22T16:04:45Z",
+        "start_date_local": "2025-11-22T17:04:45Z",
+        "distance": 1000.0,
+        "average_speed": 4.05,
+        "max_speed": 4.48,
+        "lap_index": 10,
+        "split": 10,
+        "start_index": 0,
+        "end_index": 0,
+        "total_elevation_gain": 8.6,
+        "average_cadence": 83.9,
+        "device_watts": true,
+        "average_watts": 469.7,
+        "average_heartrate": 171.1,
+        "max_heartrate": 173.0,
+        "pace_zone": 4
+      },
+      {
+        "id": 58945032655,
+        "resource_state": 2,
+        "name": "Lap 11",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 368,
+        "moving_time": 368,
+        "start_date": "2025-11-22T16:08:52Z",
+        "start_date_local": "2025-11-22T17:08:52Z",
+        "distance": 1000.0,
+        "average_speed": 2.72,
+        "max_speed": 3.84,
+        "lap_index": 11,
+        "split": 11,
+        "start_index": 0,
+        "end_index": 0,
+        "total_elevation_gain": 4.2,
+        "average_cadence": 75.2,
+        "device_watts": true,
+        "average_watts": 302.7,
+        "average_heartrate": 146.7,
+        "max_heartrate": 172.0,
+        "pace_zone": 1
+      },
+      {
+        "id": 58945032661,
+        "resource_state": 2,
+        "name": "Lap 12",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 190,
+        "moving_time": 190,
+        "start_date": "2025-11-22T16:15:01Z",
+        "start_date_local": "2025-11-22T17:15:01Z",
+        "distance": 592.72,
+        "average_speed": 3.12,
+        "max_speed": 3.5,
+        "lap_index": 12,
+        "split": 12,
+        "start_index": 0,
+        "end_index": 0,
+        "total_elevation_gain": 3.4,
+        "average_cadence": 78.3,
+        "device_watts": true,
+        "average_watts": 367.5,
+        "average_heartrate": 156.0,
+        "max_heartrate": 158.0,
+        "pace_zone": 2
+      }
+    ],
+    "best_efforts": [
+      {
+        "id": 69641949687,
+        "resource_state": 2,
+        "name": "400m",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 97,
+        "moving_time": 97,
+        "start_date": "2025-11-22T15:22:56Z",
+        "start_date_local": "2025-11-22T16:22:56Z",
+        "distance": 400,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 2464,
+        "end_index": 2561
+      },
+      {
+        "id": 69641949688,
+        "resource_state": 2,
+        "name": "1/2 mile",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 197,
+        "moving_time": 197,
+        "start_date": "2025-11-22T15:22:56Z",
+        "start_date_local": "2025-11-22T16:22:56Z",
+        "distance": 805,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 2462,
+        "end_index": 2659
+      },
+      {
+        "id": 69641949689,
+        "resource_state": 2,
+        "name": "1K",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 245,
+        "moving_time": 245,
+        "start_date": "2025-11-22T15:22:56Z",
+        "start_date_local": "2025-11-22T16:22:56Z",
+        "distance": 1000,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 2444,
+        "end_index": 2689
+      },
+      {
+        "id": 69641949683,
+        "resource_state": 2,
+        "name": "1 mile",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 400,
+        "moving_time": 400,
+        "start_date": "2025-11-22T15:22:56Z",
+        "start_date_local": "2025-11-22T16:22:56Z",
+        "distance": 1609,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 2291,
+        "end_index": 2691
+      },
+      {
+        "id": 69641949684,
+        "resource_state": 2,
+        "name": "2 mile",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 811,
+        "moving_time": 811,
+        "start_date": "2025-11-22T15:22:56Z",
+        "start_date_local": "2025-11-22T16:22:56Z",
+        "distance": 3219,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 1943,
+        "end_index": 2754
+      },
+      {
+        "id": 69641949685,
+        "resource_state": 2,
+        "name": "5K",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 1293,
+        "moving_time": 1293,
+        "start_date": "2025-11-22T15:22:56Z",
+        "start_date_local": "2025-11-22T16:22:56Z",
+        "distance": 5000,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 1440,
+        "end_index": 2733
+      },
+      {
+        "id": 69641949686,
+        "resource_state": 2,
+        "name": "10K",
+        "activity": {
+          "id": 16535345927,
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 118753503,
+          "resource_state": 1
+        },
+        "elapsed_time": 2749,
+        "moving_time": 2749,
+        "start_date": "2025-11-22T15:22:56Z",
+        "start_date_local": "2025-11-22T16:22:56Z",
+        "distance": 10000,
+        "pr_rank": null,
+        "achievements": [],
+        "start_index": 6,
+        "end_index": 2755
+      }
+    ],
+    "gear": {
+      "id": "g26900758",
+      "primary": false,
+      "name": "Li-ning Feidian",
+      "nickname": "",
+      "resource_state": 2,
+      "retired": false,
+      "distance": 101061,
+      "converted_distance": 101.1
+    },
+    "photos": {
+      "primary": null,
+      "count": 0
+    },
+    "stats_visibility": [
+      {
+        "type": "heart_rate",
+        "visibility": "everyone"
+      },
+      {
+        "type": "pace",
+        "visibility": "everyone"
+      },
+      {
+        "type": "power",
+        "visibility": "everyone"
+      },
+      {
+        "type": "speed",
+        "visibility": "everyone"
+      },
+      {
+        "type": "calories",
+        "visibility": "everyone"
+      }
+    ],
+    "hide_from_home": false,
+    "embed_token": "7607d50cf2933c608170726dd0e687d2e0ea0abe",
+    "private_note": "",
+    "similar_activities": {
+      "effort_count": 67,
+      "average_speed": 3.2018244480641975,
+      "min_average_speed": 2.5705593451568896,
+      "mid_average_speed": 3.0094446249151003,
+      "max_average_speed": 3.6290519877675838,
+      "pr_rank": null,
+      "frequency_milestone": null,
+      "trend": {
+        "speeds": [
+          3.1637356435812674,
+          3.064309980333199,
+          3.2094907479963535,
+          3.2875115816092784,
+          3.3310583423460614
+        ],
+        "current_activity_index": 4,
+        "min_speed": 2.5705593451568896,
+        "mid_speed": 3.0094446249151003,
+        "max_speed": 3.6290519877675838,
+        "direction": 1
+      },
+      "resource_state": 2
+    },
+    "available_zones": [
+      "heartrate",
+      "pace",
+      "power"
+    ]
+  },
+  {
+    "resource_state": 3,
+    "athlete": {
+      "id": 118753503,
+      "resource_state": 1
+    },
     "name": "WD",
     "distance": 1326.6,
     "moving_time": 423,
@@ -488,8 +3821,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": null,
@@ -2903,8 +6236,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": {
@@ -4250,8 +7583,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": null,
@@ -5841,8 +9174,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": null,
@@ -6501,8 +9834,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": null,
@@ -13091,8 +16424,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": null,
@@ -14843,8 +18176,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": null,
@@ -15333,7 +18666,7 @@
       "name": "Nike Invincible 3",
       "nickname": "",
       "resource_state": 2,
-      "retired": false,
+      "retired": true,
       "distance": 1342619,
       "converted_distance": 1342.6
     },
@@ -16518,8 +19851,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": {
@@ -17057,8 +20390,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": null,
@@ -17722,8 +21055,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": null,
@@ -18703,8 +22036,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": null,
@@ -20040,8 +23373,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": null,
@@ -20633,8 +23966,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": null,
@@ -21924,8 +25257,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": {
@@ -23392,8 +26725,8 @@
       "nickname": "",
       "resource_state": 2,
       "retired": false,
-      "distance": 89471,
-      "converted_distance": 89.5
+      "distance": 101061,
+      "converted_distance": 101.1
     },
     "photos": {
       "primary": null,
@@ -27516,596 +30849,6 @@
         "min_speed": 3.2414700544464607,
         "mid_speed": 3.2414700544464607,
         "max_speed": 3.2414700544464607,
-        "direction": 0
-      },
-      "resource_state": 2
-    },
-    "available_zones": [
-      "heartrate",
-      "pace",
-      "power"
-    ]
-  },
-  {
-    "resource_state": 3,
-    "athlete": {
-      "id": 118753503,
-      "resource_state": 1
-    },
-    "name": "Hi my old friends",
-    "distance": 5267.6,
-    "moving_time": 1975,
-    "elapsed_time": 1975,
-    "total_elevation_gain": 15.0,
-    "type": "Run",
-    "sport_type": "Run",
-    "workout_type": 0,
-    "device_name": "Garmin Forerunner 965",
-    "id": 16267151397,
-    "start_date": "2025-10-26T22:17:55Z",
-    "start_date_local": "2025-10-27T06:17:55Z",
-    "timezone": "(GMT+08:00) Asia/Shanghai",
-    "utc_offset": 28800.0,
-    "location_city": null,
-    "location_state": null,
-    "location_country": null,
-    "achievement_count": 0,
-    "kudos_count": 0,
-    "comment_count": 0,
-    "athlete_count": 1,
-    "photo_count": 0,
-    "map": {
-      "id": "a16267151397",
-      "polyline": "u_tpEax~wSNGCCDAAKOAEIGwAFcACIMCEGCY@y@E_BKmAB{BFGHGVAp@?LHlAExAAJJBLB`ANfBDt@NxABJBfAAz@WrBEj@?pBF~@CZKp@ExAAdCCp@BhAELGHQDm@Ai@DsA@[Bi@?]Eg@@KCo@H]Aa@Bm@GODaAD_@?s@COCKSC]BsBCW@uA@QBIBa@EuCBuAImDAoH@kAAoBCc@JKb@G\\B\\ANBh@EfABxBCz@FDC?g@NuA?MKOMCo@Ho@BIAEEC@IC]DYCy@@i@Fg@Cg@Bg@EYWOEIBW?I@QAYBiACm@EOBEFCZGBmADm@CcBDIGEQC_CBEJCh@ApA?ZC|CBDAZ@~@AlABDCBKDoAFEZB`@Cl@?JDHNT@t@JJAJGPC~@@hAGX@FBHRDj@Hl@Bz@BBPFFAR@t@AHABED}BAi@EMAAo@FSCMIOSEWECK?GGCIAo@GMKCy@DaDE{@@IB}@?]@OHKXMJqA@aAES@UBm@AOBSFWV_@Ha@Gk@@UBm@Ca@E]BKGE]BuAE_EBmDB{@Fa@FGh@In@?TCF@z@?XAX@JCFUCo@B_ADW@q@E{@@o@C[@u@C[DQFINEpAETEjA@LBJDZC@BIdAEGBO",
-      "resource_state": 3,
-      "summary_polyline": "u_tpEax~wSNGCCDAAKOAEIGwAFcACIMCEGCY@y@E_BKmAB{BFGHGVAp@?LHlAExAAJJBLB`ANfBDt@NxABJBfAAz@YxBCd@?pBF~@CZKp@ExAAdCCp@BhAELGHQDm@Ai@DsA@[Bi@?]Eg@@KCo@H]Aa@Bm@GODaAD_@?s@COCKSCg@BiBCW@uA@QBIBa@EuCBuAImDAoH@kAAoBCc@JKb@G\\B\\ANBh@EfABxBCz@FDC?g@NuA?MKOMCo@Ho@BIAEEC@IC]DYCy@@i@Fg@Cg@Bg@EYWOEIBW?I@QAYBiACm@EOBEFCZGBmADm@CcBDIGEQC_CBEJCh@ApA?`@CvCBDAZ@~@AlABDCBKDoAFEZB`@Cl@?JDHNT@t@JJAJGPC~@@hAGX@FBHRDj@Hl@Bz@BBPFFAR@t@AHABED}BAi@EMAAo@FSCMIOSEWECK?GGCIAo@GMKCy@DaDE{@@IB}@?]@OHKXMJqA@aAES@UBm@AOBSFWV_@Ha@Gk@@UBm@Ca@E]BKGE]BuAE_EBmDB{@Fa@FGh@In@?TCF@z@?XAX@JCFUCo@B_ADW@q@E{@@o@C[@u@C[DQFINEpAETEjA@LBJDZC@BIdAEGBO"
-    },
-    "trainer": false,
-    "commute": false,
-    "manual": false,
-    "private": false,
-    "visibility": "everyone",
-    "flagged": false,
-    "gear_id": "g24780055",
-    "start_latlng": [
-      34.350191,
-      108.952493
-    ],
-    "end_latlng": [
-      34.35272,
-      108.962849
-    ],
-    "average_speed": 2.667,
-    "max_speed": 4.66,
-    "average_cadence": 76.7,
-    "average_watts": 302.1,
-    "max_watts": 473,
-    "weighted_average_watts": 303,
-    "device_watts": true,
-    "kilojoules": 596.2,
-    "has_heartrate": true,
-    "average_heartrate": 123.2,
-    "max_heartrate": 134.0,
-    "heartrate_opt_out": false,
-    "display_hide_heartrate_option": true,
-    "elev_high": 388.0,
-    "elev_low": 379.4,
-    "upload_id": 17351719833,
-    "upload_id_str": "17351719833",
-    "external_id": "garmin_ping_495212004766",
-    "from_accepted_tag": false,
-    "pr_count": 0,
-    "total_photo_count": 0,
-    "has_kudoed": false,
-    "suffer_score": 7.0,
-    "description": "",
-    "calories": 386.0,
-    "perceived_exertion": null,
-    "prefer_perceived_exertion": null,
-    "segment_efforts": [],
-    "splits_metric": [
-      {
-        "distance": 1000.2,
-        "elapsed_time": 386,
-        "elevation_difference": 1.4,
-        "moving_time": 386,
-        "split": 1,
-        "average_speed": 2.59,
-        "average_grade_adjusted_speed": 2.61,
-        "average_heartrate": 115.13350785340315,
-        "pace_zone": 1
-      },
-      {
-        "distance": 1000.2,
-        "elapsed_time": 356,
-        "elevation_difference": -4.0,
-        "moving_time": 356,
-        "split": 2,
-        "average_speed": 2.81,
-        "average_grade_adjusted_speed": 2.8,
-        "average_heartrate": 123.78591549295774,
-        "pace_zone": 1
-      },
-      {
-        "distance": 1000.0,
-        "elapsed_time": 368,
-        "elevation_difference": -2.2,
-        "moving_time": 368,
-        "split": 3,
-        "average_speed": 2.72,
-        "average_grade_adjusted_speed": 2.71,
-        "average_heartrate": 125.27868852459017,
-        "pace_zone": 1
-      },
-      {
-        "distance": 1001.3,
-        "elapsed_time": 381,
-        "elevation_difference": 5.6,
-        "moving_time": 381,
-        "split": 4,
-        "average_speed": 2.63,
-        "average_grade_adjusted_speed": 2.68,
-        "average_heartrate": 124.93667546174143,
-        "pace_zone": 1
-      },
-      {
-        "distance": 999.2,
-        "elapsed_time": 374,
-        "elevation_difference": -4.6,
-        "moving_time": 374,
-        "split": 5,
-        "average_speed": 2.67,
-        "average_grade_adjusted_speed": 2.66,
-        "average_heartrate": 126.00267379679144,
-        "pace_zone": 1
-      },
-      {
-        "distance": 268.7,
-        "elapsed_time": 110,
-        "elevation_difference": -0.4,
-        "moving_time": 110,
-        "split": 6,
-        "average_speed": 2.44,
-        "average_grade_adjusted_speed": 2.45,
-        "average_heartrate": 126.62616822429906,
-        "pace_zone": 1
-      }
-    ],
-    "splits_standard": [
-      {
-        "distance": 1611.4,
-        "elapsed_time": 599,
-        "elevation_difference": -4.2,
-        "moving_time": 599,
-        "split": 1,
-        "average_speed": 2.69,
-        "average_grade_adjusted_speed": 2.69,
-        "average_heartrate": 117.84033613445378,
-        "pace_zone": 1
-      },
-      {
-        "distance": 1607.9,
-        "elapsed_time": 595,
-        "elevation_difference": 3.8,
-        "moving_time": 595,
-        "split": 2,
-        "average_speed": 2.7,
-        "average_grade_adjusted_speed": 2.73,
-        "average_heartrate": 125.15878378378379,
-        "pace_zone": 1
-      },
-      {
-        "distance": 1610.7,
-        "elapsed_time": 607,
-        "elevation_difference": -1.4,
-        "moving_time": 607,
-        "split": 3,
-        "average_speed": 2.65,
-        "average_grade_adjusted_speed": 2.66,
-        "average_heartrate": 125.02314049586776,
-        "pace_zone": 1
-      },
-      {
-        "distance": 439.6,
-        "elapsed_time": 174,
-        "elevation_difference": -2.4,
-        "moving_time": 174,
-        "split": 4,
-        "average_speed": 2.53,
-        "average_grade_adjusted_speed": 2.51,
-        "average_heartrate": 128.3859649122807,
-        "pace_zone": 1
-      }
-    ],
-    "laps": [
-      {
-        "id": 57972482123,
-        "resource_state": 2,
-        "name": "Lap 1",
-        "activity": {
-          "id": 16267151397,
-          "visibility": "everyone",
-          "resource_state": 1
-        },
-        "athlete": {
-          "id": 118753503,
-          "resource_state": 1
-        },
-        "elapsed_time": 386,
-        "moving_time": 386,
-        "start_date": "2025-10-26T22:17:55Z",
-        "start_date_local": "2025-10-27T06:17:55Z",
-        "distance": 1000.0,
-        "average_speed": 2.59,
-        "max_speed": 3.74,
-        "lap_index": 1,
-        "split": 1,
-        "start_index": 0,
-        "end_index": 387,
-        "total_elevation_gain": 4.0,
-        "average_cadence": 76.2,
-        "device_watts": true,
-        "average_watts": 296.6,
-        "average_heartrate": 115.2,
-        "max_heartrate": 125.0,
-        "pace_zone": 1
-      },
-      {
-        "id": 57972482129,
-        "resource_state": 2,
-        "name": "Lap 2",
-        "activity": {
-          "id": 16267151397,
-          "visibility": "everyone",
-          "resource_state": 1
-        },
-        "athlete": {
-          "id": 118753503,
-          "resource_state": 1
-        },
-        "elapsed_time": 355,
-        "moving_time": 355,
-        "start_date": "2025-10-26T22:24:23Z",
-        "start_date_local": "2025-10-27T06:24:23Z",
-        "distance": 1000.0,
-        "average_speed": 2.82,
-        "max_speed": 4.66,
-        "lap_index": 2,
-        "split": 2,
-        "start_index": 388,
-        "end_index": 743,
-        "total_elevation_gain": 2.6,
-        "average_cadence": 77.4,
-        "device_watts": true,
-        "average_watts": 317.8,
-        "average_heartrate": 123.8,
-        "max_heartrate": 128.0,
-        "pace_zone": 1
-      },
-      {
-        "id": 57972482133,
-        "resource_state": 2,
-        "name": "Lap 3",
-        "activity": {
-          "id": 16267151397,
-          "visibility": "everyone",
-          "resource_state": 1
-        },
-        "athlete": {
-          "id": 118753503,
-          "resource_state": 1
-        },
-        "elapsed_time": 368,
-        "moving_time": 368,
-        "start_date": "2025-10-26T22:30:19Z",
-        "start_date_local": "2025-10-27T06:30:19Z",
-        "distance": 1000.0,
-        "average_speed": 2.72,
-        "max_speed": 3.74,
-        "lap_index": 3,
-        "split": 3,
-        "start_index": 744,
-        "end_index": 1111,
-        "total_elevation_gain": 1.8,
-        "average_cadence": 76.8,
-        "device_watts": true,
-        "average_watts": 306.3,
-        "average_heartrate": 125.3,
-        "max_heartrate": 132.0,
-        "pace_zone": 1
-      },
-      {
-        "id": 57972482141,
-        "resource_state": 2,
-        "name": "Lap 4",
-        "activity": {
-          "id": 16267151397,
-          "visibility": "everyone",
-          "resource_state": 1
-        },
-        "athlete": {
-          "id": 118753503,
-          "resource_state": 1
-        },
-        "elapsed_time": 380,
-        "moving_time": 380,
-        "start_date": "2025-10-26T22:36:27Z",
-        "start_date_local": "2025-10-27T06:36:27Z",
-        "distance": 1000.0,
-        "average_speed": 2.63,
-        "max_speed": 4.06,
-        "lap_index": 4,
-        "split": 4,
-        "start_index": 1112,
-        "end_index": 1492,
-        "total_elevation_gain": 7.2,
-        "average_cadence": 76.5,
-        "device_watts": true,
-        "average_watts": 299.1,
-        "average_heartrate": 125.0,
-        "max_heartrate": 129.0,
-        "pace_zone": 1
-      },
-      {
-        "id": 57972482148,
-        "resource_state": 2,
-        "name": "Lap 5",
-        "activity": {
-          "id": 16267151397,
-          "visibility": "everyone",
-          "resource_state": 1
-        },
-        "athlete": {
-          "id": 118753503,
-          "resource_state": 1
-        },
-        "elapsed_time": 374,
-        "moving_time": 374,
-        "start_date": "2025-10-26T22:42:48Z",
-        "start_date_local": "2025-10-27T06:42:48Z",
-        "distance": 1000.0,
-        "average_speed": 2.67,
-        "max_speed": 3.38,
-        "lap_index": 5,
-        "split": 5,
-        "start_index": 1493,
-        "end_index": 1866,
-        "total_elevation_gain": 3.0,
-        "average_cadence": 76.8,
-        "device_watts": true,
-        "average_watts": 302.0,
-        "average_heartrate": 126.0,
-        "max_heartrate": 134.0,
-        "pace_zone": 1
-      },
-      {
-        "id": 57972482152,
-        "resource_state": 2,
-        "name": "Lap 6",
-        "activity": {
-          "id": 16267151397,
-          "visibility": "everyone",
-          "resource_state": 1
-        },
-        "athlete": {
-          "id": 118753503,
-          "resource_state": 1
-        },
-        "elapsed_time": 109,
-        "moving_time": 109,
-        "start_date": "2025-10-26T22:49:02Z",
-        "start_date_local": "2025-10-27T06:49:02Z",
-        "distance": 269.61,
-        "average_speed": 2.47,
-        "max_speed": 3.72,
-        "lap_index": 6,
-        "split": 6,
-        "start_index": 1867,
-        "end_index": 1975,
-        "total_elevation_gain": 0.0,
-        "average_cadence": 76.5,
-        "device_watts": true,
-        "average_watts": 266.0,
-        "average_heartrate": 126.6,
-        "max_heartrate": 131.0,
-        "pace_zone": 1
-      }
-    ],
-    "best_efforts": [
-      {
-        "id": 68409921752,
-        "resource_state": 2,
-        "name": "400m",
-        "activity": {
-          "id": 16267151397,
-          "visibility": "everyone",
-          "resource_state": 1
-        },
-        "athlete": {
-          "id": 118753503,
-          "resource_state": 1
-        },
-        "elapsed_time": 137,
-        "moving_time": 137,
-        "start_date": "2025-10-26T22:17:55Z",
-        "start_date_local": "2025-10-27T06:17:55Z",
-        "distance": 400,
-        "pr_rank": null,
-        "achievements": [],
-        "start_index": 490,
-        "end_index": 627
-      },
-      {
-        "id": 68409921753,
-        "resource_state": 2,
-        "name": "1/2 mile",
-        "activity": {
-          "id": 16267151397,
-          "visibility": "everyone",
-          "resource_state": 1
-        },
-        "athlete": {
-          "id": 118753503,
-          "resource_state": 1
-        },
-        "elapsed_time": 283,
-        "moving_time": 283,
-        "start_date": "2025-10-26T22:17:55Z",
-        "start_date_local": "2025-10-27T06:17:55Z",
-        "distance": 805,
-        "pr_rank": null,
-        "achievements": [],
-        "start_index": 276,
-        "end_index": 559
-      },
-      {
-        "id": 68409921754,
-        "resource_state": 2,
-        "name": "1K",
-        "activity": {
-          "id": 16267151397,
-          "visibility": "everyone",
-          "resource_state": 1
-        },
-        "athlete": {
-          "id": 118753503,
-          "resource_state": 1
-        },
-        "elapsed_time": 353,
-        "moving_time": 353,
-        "start_date": "2025-10-26T22:17:55Z",
-        "start_date_local": "2025-10-27T06:17:55Z",
-        "distance": 1000,
-        "pr_rank": null,
-        "achievements": [],
-        "start_index": 278,
-        "end_index": 631
-      },
-      {
-        "id": 68409921749,
-        "resource_state": 2,
-        "name": "1 mile",
-        "activity": {
-          "id": 16267151397,
-          "visibility": "everyone",
-          "resource_state": 1
-        },
-        "athlete": {
-          "id": 118753503,
-          "resource_state": 1
-        },
-        "elapsed_time": 574,
-        "moving_time": 574,
-        "start_date": "2025-10-26T22:17:55Z",
-        "start_date_local": "2025-10-27T06:17:55Z",
-        "distance": 1609,
-        "pr_rank": null,
-        "achievements": [],
-        "start_index": 138,
-        "end_index": 712
-      },
-      {
-        "id": 68409921750,
-        "resource_state": 2,
-        "name": "2 mile",
-        "activity": {
-          "id": 16267151397,
-          "visibility": "everyone",
-          "resource_state": 1
-        },
-        "athlete": {
-          "id": 118753503,
-          "resource_state": 1
-        },
-        "elapsed_time": 1172,
-        "moving_time": 1172,
-        "start_date": "2025-10-26T22:17:55Z",
-        "start_date_local": "2025-10-27T06:17:55Z",
-        "distance": 3219,
-        "pr_rank": null,
-        "achievements": [],
-        "start_index": 148,
-        "end_index": 1320
-      },
-      {
-        "id": 68409921751,
-        "resource_state": 2,
-        "name": "5K",
-        "activity": {
-          "id": 16267151397,
-          "visibility": "everyone",
-          "resource_state": 1
-        },
-        "athlete": {
-          "id": 118753503,
-          "resource_state": 1
-        },
-        "elapsed_time": 1844,
-        "moving_time": 1844,
-        "start_date": "2025-10-26T22:17:55Z",
-        "start_date_local": "2025-10-27T06:17:55Z",
-        "distance": 5000,
-        "pr_rank": null,
-        "achievements": [],
-        "start_index": 95,
-        "end_index": 1939
-      }
-    ],
-    "gear": {
-      "id": "g24780055",
-      "primary": false,
-      "name": "Adidas Adizero Adios Pro 4",
-      "nickname": null,
-      "resource_state": 2,
-      "retired": false,
-      "distance": 326618,
-      "converted_distance": 326.6
-    },
-    "photos": {
-      "primary": null,
-      "count": 0
-    },
-    "stats_visibility": [
-      {
-        "type": "heart_rate",
-        "visibility": "everyone"
-      },
-      {
-        "type": "pace",
-        "visibility": "everyone"
-      },
-      {
-        "type": "power",
-        "visibility": "everyone"
-      },
-      {
-        "type": "speed",
-        "visibility": "everyone"
-      },
-      {
-        "type": "calories",
-        "visibility": "everyone"
-      }
-    ],
-    "hide_from_home": false,
-    "embed_token": "e8e7ec11a0647d1a52dc88b99015657e257728af",
-    "similar_activities": {
-      "effort_count": 2,
-      "average_speed": 2.7696947849074744,
-      "min_average_speed": 2.6671392405063292,
-      "mid_average_speed": 2.7612994183354553,
-      "max_average_speed": 2.862351326623971,
-      "pr_rank": 1,
-      "frequency_milestone": null,
-      "trend": {
-        "speeds": [
-          2.6671392405063292,
-          2.7612994183354553
-        ],
-        "current_activity_index": 0,
-        "min_speed": 2.6671392405063292,
-        "mid_speed": 2.7612994183354553,
-        "max_speed": 2.862351326623971,
         "direction": 0
       },
       "resource_state": 2

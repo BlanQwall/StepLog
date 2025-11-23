@@ -12,9 +12,7 @@
   <script>
     // ✅ 每周页面复制这个模板后，只需要改这一行：
     // 这一周的「周一」日期，格式 YYYY-MM-DD
-    const WEEK_START = "2025-11-17";
-    // 模版版本号：手动更新为本文件最后一次修改日期（YYYY-MM-DD）
-    const TEMPLATE_VERSION = "2025-11-23";
+    const WEEK_START = "2025-11-24";
 
     // --- 日期工具：不受浏览器本地时区影响，全部按“UTC 日历日”计算 ---
 
@@ -155,12 +153,6 @@
         }
       }
 
-      // 填充 footer 中的模版版本号
-      const versionEl = document.getElementById("template-version-label");
-      if (versionEl && typeof TEMPLATE_VERSION === "string" && TEMPLATE_VERSION) {
-        versionEl.textContent = `(version ${TEMPLATE_VERSION})`;
-      }
-
       // 为「每日计划表」自动填日期（Mon–Sun）
       const base = makeUTCDate(info.startStr);
       document.querySelectorAll("tr[data-day-offset]").forEach((row) => {
@@ -191,7 +183,7 @@
     <div class="container">
       <h1 data-week-label>Week</h1>
       <p class="section-subtitle">
-        A preparation for 2026 Berlin Marathon
+        Planning and execution of weekly running program.
       </p>
 
       <div class="week-meta-row">
@@ -320,7 +312,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>StepLog · Weekly report <span id="template-version-label"></span></p>
+      <p>StepLog · Weekly report</p>
       <p class="footer-sub">Plan first, then learn from each week. © <a href="https://github.com/BlanQwall/">BAI Qiang</a> </p>
     </div>
   </footer>

@@ -7,70 +7,127 @@
   "total_distance_km": 50.23,
   "total_moving_time_min": 271.8,
   "activity_count": 8,
+  "avg_suffer_score": 26.5,
   "activities": [
     {
       "id": 16416810987,
       "name": "Evening Run",
+      "description": "",
       "type": "Run",
       "date": "2025-11-10",
       "distance_km": 1.47,
-      "moving_time_min": 9.8
-    },
-    {
-      "id": 16428151810,
-      "name": "Club 10’@SP42 + 10x1’: joined road group for marathon preparation",
-      "type": "Run",
-      "date": "2025-11-11",
-      "distance_km": 7.76,
-      "moving_time_min": 36.0
+      "moving_time_min": 9.8,
+      "average_speed_m_s": 2.495,
+      "average_heartrate": 96.4,
+      "suffer_score": 1.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France"
     },
     {
       "id": 16428151680,
       "name": "WU",
+      "description": "",
       "type": "Run",
       "date": "2025-11-11",
       "distance_km": 6.14,
-      "moving_time_min": 32.9
+      "moving_time_min": 32.9,
+      "average_speed_m_s": 3.114,
+      "average_heartrate": 144.0,
+      "suffer_score": 22.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France"
+    },
+    {
+      "id": 16428151810,
+      "name": "Club 10’@SP42 + 10x1’: joined road group for marathon preparation",
+      "description": "",
+      "type": "Run",
+      "date": "2025-11-11",
+      "distance_km": 7.76,
+      "moving_time_min": 36.0,
+      "average_speed_m_s": 3.595,
+      "average_heartrate": 160.0,
+      "suffer_score": 55.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France"
     },
     {
       "id": 16438538627,
       "name": "Jog in night vineyards ✨",
+      "description": "",
       "type": "Run",
       "date": "2025-11-12",
       "distance_km": 11.76,
-      "moving_time_min": 64.0
-    },
-    {
-      "id": 16448860838,
-      "name": "Club cote",
-      "type": "Run",
-      "date": "2025-11-13",
-      "distance_km": 7.11,
-      "moving_time_min": 44.4
+      "moving_time_min": 64.0,
+      "average_speed_m_s": 3.061,
+      "average_heartrate": 140.4,
+      "suffer_score": 34.0,
+      "city": null,
+      "state": null,
+      "country": null
     },
     {
       "id": 16448852737,
       "name": "WU",
+      "description": "",
       "type": "Run",
       "date": "2025-11-13",
       "distance_km": 1.0,
-      "moving_time_min": 5.4
+      "moving_time_min": 5.4,
+      "average_speed_m_s": 3.111,
+      "average_heartrate": 135.3,
+      "suffer_score": 1.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France"
+    },
+    {
+      "id": 16448860838,
+      "name": "Club cote",
+      "description": "",
+      "type": "Run",
+      "date": "2025-11-13",
+      "distance_km": 7.11,
+      "moving_time_min": 44.4,
+      "average_speed_m_s": 2.672,
+      "average_heartrate": 138.0,
+      "suffer_score": 25.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Languedoc-Roussillon Midi-Pyrénées",
+      "country": "France"
     },
     {
       "id": 16462296528,
       "name": "Mini trail Cécélès",
+      "description": "",
       "type": "Run",
       "date": "2025-11-15",
       "distance_km": 9.42,
-      "moving_time_min": 49.9
+      "moving_time_min": 49.9,
+      "average_speed_m_s": 3.148,
+      "average_heartrate": 154.2,
+      "suffer_score": 65.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Hérault",
+      "country": "France"
     },
     {
       "id": 16472939669,
       "name": "End with an ankle sprain 😢",
+      "description": "Pain impossible to stand. No swelling",
       "type": "Run",
       "date": "2025-11-16",
       "distance_km": 5.57,
-      "moving_time_min": 29.6
+      "moving_time_min": 29.6,
+      "average_speed_m_s": 3.139,
+      "average_heartrate": 134.9,
+      "suffer_score": 9.0,
+      "city": "Le Triadou",
+      "state": "Occitanie",
+      "country": "France"
     }
   ]
 }

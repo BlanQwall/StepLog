@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Season Plan · Berlin 2026 · StepLog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 1.5rem;
+      background: #f7f7f7;
+      color: #222;
+      max-width: 1200px;
+      margin-inline: auto;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.25rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.3rem;
+    }
+
+    .subtitle {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 1.5rem;
+    }
+
+    .current-week-card {
+      border-radius: 0.75rem;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      background: #fff;
+      border-left: 4px solid #2b7bff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    }
+
+    .current-week-card-title {
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .current-week-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      background: #2b7bff;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .current-week-card-meta {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 0.25rem;
+    }
+
+    .current-week-link {
+      font-size: 0.9rem;
+      margin-top: 0.25rem;
+    }
+
+    .current-week-link a {
+      color: #2b7bff;
+      text-decoration: none;
+    }
+
+    .current-week-link a:hover {
+      text-decoration: underline;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      background: #fff;
+      border-radius: 0.75rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+      padding: 0.75rem;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 700px;
+      font-size: 0.9rem;
+    }
+
+    thead {
+      background: #f0f3f8;
+    }
+
+    th, td {
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+      vertical-align: middle;
+    }
+
+    th {
+      font-weight: 600;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #555;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .week-label {
+      font-weight: 600;
+    }
+
+    .cycle-tag {
+      font-size: 0.8rem;
+      padding: 0.1rem 0.5rem;
+      border-radius: 999px;
+      background: #eef1ff;
+      color: #2b4b99;
+      white-space: nowrap;
+    }
+
+    .cycle-1 { background: #eef7ff; color: #21527a; }
+    .cycle-2 { background: #e6fbf0; color: #1d6b3a; }
+    .cycle-3 { background: #fff6e5; color: #925d12; }
+    .cycle-4 { background: #f9e6ff; color: #6a2c8f; }
+    .cycle-5 { background: #e9f5ff; color: #004f7c; }
+    .cycle-final { background: #ffe9eb; color: #a02332; }
+
+    .current-row {
+      background: #e8f1ff;
+      position: relative;
+    }
+
+    .current-row::before {
+      content: "THIS WEEK";
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translate(-100%, 0);
+      font-size: 0.7rem;
+      padding: 0.2rem 0.4rem;
+      border-radius: 0.25rem;
+      background: #2b7bff;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    .small-note {
+      font-size: 0.8rem;
+      color: #777;
+      margin-top: 0.5rem;
+    }
+
+    a.week-link {
+      color: #2b7bff;
+      text-decoration: none;
+      font-size: 0.85rem;
+    }
+
+    a.week-link:hover {
+      text-decoration: underline;
+    }
+
+    header nav {
+      margin-bottom: 1rem;
+      font-size: 0.9rem;
+    }
+
+    header nav a {
+      color: #2b7bff;
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Cycles overview + nested weeks */
+    #cycles-table tbody tr.cycle-row {
+      cursor: pointer;
+      transition: background 0.15s ease;
+    }
+
+    #cycles-table tbody tr.cycle-row:hover {
+      background: #f5f7ff;
+    }
+
+    #cycles-table tbody tr.cycle-row.current-cycle-row {
+      background: #e8f1ff;
+    }
+
+    .cycle-link {
+      color: #2b7bff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .cycle-link:hover {
+      text-decoration: underline;
+    }
+
+    .cycle-weeks-row td {
+      background: #fafbff;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+
+    .cycle-weeks-wrapper h3 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    .nested-weeks-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+
+    .nested-weeks-table th,
+    .nested-weeks-table td {
+      border-bottom: 1px solid #ddd;
+      padding: 0.35rem 0.5rem;
+      text-align: left;
+    }
+
+    .nested-weeks-table th {
+      background: #edf1ff;
+      font-weight: 600;
+    }
+
+    .nested-weeks-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .disabled-link {
+      color: #999;
+      text-decoration: none;
+      cursor: default;
+    }
+
+    .current-week-row {
+      background: #e0ecff;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="../index.html">← Back to StepLog Home</a>
+    </nav>
+    <h1>Season Plan · Berlin 2026</h1>
+    <p class="subtitle">
+      StepLog 的 Berlin 2026 总训练计划。所有训练周按时间顺序排列，并根据当前日期自动高亮 <strong>本周</strong>。
+      每一周详情链接到 <code>/weeklog/week-YYYY-MM-DD.html</code>（日期为该周周一）。
+    </p>
+  </header>
+
+  <section id="current-week-section" class="current-week-card" style="display:none;">
+    <div class="current-week-card-title">
+      <span>Current Week / 当前周</span>
+      <span class="current-week-badge">Now</span>
+    </div>
+    <div id="current-week-meta" class="current-week-card-meta"></div>
+    <div id="current-week-dates" class="current-week-card-meta"></div>
+    <div id="current-week-focus" class="current-week-card-meta"></div>
+    <div id="current-week-link" class="current-week-link"></div>
+  </section>
+
+  <section>
+    <h2>Cycles · 训练周期概览</h2>
+    <div class="table-wrap">
+      <table id="cycles-table">
+        <thead>
+          <tr>
+            <th>Cycle</th>
+            <th>Date range</th>
+            <th>Length (weeks)</th>
+            <th>Final event</th>
+            <th>Target</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- JS will inject cycle rows here -->
+        </tbody>
+      </table>
+    </div>
+    <p class="small-note">
+      点击某一行可以展开该 Cycle 下各周的详细信息（周次、日期范围、里程、训练组数和主观努力）。当前日期所属的 Cycle 会被高亮显示，
+      并且在展开时，该 Cycle 中的当前周也会在二级表格中高亮。
+    </p>
+  </section>
+
+  <script>
+    // 解析 YYYY-MM-DD 为本地日期（避免浏览器差异）
+    function parseLocalDate(dateStr) {
+      const [y, m, d] = dateStr.split("-").map(Number);
+      return new Date(y, m - 1, d); // month: 0-based
+    }
+
+    // 格式化日期为 YYYY-MM-DD
+    function formatDate(dateObj) {
+      const y = dateObj.getFullYear();
+      const m = String(dateObj.getMonth() + 1).padStart(2, "0");
+      const d = String(dateObj.getDate()).padStart(2, "0");
+      return `${y}-${m}-${d}`;
+    }
+
+    // Cycle 日期范围格式化
+    function formatDateRange(startStr, endStr) {
+      return `${startStr} → ${endStr}`;
+    }
+
+    function isTodayInRange(today, startStr, endStr) {
+      const start = parseLocalDate(startStr);
+      const end = parseLocalDate(endStr);
+      return today >= start && today <= end;
+    }
+
+    // 数据模型：Cycles + 每个 cycle 内的周
+    // ⚠️ 日期、长度、周数据目前是示例，你可以根据实际计划调整和补全。
+    const cyclesData = [
+      {
+        id: 1,
+        name: "Cycle 1 · Alès 10K",
+        startDate: "2025-09-29",
+        endDate: "2025-11-09",
+        lengthWeeks: 6,
+        finalEvent: "Foulées d'Agglo Alès 10K",
+        target: "10K @ 4:00/km",
+        cyclePage: "./cycles/cycle-1.html",
+        weeks: [
+          {
+            order: 1,
+            startDate: "2025-09-29",
+            endDate: "2025-10-05",
+            distanceKm: "",
+            sessions: "",
+            avgEffort: "",
+            weekUrl: "../weeklog/week-2025-09-29.html"
+          },
+          {
+            order: 2,
+            startDate: "2025-10-06",
+            endDate: "2025-10-12",
+            distanceKm: "",
+            sessions: "",
+            avgEffort: "",
+            weekUrl: "../weeklog/week-2025-10-06.html"
+          },
+          {
+            order: 3,
+            startDate: "2025-10-13",
+            endDate: "2025-10-19",
+            distanceKm: "",
+            sessions: "",
+            avgEffort: "",
+            weekUrl: "../weeklog/week-2025-10-13.html"
+          },
+          {
+            order: 4,
+            startDate: "2025-10-20",
+            endDate: "2025-10-26",
+            distanceKm: "",
+            sessions: "",
+            avgEffort: "",
+            weekUrl: "../weeklog/week-2025-10-20.html"
+          },
+          {
+            order: 5,
+            startDate: "2025-10-27",
+            endDate: "2025-11-02",
+            distanceKm: "",
+            sessions: "",
+            avgEffort: "",
+            weekUrl: "../weeklog/week-2025-10-27.html"
+          },
+          {
+            order: 6,
+            startDate: "2025-11-03",
+            endDate: "2025-11-09",
+            distanceKm: "",
+            sessions: "",
+            avgEffort: "Race week · Alès 10K",
+            weekUrl: "../weeklog/week-2025-11-03.html"
+          }
+        ]
+      },
+      {
+        id: 2,
+        name: "Cycle 2 · Barcelona HM",
+        startDate: "2025-11-10",
+        endDate: "2026-02-15",
+        lengthWeeks: 14,
+        finalEvent: "Barcelona Half Marathon",
+        target: "HM @ 4:16/km",
+        cyclePage: "./cycles/cycle-2.html",
+        weeks: [
+          {
+            order: 1,
+            startDate: "2025-11-10",
+            endDate: "2025-11-16",
+            distanceKm: "",
+            sessions: "",
+            avgEffort: "",
+            weekUrl: "../weeklog/week-2025-11-10.html"
+          },
+          {
+            order: 2,
+            startDate: "2025-11-17",
+            endDate: "2025-11-23",
+            distanceKm: "",
+            sessions: "",
+            avgEffort: "",
+            weekUrl: "../weeklog/week-2025-11-17.html"
+          }
+          // 之后可以在这里继续补充后续周：order 3, 4, ..., 直到 Barcelona 半马比赛周
+        ]
+      },
+      {
+        id: 3,
+        name: "Cycle 3 · Montauban Marathon",
+        startDate: "2026-02-23",
+        endDate: "2026-03-29",
+        lengthWeeks: 5,
+        finalEvent: "Marathon de Montauban",
+        target: "&lt; 3:08 for FRA Champs qualification",
+        cyclePage: "./cycles/cycle-3.html",
+        weeks: [
+          // 之后可以在这里补充 Cycle 3 的周计划
+        ]
+      },
+      {
+        id: 4,
+        name: "Cycle 4 · France Championship",
+        startDate: "2026-04-06",
+        endDate: "2026-05-03",
+        lengthWeeks: 4,
+        finalEvent: "Championnats de France de Marathon (Ambès)",
+        target: "Race & gain experience",
+        cyclePage: "./cycles/cycle-4.html",
+        weeks: [
+          // 之后可以在这里补充 Cycle 4 的周计划
+        ]
+      },
+      {
+        id: 5,
+        name: "Cycle 5 · Summer Block",
+        startDate: "2026-05-04",
+        endDate: "2026-08-30",
+        lengthWeeks: 17,
+        finalEvent: "Berlin Marathon prep",
+        target: "Build Sub-3 engine",
+        cyclePage: "./cycles/cycle-5.html",
+        weeks: [
+          // 之后可以在这里补充夏训的周计划（如果需要覆盖默认生成）
+        ]
+      },
+      {
+        id: 6,
+        name: "Final Cycle · Berlin Marathon 2026",
+        startDate: "2026-08-31",
+        endDate: "2026-09-21",
+        lengthWeeks: 4,
+        finalEvent: "Berlin Marathon 2026",
+        target: "Sub-3 hours",
+        cyclePage: "./cycles/final.html",
+        weeks: [
+          // Berlin Marathon final sharpening & race week
+        ]
+      }
+    ];
+
+    function buildCycleWeeks(cycle) {
+      const overrides = cycle.weeks || [];
+      const overrideByStart = {};
+      overrides.forEach(w => {
+        if (w.startDate) {
+          overrideByStart[w.startDate] = w;
+        }
+      });
+
+      const fullWeeks = [];
+      let current = parseLocalDate(cycle.startDate);
+      const end = parseLocalDate(cycle.endDate);
+      let order = 1;
+
+      while (current <= end) {
+        const startStr = formatDate(current);
+        const weekEnd = new Date(current);
+        weekEnd.setDate(weekEnd.getDate() + 6);
+        const endStr = formatDate(weekEnd);
+
+        const baseWeek = {
+          order,
+          startDate: startStr,
+          endDate: endStr,
+          distanceKm: "",
+          sessions: "",
+          avgEffort: "",
+          weekUrl: `../weeklog/week-${startStr}.html`
+        };
+
+        const overrideWeek = overrideByStart[startStr] || {};
+        fullWeeks.push(Object.assign({}, baseWeek, overrideWeek));
+
+        current.setDate(current.getDate() + 7);
+        order += 1;
+      }
+
+      return fullWeeks;
+    }
+
+    const today = new Date();
+
+    function getCurrentCycleIndex() {
+      // 优先找 today 在范围内的 cycle
+      for (let i = 0; i < cyclesData.length; i++) {
+        if (isTodayInRange(today, cyclesData[i].startDate, cyclesData[i].endDate)) {
+          return i;
+        }
+      }
+      // 如果找不到，使用最接近的（在最早之前 → 第一个；在最晚之后 → 最后一个）
+      const first = cyclesData[0];
+      const last = cyclesData[cyclesData.length - 1];
+      const firstStart = parseLocalDate(first.startDate);
+      const lastEnd = parseLocalDate(last.endDate);
+      if (today < firstStart) return 0;
+      if (today > lastEnd) return cyclesData.length - 1;
+      // 中间空档，找 startDate 离 today 最近的
+      let closestIndex = 0;
+      let minDiff = Infinity;
+      cyclesData.forEach((c, idx) => {
+        const start = parseLocalDate(c.startDate);
+        const diff = Math.abs(today - start);
+        if (diff < minDiff) {
+          minDiff = diff;
+          closestIndex = idx;
+        }
+      });
+      return closestIndex;
+    }
+
+    function getCurrentWeekOrderInCycle(cycle) {
+      const weeks = buildCycleWeeks(cycle);
+      for (const w of weeks) {
+        if (isTodayInRange(today, w.startDate, w.endDate)) {
+          return w.order;
+        }
+      }
+      return null;
+    }
+
+    function createWeeksTable(cycle, currentWeekOrder) {
+      const weeks = buildCycleWeeks(cycle);
+      if (!weeks.length) {
+        return `<p class="small-note">No week details yet for this cycle.</p>`;
+      }
+
+      const rows = weeks.map(week => {
+        const dr = formatDateRange(week.startDate, week.endDate);
+        const isCurrent = currentWeekOrder != null && week.order === currentWeekOrder;
+        const trClass = isCurrent ? ' class="current-week-row"' : "";
+        const distance = (week.distanceKm !== "" && week.distanceKm != null)
+          ? `${week.distanceKm} km`
+          : "";
+        const sessions = week.sessions || "";
+        const avgEffort = week.avgEffort || "";
+
+        const startObj = parseLocalDate(week.startDate);
+        const isPastOrCurrent = today >= startObj;
+
+        let dateCell;
+        if (week.weekUrl && isPastOrCurrent) {
+          dateCell = `<a href="${week.weekUrl}">${dr}</a>`;
+        } else if (week.weekUrl) {
+          dateCell = `<span class="disabled-link">${dr}</span>`;
+        } else {
+          dateCell = dr;
+        }
+
+        return `
+          <tr${trClass} data-week-start="${week.startDate}" data-cycle-id="${cycle.id}">
+            <td>${week.order}</td>
+            <td>${dateCell}</td>
+            <td>${distance}</td>
+            <td>${sessions}</td>
+            <td>${avgEffort}</td>
+          </tr>
+        `;
+      }).join("");
+
+      return `
+        <table class="nested-weeks-table">
+          <thead>
+            <tr>
+              <th>Week #</th>
+              <th>Date range</th>
+              <th>Distance</th>
+              <th>Sessions</th>
+              <th>Avg effort</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows}
+          </tbody>
+        </table>
+      `;
+    }
+
+    function populateWeeksTable(detailRow, cycle) {
+      const weeks = buildCycleWeeks(cycle);
+      const tbody = detailRow.querySelector(".nested-weeks-table tbody");
+      if (!tbody) return;
+
+      weeks.forEach(week => {
+        const row = tbody.querySelector(`tr[data-week-start="${week.startDate}"]`);
+        if (!row) return;
+
+        const cells = row.querySelectorAll("td");
+        if (cells.length < 5) return;
+
+        const distanceCell = cells[2];
+        const sessionsCell = cells[3];
+        const effortCell = cells[4];
+
+        const jsonPath = `../data/week-${week.startDate}.json`;
+
+        fetch(jsonPath)
+          .then(resp => {
+            if (!resp.ok) {
+              throw new Error("No data");
+            }
+            return resp.json();
+          })
+          .then(data => {
+            if (typeof data.total_distance_km === "number") {
+              distanceCell.textContent = data.total_distance_km.toFixed(2) + " km";
+            }
+            if (typeof data.activity_count === "number") {
+              sessionsCell.textContent = data.activity_count;
+            }
+            if (typeof data.avg_suffer_score === "number") {
+              effortCell.textContent = data.avg_suffer_score.toFixed(1);
+            }
+          })
+          .catch(() => {
+            // No JSON for this week: leave cells empty
+          });
+      });
+    }
+
+    function renderCyclesTable(currentCycleIndex, currentWeekOrderByCycleId) {
+      const tbody = document.querySelector("#cycles-table tbody");
+      tbody.innerHTML = "";
+
+      cyclesData.forEach((cycle, idx) => {
+        const tr = document.createElement("tr");
+        tr.classList.add("cycle-row");
+        if (idx === currentCycleIndex) {
+          tr.classList.add("current-cycle-row");
+        }
+        tr.dataset.cycleId = cycle.id;
+
+        tr.innerHTML = `
+          <td>
+            <a href="${cycle.cyclePage}" class="cycle-link">${cycle.name}</a>
+          </td>
+          <td>${formatDateRange(cycle.startDate, cycle.endDate)}</td>
+          <td>${cycle.lengthWeeks}</td>
+          <td>${cycle.finalEvent}</td>
+          <td>${cycle.target}</td>
+        `;
+
+        tbody.appendChild(tr);
+      });
+
+      // 展开/折叠逻辑 + 在展开的二级表格中高亮当前周
+      tbody.addEventListener("click", (event) => {
+        const row = event.target.closest("tr.cycle-row");
+        if (!row) return;
+
+        const cycleId = row.dataset.cycleId;
+        const existingDetailRow = row.nextElementSibling;
+        const isOpen = existingDetailRow && existingDetailRow.classList.contains("cycle-weeks-row");
+
+        // 如果已经展开则折叠
+        if (isOpen) {
+          existingDetailRow.remove();
+          row.classList.remove("expanded");
+          return;
+        }
+
+        // 关闭其他已展开的行
+        const allDetailRows = tbody.querySelectorAll(".cycle-weeks-row");
+        allDetailRows.forEach(r => r.previousElementSibling?.classList.remove("expanded"));
+        allDetailRows.forEach(r => r.remove());
+
+        const cycle = cyclesData.find(c => String(c.id) === String(cycleId));
+        const detailRow = document.createElement("tr");
+        detailRow.classList.add("cycle-weeks-row");
+
+        const currentWeekOrder = currentWeekOrderByCycleId[cycle.id] ?? null;
+
+        detailRow.innerHTML = `
+          <td colspan="5">
+            <div class="cycle-weeks-wrapper">
+              <h3>Weeks in ${cycle.name}</h3>
+              ${createWeeksTable(cycle, currentWeekOrder)}
+            </div>
+          </td>
+        `;
+
+        row.insertAdjacentElement("afterend", detailRow);
+        row.classList.add("expanded");
+
+        // After the nested table is rendered, populate distance/sessions/effort
+        populateWeeksTable(detailRow, cycle);
+      });
+    }
+
+    function updateCurrentWeekCard(currentCycleIndex, currentWeekOrderByCycleId) {
+      const card = document.getElementById("current-week-section");
+      const meta = document.getElementById("current-week-meta");
+      const dates = document.getElementById("current-week-dates");
+      const focus = document.getElementById("current-week-focus");
+      const link = document.getElementById("current-week-link");
+
+      if (currentCycleIndex < 0 || currentCycleIndex >= cyclesData.length) {
+        card.style.display = "none";
+        return;
+      }
+
+      const cycle = cyclesData[currentCycleIndex];
+      const cycleRangeLabel = formatDateRange(cycle.startDate, cycle.endDate);
+      const currentWeekOrder = currentWeekOrderByCycleId[cycle.id] ?? null;
+      const weeks = buildCycleWeeks(cycle);
+      let currentWeek = null;
+
+      if (currentWeekOrder != null) {
+        currentWeek = weeks.find(w => w.order === currentWeekOrder) || null;
+      }
+
+      if (currentWeek) {
+        const weekRange = formatDateRange(currentWeek.startDate, currentWeek.endDate);
+        meta.textContent = `${cycle.name} · Week ${currentWeek.order}`;
+        dates.textContent = `Date: ${weekRange}`;
+        focus.textContent = cycle.target ? `Target: ${cycle.target}` : "";
+
+        if (currentWeek.weekUrl) {
+          link.innerHTML = `Week log: <a href="${currentWeek.weekUrl}">${currentWeek.weekUrl}</a>`;
+        } else {
+          link.innerHTML = "";
+        }
+      } else {
+        // 没有当前周（比如未来还没细化周计划），就用整个 Cycle 信息填卡片
+        meta.textContent = cycle.name;
+        dates.textContent = `Cycle range: ${cycleRangeLabel}`;
+        focus.textContent = cycle.target ? `Target: ${cycle.target}` : "";
+        if (cycle.cyclePage) {
+          link.innerHTML = `Cycle page: <a href="${cycle.cyclePage}">${cycle.cyclePage}</a>`;
+        } else {
+          link.innerHTML = "";
+        }
+      }
+
+      card.style.display = "block";
+    }
+
+    (function init() {
+      const currentCycleIndex = getCurrentCycleIndex();
+      const currentWeekOrderByCycleId = {};
+
+      cyclesData.forEach(cycle => {
+        currentWeekOrderByCycleId[cycle.id] = getCurrentWeekOrderInCycle(cycle);
+      });
+
+      renderCyclesTable(currentCycleIndex, currentWeekOrderByCycleId);
+      updateCurrentWeekCard(currentCycleIndex, currentWeekOrderByCycleId);
+    })();
+  </script>
+</body>
+</html>

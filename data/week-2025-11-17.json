@@ -4,10 +4,10 @@
   "activity_types": [
     "Run"
   ],
-  "total_distance_km": 19.35,
-  "total_moving_time_min": 93.2,
-  "activity_count": 4,
-  "avg_suffer_score": 20.8,
+  "total_distance_km": 30.95,
+  "total_moving_time_min": 148.3,
+  "activity_count": 5,
+  "avg_suffer_score": 32.2,
   "activities": [
     {
       "id": 16508329136,
@@ -65,6 +65,21 @@
       "average_speed_m_s": 2.956,
       "average_heartrate": 132.1,
       "suffer_score": 9.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France"
+    },
+    {
+      "id": 16535345927,
+      "name": "Jog → progressive 7Km + 3Km@PM",
+      "description": "That's what happens when you'd jog a little to prepare for tommorow's long run, but you see another club training on the piste. That's not a jog any more... ",
+      "type": "Run",
+      "date": "2025-11-22",
+      "distance_km": 11.59,
+      "moving_time_min": 55.2,
+      "average_speed_m_s": 3.502,
+      "average_heartrate": 155.3,
+      "suffer_score": 78.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France"
