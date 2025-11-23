@@ -6,11 +6,11 @@ from datetime import date, timedelta
 ROOT = Path(__file__).resolve().parent
 
 # 模板文件（就是你现在在用的 Berlin 版 template）
-TEMPLATE_PATH = ROOT / "weeklog" / "week-template-berlin.html"
+TEMPLATE_PATH = ROOT / "weeklog" / "week-template-berlin-zh.html" # think about change output file format -zh.html: out_path = ROOT / "weeklog" / f"week-{week_str}-zh.html"
 
 # 需要生成的所有周一日期（闭区间：2025-09-29 ~ 2025-11-17）
 START = date(2025, 9, 29)
-END   = date(2025, 11, 17)
+END   = date(2025, 11, 24)
 
 
 def iter_mondays(start: date, end: date):
@@ -24,7 +24,7 @@ def iter_mondays(start: date, end: date):
 def generate_file_for_week(week_start: date):
   """根据模板生成某一周的 HTML 文件，并写入正确的 WEEK_START。"""
   week_str = week_start.isoformat()  # "YYYY-MM-DD"
-  out_path = ROOT / "weeklog" / f"week-{week_str}.html"
+  out_path = ROOT / "weeklog" / f"week-{week_str}-zh.html"
 
   if out_path.exists():
     print(f"[SKIP] {out_path.name} already exists.")
