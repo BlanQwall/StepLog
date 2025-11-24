@@ -5,9 +5,40 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 0.0,
-  "total_moving_time_min": 0.0,
-  "activity_count": 0,
-  "avg_suffer_score": null,
-  "activities": []
+  "total_distance_km": 4.47,
+  "total_moving_time_min": 36.5,
+  "activity_count": 2,
+  "avg_suffer_score": 3.0,
+  "activities": [
+    {
+      "id": 16555061751,
+      "name": "Evening Run",
+      "description": null,
+      "type": "Run",
+      "date": "2025-11-24",
+      "distance_km": 2.54,
+      "moving_time_min": 16.5,
+      "average_speed_m_s": 2.565,
+      "average_heartrate": 124.9,
+      "suffer_score": 3.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France"
+    },
+    {
+      "id": 16555067217,
+      "name": "Evening Run",
+      "description": null,
+      "type": "Run",
+      "date": "2025-11-24",
+      "distance_km": 1.93,
+      "moving_time_min": 20.0,
+      "average_speed_m_s": 1.613,
+      "average_heartrate": 122.3,
+      "suffer_score": 3.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France"
+    }
+  ]
 }
