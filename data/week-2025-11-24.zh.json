@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 33.29,
-  "total_moving_time_min": 175.5,
-  "activity_count": 7,
-  "avg_suffer_score": 19.1,
+  "total_distance_km": 46.08,
+  "total_moving_time_min": 243.5,
+  "activity_count": 8,
+  "avg_suffer_score": 20.4,
   "activities": [
     {
       "id": 16555061751,
@@ -111,6 +111,21 @@
       "average_speed_m_s": 3.429,
       "average_heartrate": 147.4,
       "suffer_score": 49.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国"
+    },
+    {
+      "id": 16578840956,
+      "name": "5x1k@SP5",
+      "description": "",
+      "type": "Run",
+      "date": "2025-11-27",
+      "distance_km": 12.78,
+      "moving_time_min": 68.0,
+      "average_speed_m_s": 3.134,
+      "average_heartrate": 136.1,
+      "suffer_score": 29.0,
       "city": "三麻雀村",
       "state": "奥克西塔尼大区",
       "country": "法国"
