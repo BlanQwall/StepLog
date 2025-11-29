@@ -1,5 +1,10 @@
-# **StepLog · Berlin 2026 — README**
+# **StepLog · Berlin 2026 **
 
+## URL to pages: 
+[https://blanqwall.github.io/StepLog/index.html](https://blanqwall.github.io/StepLog/index.html)
+
+![Berlin-2026 Logo](berlin-2026/assets/Berlin_2026_logo_200px.png)
+![Berlin-2026-zh Logo](berlin-2026/assets/Berlin_2026_logo-zh_200px.png)
 ## 🏃‍♂️ Overview  
 **StepLog** is a data-driven, fully static training-log system designed to document the journey toward **Berlin Marathon 2026 · Sub-3**.  
 It combines GitHub Pages (frontend), Python automation (backend scripts), Strava integration, calendar parsing, bilingual pages, and dynamic week rendering.
@@ -9,6 +14,7 @@ The philosophy of the project:
 > **Plan first. Learn from every week. Build Sub-3 with steady steps.**
 
 StepLog tracks all training cycles, weekly logs, historical data, Strava metrics, and event schedules from 2025 to September 2026.
+
 
 ---
 
