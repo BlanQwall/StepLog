@@ -279,6 +279,11 @@
       text-decoration: underline;
     }
 
+    .cycle-name-disabled {
+      color: #222;
+      font-weight: 600;
+    }
+
     .cycle-weeks-row td {
       background: #fafbff;
       padding-top: 0.75rem;
@@ -889,9 +894,14 @@
         }
         tr.dataset.cycleId = cycle.id;
 
+        const isFutureCycle = idx > currentCycleIndex;
+        const nameCellHtml = (!isFutureCycle && cycle.cyclePage)
+          ? `<a href="${cycle.cyclePage}" class="cycle-link">${cycle.name}</a>`
+          : `<span class="cycle-name-disabled">${cycle.name}</span>`;
+
         tr.innerHTML = `
           <td>
-            <a href="${cycle.cyclePage}" class="cycle-link">${cycle.name}</a>
+            ${nameCellHtml}
           </td>
           <td>${formatDateRange(cycle.startDate, cycle.endDate)}</td>
           <td>${cycle.lengthWeeks}</td>

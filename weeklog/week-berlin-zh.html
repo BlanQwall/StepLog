@@ -5,7 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>StepLog | Weekly Template (中文)</title>
   <!-- 注意：模板在 weeklog/ 目录里，所以要用 ../style.css -->
+</head>
   <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../berlin-2026/assets/season.css" />
+  <style>
+    .header-main {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .header-text {
+      flex: 1 1 auto;
+    }
+    .berlin-logo {
+      max-width: 240px;
+      height: auto;
+      opacity: 0.9;
+    }
+  </style>
 </head>
 <body>
   <!-- 顶部脚本：统一控制这一周的起始日期 & 标题 & 日期范围 & 每日日期 -->
@@ -215,10 +234,15 @@
   <!-- 当前周概览 -->
   <section class="section week-hero">
     <div class="container">
-      <h1 data-week-label>当周</h1>
-      <p class="section-subtitle">
-        一个以2026年柏林马拉松为目标的训练季
-      </p>
+      <div class="header-main">
+        <div class="header-text">
+          <h1 data-week-label>当周</h1>
+          <p class="section-subtitle">
+            一个以2026年柏林马拉松为目标的训练季
+          </p>
+        </div>
+        <img src="../berlin-2026/assets/Berlin_2026_logo-zh.png" alt="Berlin 2026 Logo" class="berlin-logo" />
+      </div>
 
       <div class="week-meta-row">
         <div class="meta-pill">

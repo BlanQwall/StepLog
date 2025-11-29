@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
   <meta charset="UTF-8" />
-  <title>Cycle 2 · Barcelona HM · StepLog</title>
+  <title>Cycle 2 · 巴塞罗那半程马拉松 · StepLog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="../assets/season.css" />
   <style>
@@ -53,31 +53,33 @@
 <body>
   <div class="header-main">
     <div class="header-text">
-      <a href="../index.html" class="back-link">← Back to Season Plan</a>
-      <h1>Cycle 2 · Barcelona Half Marathon</h1>
+      <a href="../index.html" class="back-link">← 返回赛季总览</a>
+      <h1>Cycle 2 · 巴塞罗那半程马拉松</h1>
       <p class="subtitle">
-        2025-11-10 → 2026-02-15 · Final event: Barcelona Half Marathon · Target: Half Marathon @ 4:16/km
+        2025-11-10 → 2026-02-15 · 终点赛事：巴塞罗那半程马拉松 · 目标：半程马拉松 配速4:16分钟/公里
       </p>
     </div>
-    <img src="../assets/Berlin_2026_logo.png" alt="Berlin 2026 Logo" class="berlin-logo" />
+    <img src="../assets/Berlin_2026_logo-zh.png" alt="Berlin 2026 Logo" class="berlin-logo" />
   </div>
 
   <section>
-    <h2>1. Purpose of this Cycle</h2>
-    <p>Build the speed endurance needed for a sub-3 marathon by targeting a strong HM performance at 4:16/km.</p>
+    <h2>1. 背景与目标</h2>
+    <p>
+      Cycle 2 的目标，是通过半程马拉松配速 4:16分钟/公里 的训练与比赛表现，建立支撑马拉松 Sub-3 所需要的速度耐力基础。
+    </p>
   </section>
 
   <section>
-    <h2>2. Weeks in this Cycle</h2>
+    <h2>2. 本周期训练周概览</h2>
     <div class="weeks-table-wrap">
       <table class="weeks-table">
         <thead>
           <tr>
-            <th>Week #</th>
-            <th>Date range</th>
-            <th>Distance</th>
-            <th>Sessions</th>
-            <th>Avg effort</th>
+            <th>周次</th>
+            <th>日期范围</th>
+            <th>距离</th>
+            <th>训练次数</th>
+            <th>平均主观强度</th>
           </tr>
         </thead>
         <tbody id="weeks-body">
@@ -88,13 +90,13 @@
   </section>
 
   <section>
-    <h2>3. Progress</h2>
-    <p>To be updated.</p>
+    <h2>3. 训练进展</h2>
+    <p>待更新。</p>
   </section>
 
   <section>
-    <h2>4. Post-cycle Review</h2>
-    <p>To be updated.</p>
+    <h2>4. 周期总结</h2>
+    <p>待更新。</p>
   </section>
 
   <script>
@@ -131,7 +133,7 @@
           order: order,
           startDate: startStr,
           endDate: endStr,
-          weekUrl: "../../weeklog/week-berlin.html?week=" + startStr
+          weekUrl: "../../weeklog/week-berlin-zh.html?week=" + startStr
         });
 
         current.setDate(current.getDate() + 7);
@@ -204,7 +206,7 @@
         const effortCell = cells[4];
 
         // cycle-2.html is in berlin-2026/cycles/, data is in ../../data/
-        const jsonPath = "../../data/week-" + week.startDate + ".json";
+        const jsonPath = "../../data/week-" + week.startDate + ".zh.json";
 
         fetch(jsonPath)
           .then(function (resp) {
@@ -215,7 +217,7 @@
           })
           .then(function (data) {
             if (typeof data.total_distance_km === "number") {
-              distanceCell.textContent = data.total_distance_km.toFixed(2) + " km";
+              distanceCell.textContent = data.total_distance_km.toFixed(1) + " 公里";
             }
             if (typeof data.activity_count === "number") {
               sessionsCell.textContent = data.activity_count;
