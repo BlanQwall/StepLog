@@ -430,7 +430,7 @@
     </nav>
     <div class="header-main">
       <div class="header-text">
-        <h1>赛季计划 · <span class="berlin-brand">Berlin 2026</span></h1>
+        <h1>赛季计划 · <span class="berlin-brand">柏林2026</span></h1>
         <p class="subtitle">
           <b>”柏林2026“</b> 赛季是我为
           <a href="https://www.bmw-berlin-marathon.com/en/" target="_blank" rel="noopener">2026柏林马拉松</a>
@@ -1087,57 +1087,64 @@
     })();
 
     function buildSeasonChart() {
-      const canvas = document.getElementById("season-weeks-chart");
-      if (!canvas) return;
+  const canvas = document.getElementById("season-weeks-chart");
+  if (!canvas) return;
 
-      const allWeeks = [];
-      const cycleBoundaries = [];
-      let runningIndex = 0;
+  const allWeeks = [];
+  const cycleBoundaries = [];
+  let runningIndex = 0;
 
-      cyclesData.forEach(cycle => {
-        const weeks = buildCycleWeeks(cycle);
-        weeks.forEach(w => {
-          allWeeks.push({ ...w, cycleId: cycle.id });
-        });
-        runningIndex += weeks.length;
-        cycleBoundaries.push(runningIndex);
+  cyclesData.forEach(cycle => {
+    const weeks = buildCycleWeeks(cycle);
+    weeks.forEach(w => {
+      allWeeks.push({ ...w, cycleId: cycle.id });
+    });
+    runningIndex += weeks.length;
+    cycleBoundaries.push(runningIndex);
+  });
+
+  const n = allWeeks.length;
+  if (n === 0) return;
+
+  // 关键：预先按长度建好数组，用下标写入
+  const labels = new Array(n);
+  const distances = new Array(n).fill(null);
+  const sessions = new Array(n).fill(null);
+  const efforts = new Array(n).fill(null);
+
+  let remaining = n;
+
+  allWeeks.forEach((w, idx) => {
+    labels[idx] = String(w.order ?? "");  // label 也固定放在 idx 位置
+
+    const jsonPath = `../data/week-${w.startDate}.zh.json`;
+
+    fetch(jsonPath)
+      .then(resp => (resp.ok ? resp.json() : null))
+      .then(data => {
+        if (data) {
+          if (typeof data.total_distance_km === "number") {
+            distances[idx] = data.total_distance_km;
+          }
+          if (typeof data.activity_count === "number") {
+            sessions[idx] = data.activity_count;
+          }
+          if (typeof data.avg_suffer_score === "number") {
+            efforts[idx] = data.avg_suffer_score;
+          }
+        }
+      })
+      .catch(() => {
+        // 出错就保持 null，不再 push
+      })
+      .finally(() => {
+        remaining--;
+        if (remaining === 0) {
+          drawSeasonChart(canvas, labels, distances, sessions, efforts, cycleBoundaries);
+        }
       });
-
-      const labels = [];
-      const distances = [];
-      const sessions = [];
-      const efforts = [];
-      let remaining = allWeeks.length;
-
-      if (remaining === 0) {
-        return;
-      }
-
-      allWeeks.forEach(w => {
-        const jsonPath = `../data/week-${w.startDate}.zh.json`;
-
-        fetch(jsonPath)
-          .then(resp => (resp.ok ? resp.json() : null))
-          .then(data => {
-            // label by week number within cycle, like nested table first column
-            labels.push(String(w.order ?? ""));
-            distances.push(data?.total_distance_km ?? null);
-            sessions.push(data?.activity_count ?? null);
-            efforts.push(data?.avg_suffer_score ?? null);
-          })
-          .catch(() => {
-            distances.push(null);
-            sessions.push(null);
-            efforts.push(null);
-          })
-          .finally(() => {
-            remaining--;
-            if (remaining === 0) {
-              drawSeasonChart(canvas, labels, distances, sessions, efforts, cycleBoundaries);
-            }
-          });
-      });
-    }
+  });
+}
 
 function drawSeasonChart(canvas, labels, distances, sessions, efforts, cycleBoundaries) {
   const ctx = canvas.getContext("2d");
