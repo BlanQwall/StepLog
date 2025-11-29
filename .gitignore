@@ -48,3 +48,6 @@ node_modules/
 # because GitHub Pages hosts them directly.
 # ----------------------------------------
 # (INTENTIONALLY LEAVE EMPTY)
+
+# archive is collection of obsolete files.
+archive/

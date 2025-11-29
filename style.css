@@ -228,15 +228,14 @@ body {
 
 /* 页脚 */
 .site-footer {
-  padding: 1.5rem 0 2rem;
+  margin: 0.1rem 0;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
 }
 
 .footer-sub {
-  margin-top: 0.15rem;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
 /* 响应式 */

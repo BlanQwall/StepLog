@@ -1,262 +1,180 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<script>
-  // 自动计算当前周周一（UTC 方式）并生成页面路径
-  const today = new Date();
-  const day = today.getUTCDay(); // 0=Sun
-  const diffToMonday = (day + 6) % 7; // Monday=0
-  const monday = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate() - diffToMonday));
-  const y = monday.getUTCFullYear();
-  const m = String(monday.getUTCMonth() + 1).padStart(2, "0");
-  const d = String(monday.getUTCDate()).padStart(2, "0");
-  const CURRENT_WEEK_PAGE = `weeklog/week-${y}-${m}-${d}.html`;
-
-  // 自动把所有 data-current-week 链接指向最新周
-  document.addEventListener("DOMContentLoaded", () => {
-    const links = document.querySelectorAll("[data-current-week]");
-    links.forEach(link => {
-      link.setAttribute("href", CURRENT_WEEK_PAGE);
-    });
-  });
-</script>
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>StepLog | Running Journey</title>
+  <meta charset="utf-8">
+  <title>StepLog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .lang-switch button {
+      border: 1px solid #ccc;
+      border-radius: 999px;
+      padding: 0.25rem 0.75rem;
+      cursor: pointer;
+      background: transparent;
+      font-size: 0.9rem;
+    }
+    .lang-switch button.active {
+      border-color: #333;
+      font-weight: 600;
+    }
+    .hero-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2.5rem;
+      text-align: center;
+    }
+
+    .hero-center-logo {
+      margin-top: 1.8rem;
+      margin-bottom: 2.2rem;
+    }
+
+    .hero-center-logo img {
+      height: auto;
+      display: block;
+    }
+
+    .hero-center-title {
+      font-size: 1.4rem;
+      margin: 0.4rem 0 0;
+    }
+  </style>
 </head>
 <body>
-  <!-- 顶部导航 -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="logo">StepLog</div>
-        <nav class="nav">
-        <a href="#about">About</a>
-        <a data-current-week>Current Week</a>
-        <a href="#log">Training Log</a>
-        </nav>
+  <header>
+    <h1>StepLog</h1>
+    <div class="lang-switch">
+      <button type="button" data-lang-switch="zh">中文</button>
+      <button type="button" data-lang-switch="en">English</button>
     </div>
   </header>
 
-  <!-- Hero 区：项目简介 -->
-  <section class="hero">
-  <div class="container hero-inner">
-    <div class="hero-text">
-      <h1>StepLog</h1>
-      <p class="hero-subtitle">
-        Your running timeline — one week at a time.
-      </p>
-      <p class="hero-subtitle hero-subtitle-cn">
-        跑步旅程的周度记录系统：每周制定计划、完成训练，再复盘总结。
-      </p>
-
-      <!-- 当前周入口 -->
-        <a class="hero-button" data-current-week>
-        → Go to Current Week
-        </a>
-
+  <!-- 中文内容（默认隐藏，防止无 JS 时双语一起显示） -->
+  <main data-lang="zh" style="display:none">
+    <div class="hero-center">
+      <h2 class="hero-center-title">正在进行的计划</h2>
+      <a class="hero-center-logo" href="berlin-2026/index-zh.html">
+        <img src="berlin-2026/assets/berlin_2026_logo-zh_200px.png" alt="Berlin 2026 当前项目" />
+      </a>
     </div>
-  </div>
-  </section>
-
-
-  <!-- About 区 -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2>About StepLog</h2>
-      <p>
-        StepLog is a personal running log built on GitHub Pages. It collects
-        training data, notes, and race results from different platforms
-        (Garmin, Strava, etc.) into one simple place.
-      </p>
-      <p>
-        At first, this site will host manual notes and summaries. Later, it may
-        connect to external APIs to visualize training calendars and stats.
-      </p>
-      <hr class="section-divider" />
-      <p class="section-note">
-        StepLog 是一个个人跑步记录小项目，现在主要手动记录训练内容和一些总结。
-        之后会尝试通过 API 自动获取 Garmin / Strava 的数据，生成周历和统计图表。
-      </p>
+    <div style="margin-top: 2rem; margin-bottom: 2rem;">
+      <hr style="border: none; border-top: 1px solid #ddd; max-width: 280px;">
     </div>
-  </section>
-
-  <!-- This Week（预留 Garmin 区） -->
-    <section class="section section-alt">
-      <div class="container">
-        <h2>Current month – training calendar</h2>
-        <p class="section-subtitle">
-          Garmin training plan via Outlook calendar, shown as a simple monthly view.
-        </p>
-
-        <div id="month-calendar"></div>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>StepLog · 计划在心，脚踏实地。</p>
+        <p class="footer-sub">想了解我是谁？看这里 © <a href="https://github.com/BlanQwall/">BAI Qiang</a> · StepLog项目托管于 <a href="https://github.com/BlanQwall/StepLog">GitHub 仓库</a></p>
       </div>
-    </section>
+    </footer>
+  </main>
 
-  <!-- Training Log 概览（以后可以做列表/图表） -->
-  <section id="log" class="section">
-    <div class="container">
-      <h2>Training Log</h2>
-      <p class="section-subtitle">
-        A quick overview of recent
-        weeks' training summaries and notes.
-      </p>
+  <!-- English content（默认显示） -->
+  <main data-lang="en">
+    <div class="hero-center">
+      <h2 class="hero-center-title">Current project</h2>
+      <a class="hero-center-logo" href="berlin-2026/index.html">
+        <img src="berlin-2026/assets/berlin_2026_logo_200px.png" alt="Berlin 2026 current project" />
+      </a>
     </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>StepLog · Record every step toward the next goal</p>
-      <p class="footer-sub">A <a href="https://github.com/BlanQwall/StepLog">GitHub Repertory</a> of © <a href="https://github.com/BlanQwall/">BAI Qiang</a> </p>
+    <div style="margin-top: 2rem; margin-bottom: 2rem;">
+      <hr style="border: none; border-top: 1px solid #ddd; max-width: 280px;">
     </div>
-  </footer>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>StepLog · Record every step toward the next goal</p>
+        <p class="footer-sub">A <a href="https://github.com/BlanQwall/StepLog">GitHub Repertory</a> of © <a href="https://github.com/BlanQwall/">BAI Qiang</a> </p>
+      </div>
+    </footer>
+  </main>
 
   <script>
-  const CALENDAR_JSON_URL = "data/calendar-events.json";
+    (function () {
+      const STORAGE_KEY = "steplog-lang";
 
-  function getCurrentMonthInfo() {
-    const today = new Date();
-    const year = today.getFullYear();
-    const month = today.getMonth(); // 0 = Jan
-    const firstDay = new Date(year, month, 1);
-    const lastDay = new Date(year, month + 1, 0);
-    return { year, month, firstDay, lastDay, today };
-  }
+      function detectPreferredLang() {
+        // 1. 如果有用户保存的选择，优先用它
+        try {
+          const stored = localStorage.getItem(STORAGE_KEY);
+          if (stored === "zh" || stored === "en") {
+            return stored;
+          }
+        } catch (e) {
+          // localStorage 不可用时忽略
+        }
 
-  function formatDateYMD(d) {
-    const y = d.getFullYear();
-    const m = String(d.getMonth() + 1).padStart(2, "0");
-    const day = String(d.getDate()).padStart(2, "0");
-    return `${y}-${m}-${day}`;
-  }
+        // 2. 否则根据浏览器语言自动判断
+        const candidates = navigator.languages && navigator.languages.length
+          ? navigator.languages
+          : [navigator.language || navigator.userLanguage || "en"];
 
-  function renderMonthlyCalendar(events) {
-    const container = document.getElementById("month-calendar");
-    if (!container) return;
-
-    const { year, month, firstDay, lastDay, today } = getCurrentMonthInfo();
-
-    // group events by date: { "YYYY-MM-DD": [ {summary, ...}, ... ] }
-    const eventsByDate = {};
-    events.forEach(ev => {
-      if (!eventsByDate[ev.date]) {
-        eventsByDate[ev.date] = [];
-      }
-      eventsByDate[ev.date].push(ev);
-    });
-
-    const header = document.createElement("div");
-    header.className = "month-cal-header";
-
-    const title = document.createElement("div");
-    title.className = "month-cal-title";
-
-    const monthNames = [
-      "Jan","Feb","Mar","Apr","May","Jun",
-      "Jul","Aug","Sep","Oct","Nov","Dec"
-    ];
-    title.textContent = `${monthNames[month]} ${year}`;
-
-    const legend = document.createElement("div");
-    legend.style.fontSize = "0.7rem";
-    legend.style.color = "var(--text-muted)";
-    legend.textContent = "Blue cells = days with planned sessions";
-
-    header.appendChild(title);
-    header.appendChild(legend);
-
-    const grid = document.createElement("div");
-    grid.className = "month-cal-grid";
-
-    // weekday header (Mon–Sun)
-    ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].forEach(wd => {
-      const cell = document.createElement("div");
-      cell.style.textAlign = "center";
-      cell.style.fontSize = "0.7rem";
-      cell.style.color = "var(--text-muted)";
-      cell.style.fontWeight = "600";
-      cell.textContent = wd;
-      grid.appendChild(cell);
-    });
-
-    // offset: first day of month (convert to Mon-first)
-    let offset = firstDay.getDay(); // 0=Sun
-    offset = (offset + 6) % 7;      // Mon=0, Sun=6
-    for (let i = 0; i < offset; i++) {
-      const empty = document.createElement("div");
-      grid.appendChild(empty);
-    }
-
-    // fill days
-    for (let day = 1; day <= lastDay.getDate(); day++) {
-      const d = new Date(year, month, day);
-      const dateStr = formatDateYMD(d);
-      const wdIndex = d.getDay();
-      const wdShort = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"][wdIndex];
-
-      const cell = document.createElement("div");
-      cell.className = "month-cal-cell";
-
-      const headerRow = document.createElement("div");
-      headerRow.className = "month-cal-cell-header";
-
-      const numSpan = document.createElement("span");
-      numSpan.className = "month-cal-daynum";
-      numSpan.textContent = day;
-
-      const wdSpan = document.createElement("span");
-      wdSpan.className = "month-cal-weekday";
-      wdSpan.textContent = wdShort;
-
-      headerRow.appendChild(numSpan);
-      headerRow.appendChild(wdSpan);
-
-      cell.appendChild(headerRow);
-
-      const evBox = document.createElement("div");
-      evBox.className = "month-cal-events";
-
-      const todayStr = formatDateYMD(today);
-      if (dateStr === todayStr) {
-        cell.classList.add("today");
-      }
-
-      const evs = eventsByDate[dateStr];
-      if (evs && evs.length > 0) {
-        cell.classList.add("has-events");
-        evs.forEach(ev => {
-          const line = document.createElement("div");
-          line.textContent = "• " + ev.summary;
-          evBox.appendChild(line);
+        const hasZh = candidates.some(function (lang) {
+          if (!lang) return false;
+          return lang.toLowerCase().startsWith("zh");
         });
+
+        return hasZh ? "zh" : "en";
       }
 
-      cell.appendChild(evBox);
-      grid.appendChild(cell);
-    }
+      function applyLang(lang) {
+        // 设置 <html lang="...">，对 SEO 和辅助功能更友好
+        document.documentElement.lang = (lang === "zh") ? "zh-Hans" : "en";
 
-    container.innerHTML = "";
-    container.appendChild(header);
-    container.appendChild(grid);
-  }
+        // 切换内容区域显示
+        document.querySelectorAll("[data-lang]").forEach(function (el) {
+          if (el.getAttribute("data-lang") === lang) {
+            el.style.display = "";
+          } else {
+            el.style.display = "none";
+          }
+        });
 
-  async function loadCalendarEvents() {
-    try {
-      const res = await fetch(CALENDAR_JSON_URL);
-      if (!res.ok) {
-        console.error("Failed to load calendar events JSON:", res.status);
-        return;
+        // 更新按钮状态
+        document.querySelectorAll("[data-lang-switch]").forEach(function (btn) {
+          if (btn.getAttribute("data-lang-switch") === lang) {
+            btn.classList.add("active");
+          } else {
+            btn.classList.remove("active");
+          }
+        });
+
+        // 记住用户选择
+        try {
+          localStorage.setItem(STORAGE_KEY, lang);
+        } catch (e) {
+          // localStorage 不可用时忽略
+        }
       }
-      const events = await res.json();
-      renderMonthlyCalendar(events);
-    } catch (err) {
-      console.error("Error loading calendar events:", err);
-    }
-  }
 
-  document.addEventListener("DOMContentLoaded", loadCalendarEvents);
-</script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const lang = detectPreferredLang();
+        applyLang(lang);
 
+        // 绑定切换按钮
+        document.querySelectorAll("[data-lang-switch]").forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            const targetLang = btn.getAttribute("data-lang-switch");
+            applyLang(targetLang);
+          });
+        });
+      });
+    })();
+  </script>
 </body>
+</html>
