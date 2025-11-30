@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 58.34,
-  "total_moving_time_min": 308.6,
-  "activity_count": 10,
-  "avg_suffer_score": 21.7,
+  "total_distance_km": 77.37,
+  "total_moving_time_min": 392.1,
+  "activity_count": 11,
+  "avg_suffer_score": 35.8,
   "activities": [
     {
       "id": 16555061751,
@@ -156,6 +156,21 @@
       "average_speed_m_s": 2.564,
       "average_heartrate": 129.8,
       "suffer_score": 6.0,
+      "city": "Montpellier",
+      "state": "Occitanie",
+      "country": "France"
+    },
+    {
+      "id": 16607802812,
+      "name": "20Km de Montpellier",
+      "description": "Smooth",
+      "type": "Run",
+      "date": "2025-11-30",
+      "distance_km": 19.03,
+      "moving_time_min": 83.5,
+      "average_speed_m_s": 3.801,
+      "average_heartrate": 167.8,
+      "suffer_score": 177.0,
       "city": "Montpellier",
       "state": "Occitanie",
       "country": "France"
