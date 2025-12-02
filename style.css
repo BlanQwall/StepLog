@@ -425,15 +425,6 @@ body {
   color: var(--text-muted);
 }
 
-.week-final-note {
-  margin-top: 1.4rem;
-  padding: 0.9rem 0.95rem;
-  border-radius: var(--radius-lg);
-  border: 1px dashed var(--border);
-  background: #fafafa;
-  font-size: 0.9rem;
-}
-
 /* 小屏幕适配 */
 @media (max-width: 900px) {
   .week-planning-grid,
