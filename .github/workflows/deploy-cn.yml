@@ -30,6 +30,12 @@ jobs:
         run: |
           tcb login --apiKeyId ${{ secrets.TENCENT_SECRET_ID }} --apiKey ${{ secrets.TENCENT_SECRET_KEY }}
 
+      - name: Set CloudBase COS upload configs
+        run: |
+          echo "TCB_COS_RETRY=5" >> $GITHUB_ENV
+          echo "TCB_COS_TIMEOUT=300000" >> $GITHUB_ENV
+          echo "TCB_COS_CHUNK_SIZE=20971520" >> $GITHUB_ENV
+          
       - name: Deploy to CloudBase
         run: |
           tcb hosting deploy deploy-cn -e ${{ secrets.TENCENT_ENV_ID }}
