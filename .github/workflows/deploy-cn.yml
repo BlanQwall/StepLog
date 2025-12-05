@@ -12,23 +12,42 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 保持你原来的打包逻辑，生成干净的 deploy-cn 目录
       - name: Build deploy-cn folder
         run: |
           chmod +x build-cn.sh
           ./build-cn.sh
 
-      - name: Install COSCLI
+      # 安装 coscmd（Python 版 COS CLI）
+      - name: Install coscmd
         run: |
-          curl -fsSL https://coscli.cloud.tencent.com/install.sh | sh
-          ls -R $HOME/coscli  # 调试用，可看到 coscli 是否在这里
+          python -m pip install --upgrade pip
+          pip install coscmd
 
-      - name: Sync deploy-cn to COS
+      # 配置 coscmd
+      - name: Configure coscmd
         env:
           TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
         run: |
-          $HOME/coscli/coscli sync ./deploy-cn cos://steplog-cn-1390433657/ \
-            --region ap-hongkong \
-            --secret-id "$TENCENT_SECRET_ID" \
-            --secret-key "$TENCENT_SECRET_KEY" \
-            --delete --force
+          # appid 就是桶名里的那串数字 1390433657
+          coscmd config \
+            -a "$TENCENT_SECRET_ID" \
+            -s "$TENCENT_SECRET_KEY" \
+            -u 1390433657 \
+            -b steplog-cn-1390433657 \
+            -r ap-hongkong \
+            -m 30 \
+            -p 10
+
+      # 先清空桶里原有文件（可选，但可以保证和 deploy-cn 完全一致）
+      - name: Clear bucket root
+        run: |
+          # 如果桶里文件很多，这一步会稍微慢一点
+          coscmd delete -rf /
+
+      # 上传新的站点文件
+      - name: Upload deploy-cn to COS
+        run: |
+          # 本地 ./deploy-cn 同步到桶的根目录 /
+          coscmd upload -rs ./deploy-cn /
