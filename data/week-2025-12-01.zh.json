@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 34.62,
-  "total_moving_time_min": 182.3,
-  "activity_count": 6,
-  "avg_suffer_score": 16.3,
+  "total_distance_km": 61.82,
+  "total_moving_time_min": 316.9,
+  "activity_count": 7,
+  "avg_suffer_score": 36.1,
   "activities": [
     {
       "id": 16621355022,
@@ -99,6 +99,21 @@
       "city": null,
       "state": null,
       "country": null
+    },
+    {
+      "id": 16673571124,
+      "name": "晨跑",
+      "description": null,
+      "type": "Run",
+      "date": "2025-12-07",
+      "distance_km": 27.21,
+      "moving_time_min": 134.6,
+      "average_speed_m_s": 3.368,
+      "average_heartrate": 152.2,
+      "suffer_score": 155.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国"
     }
   ]
 }
