@@ -1,85 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>StepLog · Video Library</title>
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Reuse global styles from the project root -->
+  <link rel="stylesheet" href="../style.css" />
+
   <style>
+    /* Page-specific tweaks; try not to fight with global styles */
+
+    .video-page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem 3rem;
+    }
+
+    .video-header {
+      margin-bottom: 1.5rem;
+    }
+
+    .video-header h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .video-header p {
+      margin: 0.1rem 0;
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    .video-stats {
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .video-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      margin: 1.5rem 0 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .video-controls label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      cursor: pointer;
+    }
+
     .video-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       gap: 1.5rem;
-      margin-top: 2rem;
+      margin-top: 1.5rem;
     }
+
     .video-card {
-      border: 1px solid #eee;
+      border: 1px solid #e5e5e5;
       border-radius: 12px;
       padding: 1rem;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
     }
-    .video-card h3 {
-      margin: 0 0 0.5rem 0;
+
+    .video-title {
       font-size: 1rem;
+      font-weight: 600;
+      margin: 0;
     }
+
     .video-meta {
       font-size: 0.85rem;
       color: #777;
-      margin-bottom: 0.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
     }
-    .video-card iframe {
+
+    .video-type-tag {
+      padding: 0.1rem 0.45rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      border: 1px solid #ddd;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .video-iframe-wrapper {
+      position: relative;
       width: 100%;
-      aspect-ratio: 16 / 9;
-      border: none;
       border-radius: 8px;
+      overflow: hidden;
+      background: #000;
+      aspect-ratio: 16 / 9;
+      cursor: pointer;
+    }
+
+    .video-iframe-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* 播放按钮的三角形小图标 */
+    .video-play-overlay {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    /* 底部黑色圆角矩形 */
+    .video-play-overlay::before,
+    .video-play-overlay::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    /* 背景矩形 */
+    .video-play-overlay::before {
+      width: 68px;
+      height: 48px;
+      border-radius: 14px;
+      background: rgba(0, 0, 0, 0.6);
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    }
+
+    /* 白色三角形 */
+    .video-play-overlay::after {
+      border-style: solid;
+      border-width: 10px 0 10px 18px;
+      border-color: transparent transparent transparent #fff;
+    }
+
+
+    .video-description {
+      font-size: 0.85rem;
+      color: #555;
+      line-height: 1.4;
+      white-space: pre-wrap;
+    }
+
+    .video-description-toggle {
+      font-size: 0.8rem;
+      color: #0077cc;
+      cursor: pointer;
+      user-select: none;
+      margin-top: -0.25rem;
+    }
+
+    .video-empty-state {
+      margin-top: 2rem;
+      font-size: 0.95rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      .video-page {
+        padding: 1rem 0.75rem 2.5rem;
+      }
+
+      .video-header h1 {
+        font-size: 1.5rem;
+      }
     }
   </style>
 </head>
 <body>
-  <header class="site-header">
-    <!-- 复用你现有的导航 -->
-    <h1>StepLog · Video Library</h1>
-    <p>First-person running & race POV</p>
-  </header>
+  <!-- 如果你有全局导航，可以在这里 include（或以后再加） -->
 
-  <main class="container">
-    <section>
-      <h2>All Videos</h2>
-      <p class="subtitle">Playlist: training & race POV from <strong>StepLog</strong>.</p>
-      <div id="video-list" class="video-grid"></div>
+  <main class="video-page">
+    <header class="video-header">
+      <h1>StepLog · Video Library</h1>
+      <p>First-person running & race POV collection.</p>
+      <p>All videos are loaded from <code>data/videos/videos.json</code>.</p>
+      <div id="video-stats" class="video-stats">
+        Loading video stats…
+      </div>
+    </header>
+
+    <section class="video-controls">
+      <span>Filter:</span>
+      <label>
+        <input type="radio" name="video-filter" value="all" checked />
+        All
+      </label>
+      <label>
+        <input type="radio" name="video-filter" value="race" />
+        Race
+      </label>
+      <label>
+        <input type="radio" name="video-filter" value="training" />
+        Training
+      </label>
     </section>
+
+    <section id="video-grid" class="video-grid">
+      <!-- Cards injected by JavaScript -->
+    </section>
+
+    <div id="video-empty" class="video-empty-state" style="display:none;">
+      No videos match the current filter.
+    </div>
   </main>
 
   <script>
-    fetch('/data/videos.json')
-      .then(resp => resp.json())
-      .then(videos => {
-        const container = document.getElementById('video-list');
+    const VIDEO_JSON_URL = '../data/videos/videos.json';
 
-        // 按日期倒序（最近的在前面）
-        videos.sort((a, b) => b.publishedDate.localeCompare(a.publishedDate));
+    const videoGrid = document.getElementById('video-grid');
+    const videoStatsEl = document.getElementById('video-stats');
+    const videoEmptyEl = document.getElementById('video-empty');
+    const filterInputs = document.querySelectorAll('input[name="video-filter"]');
 
-        videos.forEach(v => {
-          const card = document.createElement('div');
-          card.className = 'video-card';
-          card.innerHTML = `
-            <h3>${v.title}</h3>
-            <div class="video-meta">
-              <span>${v.publishedDate}</span>
-              ${v.type ? ` · <span>${v.type}</span>` : ''}
-            </div>
-            <iframe
-              src="https://www.youtube.com/embed/${v.videoId}"
-              loading="lazy"
-              allowfullscreen>
-            </iframe>
-          `;
-          container.appendChild(card);
-        });
-      })
-      .catch(err => {
-        console.error('Failed to load videos.json', err);
-        const container = document.getElementById('video-list');
-        container.innerHTML = '<p>Failed to load videos.</p>';
+    let allVideos = [];
+
+    function humanizeType(type) {
+      if (!type) return 'Unknown';
+      const t = String(type).toLowerCase();
+      if (t === 'race') return 'Race';
+      if (t === 'training') return 'Training';
+      return type;
+    }
+
+    function renderStats(videos) {
+      const total = videos.length;
+      const race = videos.filter(v => (v.type || '').toLowerCase() === 'race').length;
+      const training = videos.filter(v => (v.type || '').toLowerCase() === 'training').length;
+
+      videoStatsEl.textContent =
+        `Total videos: ${total} · Race: ${race} · Training: ${training}`;
+    }
+
+    function createVideoCard(video) {
+      const card = document.createElement('article');
+      card.className = 'video-card';
+
+      const title = document.createElement('h2');
+      title.className = 'video-title';
+      title.textContent = video.title || '(Untitled video)';
+
+      const meta = document.createElement('div');
+      meta.className = 'video-meta';
+
+      if (video.publishedDate) {
+        const dateSpan = document.createElement('span');
+        dateSpan.textContent = video.publishedDate;
+        meta.appendChild(dateSpan);
+      }
+
+      const typeTag = document.createElement('span');
+      typeTag.className = 'video-type-tag';
+      typeTag.textContent = humanizeType(video.type || 'training');
+      meta.appendChild(typeTag);
+
+      const iframeWrapper = document.createElement('div');
+      iframeWrapper.className = 'video-iframe-wrapper';
+      iframeWrapper.dataset.videoId = video.videoId;
+
+      // 1) 先放一张高清缩略图
+      const thumb = document.createElement('img');
+      // 优先尝试 maxres；绝大多数情况下存在，如不存在 YouTube 会自动回退到默认图
+      thumb.src = `https://img.youtube.com/vi/${video.videoId}/maxresdefault.jpg`;
+      thumb.alt = video.title || 'Video thumbnail';
+
+      iframeWrapper.appendChild(thumb);
+
+      // 2) 播放按钮蒙层
+      const playOverlay = document.createElement('div');
+      playOverlay.className = 'video-play-overlay';
+      iframeWrapper.appendChild(playOverlay);
+
+      // 3) 点击后替换为真正的 iframe
+      iframeWrapper.addEventListener('click', () => {
+        const vid = iframeWrapper.dataset.videoId;
+        const iframe = document.createElement('iframe');
+        iframe.loading = 'lazy';
+        iframe.allowFullscreen = true;
+        // vq=hd1080 只是“请求高画质偏好”，实际还要看网络和视频本身
+        iframe.src = `https://www.youtube.com/embed/${vid}?autoplay=1&rel=0&vq=hd1080`;
+        iframe.title = video.title || 'YouTube video';
+
+        // 清空缩略图 & 播放按钮，塞入 iframe
+        iframeWrapper.innerHTML = '';
+        iframeWrapper.appendChild(iframe);
       });
+
+      card.appendChild(iframeWrapper);
+
+
+
+      const desc = (video.description || '').trim();
+      if (desc) {
+        const descEl = document.createElement('div');
+        descEl.className = 'video-description';
+        descEl.textContent = desc.length > 280 ? desc.slice(0, 280) + '…' : desc;
+
+        card.appendChild(descEl);
+
+        if (desc.length > 280) {
+          const toggle = document.createElement('div');
+          toggle.className = 'video-description-toggle';
+          toggle.textContent = 'Show full description';
+          let expanded = false;
+          toggle.addEventListener('click', () => {
+            expanded = !expanded;
+            descEl.textContent = expanded ? desc : desc.slice(0, 280) + '…';
+            toggle.textContent = expanded ? 'Hide description' : 'Show full description';
+          });
+          card.appendChild(toggle);
+        }
+      }
+
+      return card;
+    }
+
+    function applyFilter(filterValue) {
+      videoGrid.innerHTML = '';
+
+      let filtered = allVideos;
+      if (filterValue === 'race') {
+        filtered = allVideos.filter(v => (v.type || '').toLowerCase() === 'race');
+      } else if (filterValue === 'training') {
+        filtered = allVideos.filter(v => (v.type || '').toLowerCase() === 'training');
+      }
+
+      if (!filtered.length) {
+        videoEmptyEl.style.display = 'block';
+        return;
+      } else {
+        videoEmptyEl.style.display = 'none';
+      }
+
+      filtered.forEach(video => {
+        const card = createVideoCard(video);
+        videoGrid.appendChild(card);
+      });
+    }
+
+    function initFilterControls() {
+      filterInputs.forEach(input => {
+        input.addEventListener('change', () => {
+          applyFilter(input.value);
+        });
+      });
+    }
+
+    function sortVideosByDate(videos) {
+      return videos.slice().sort((a, b) => {
+        const aDate = a.publishedDate || '';
+        const bDate = b.publishedDate || '';
+        // Descending: latest first
+        return bDate.localeCompare(aDate);
+      });
+    }
+
+    function init() {
+      fetch(VIDEO_JSON_URL)
+        .then(resp => {
+          if (!resp.ok) {
+            throw new Error(`HTTP ${resp.status} when loading ${VIDEO_JSON_URL}`);
+          }
+          return resp.json();
+        })
+        .then(videos => {
+          if (!Array.isArray(videos)) {
+            throw new Error('videos.json is not an array');
+          }
+
+          allVideos = sortVideosByDate(videos);
+          renderStats(allVideos);
+          initFilterControls();
+          applyFilter('all');
+        })
+        .catch(err => {
+          console.error('Failed to load videos.json', err);
+          videoStatsEl.textContent = 'Failed to load videos.json.';
+          videoEmptyEl.style.display = 'block';
+          videoEmptyEl.textContent = 'Unable to load videos. Please check videos.json.';
+        });
+    }
+
+    init();
   </script>
 </body>
 </html>
