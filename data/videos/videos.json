@@ -7,7 +7,21 @@
     "publishedDate": "2025-12-01",
     "position": 0,
     "type": "training",
-    "labels": []
+    "labels": [],
+    "recordingDate": "2025-11-30T00:00:00Z",
+    "recordingLocation": {
+      "latitude": 43.6108535,
+      "longitude": 3.8761323,
+      "altitude": 0
+    },
+    "duration": "PT1H26M21S",
+    "definition": "hd",
+    "dimension": "2d",
+    "projection": "rectangular",
+    "viewCount": "31",
+    "likeCount": "2",
+    "favoriteCount": "0",
+    "commentCount": "0"
   },
   {
     "videoId": "wN3cY8xRLzI",
@@ -17,7 +31,21 @@
     "publishedDate": "2025-11-15",
     "position": 1,
     "type": "training",
-    "labels": []
+    "labels": [],
+    "recordingDate": "2025-11-15T00:00:00Z",
+    "recordingLocation": {
+      "latitude": 43.765982,
+      "longitude": 3.8664051,
+      "altitude": 0
+    },
+    "duration": "PT52M12S",
+    "definition": "hd",
+    "dimension": "2d",
+    "projection": "rectangular",
+    "viewCount": "5",
+    "likeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
   },
   {
     "videoId": "D06tPOEZuEM",
@@ -27,7 +55,17 @@
     "publishedDate": "2025-11-10",
     "position": 2,
     "type": "training",
-    "labels": []
+    "labels": [],
+    "recordingDate": null,
+    "recordingLocation": null,
+    "duration": "PT43M53S",
+    "definition": "hd",
+    "dimension": "2d",
+    "projection": "rectangular",
+    "viewCount": "11",
+    "likeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
   },
   {
     "videoId": "105VC49g6Rk",
@@ -37,7 +75,21 @@
     "publishedDate": "2025-11-07",
     "position": 3,
     "type": "training",
-    "labels": []
+    "labels": [],
+    "recordingDate": "2025-11-02T00:00:00Z",
+    "recordingLocation": {
+      "latitude": 34.2658138,
+      "longitude": 108.9540936,
+      "altitude": 0
+    },
+    "duration": "PT1H16M23S",
+    "definition": "hd",
+    "dimension": "2d",
+    "projection": "rectangular",
+    "viewCount": "2",
+    "likeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
   },
   {
     "videoId": "wDYK0cdpJC0",
@@ -47,7 +99,21 @@
     "publishedDate": "2025-11-06",
     "position": 4,
     "type": "training",
-    "labels": []
+    "labels": [],
+    "recordingDate": "2025-11-02T00:00:00Z",
+    "recordingLocation": {
+      "latitude": 34.3496403,
+      "longitude": 108.9550518,
+      "altitude": 0
+    },
+    "duration": "PT42M26S",
+    "definition": "hd",
+    "dimension": "2d",
+    "projection": "rectangular",
+    "viewCount": "4",
+    "likeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
   },
   {
     "videoId": "G41kzxbSnp4",
@@ -57,7 +123,21 @@
     "publishedDate": "2025-11-06",
     "position": 5,
     "type": "training",
-    "labels": []
+    "labels": [],
+    "recordingDate": "2025-10-26T00:00:00Z",
+    "recordingLocation": {
+      "latitude": 31.2493999,
+      "longitude": 121.397,
+      "altitude": 0
+    },
+    "duration": "PT47M",
+    "definition": "hd",
+    "dimension": "2d",
+    "projection": "rectangular",
+    "viewCount": "12",
+    "likeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
   },
   {
     "videoId": "UsYq95GglVw",
@@ -67,7 +147,17 @@
     "publishedDate": "2025-10-21",
     "position": 6,
     "type": "training",
-    "labels": []
+    "labels": [],
+    "recordingDate": null,
+    "recordingLocation": null,
+    "duration": "PT1H21M10S",
+    "definition": "hd",
+    "dimension": "2d",
+    "projection": "rectangular",
+    "viewCount": "3",
+    "likeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
   },
   {
     "videoId": "9KzxaFClRck",
@@ -77,7 +167,17 @@
     "publishedDate": "2025-10-11",
     "position": 7,
     "type": "training",
-    "labels": []
+    "labels": [],
+    "recordingDate": null,
+    "recordingLocation": null,
+    "duration": "PT41M7S",
+    "definition": "hd",
+    "dimension": "2d",
+    "projection": "rectangular",
+    "viewCount": "3",
+    "likeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
   },
   {
     "videoId": "1uF36wGyAEQ",
@@ -87,7 +187,17 @@
     "publishedDate": "2025-10-05",
     "position": 8,
     "type": "training",
-    "labels": []
+    "labels": [],
+    "recordingDate": null,
+    "recordingLocation": null,
+    "duration": "PT37M35S",
+    "definition": "hd",
+    "dimension": "2d",
+    "projection": "rectangular",
+    "viewCount": "8",
+    "likeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
   },
   {
     "videoId": "XGnWk95Tl4Q",
@@ -97,7 +207,17 @@
     "publishedDate": "2025-09-24",
     "position": 9,
     "type": "training",
-    "labels": []
+    "labels": [],
+    "recordingDate": null,
+    "recordingLocation": null,
+    "duration": "PT1H3M8S",
+    "definition": "hd",
+    "dimension": "2d",
+    "projection": "rectangular",
+    "viewCount": "3",
+    "likeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
   },
   {
     "videoId": "VxybvfP6fUI",
@@ -107,6 +227,20 @@
     "publishedDate": "2025-04-27",
     "position": 10,
     "type": "training",
-    "labels": []
+    "labels": [],
+    "recordingDate": "2025-04-13T00:00:00Z",
+    "recordingLocation": {
+      "latitude": 48.8575475,
+      "longitude": 2.3513765,
+      "altitude": 0
+    },
+    "duration": "PT6M31S",
+    "definition": "hd",
+    "dimension": "2d",
+    "projection": "rectangular",
+    "viewCount": "3",
+    "likeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
   }
 ]
