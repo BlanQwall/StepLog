@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 55.67,
-  "total_moving_time_min": 298.2,
-  "activity_count": 7,
-  "avg_suffer_score": 23.3,
+  "total_distance_km": 64.48,
+  "total_moving_time_min": 344.0,
+  "activity_count": 9,
+  "avg_suffer_score": 20.3,
   "activities": [
     {
       "id": 16691713039,
@@ -149,6 +149,45 @@
           "100": "https://dgtzuqphqg23d.cloudfront.net/G_36rf3CSUexPOxOgwLmm0LzgtC1nrhmRvbSpijvEIU-128x96.jpg"
         }
       }
+    },
+    {
+      "id": 16732421937,
+      "name": "放松 6Km",
+      "description": "",
+      "type": "Run",
+      "date": "2025-12-13",
+      "distance_km": 7.17,
+      "moving_time_min": 37.0,
+      "average_speed_m_s": 3.227,
+      "average_heartrate": 140.2,
+      "suffer_score": 18.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 16732562968,
+      "name": "别忘了酒：送给自然的礼物 马拉松人",
+      "description": "",
+      "type": "Run",
+      "date": "2025-12-13",
+      "distance_km": 1.64,
+      "moving_time_min": 8.8,
+      "average_speed_m_s": 3.103,
+      "average_heartrate": 127.3,
+      "suffer_score": 2.0,
+      "city": null,
+      "state": null,
+      "country": null,
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/xuf2ydOCy-peZSgocXOPoMfVaJw4VTX6yK7vhZ0iq_I-576x768.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/xuf2ydOCy-peZSgocXOPoMfVaJw4VTX6yK7vhZ0iq_I-96x128.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/xuf2ydOCy-peZSgocXOPoMfVaJw4VTX6yK7vhZ0iq_I-576x768.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/xuf2ydOCy-peZSgocXOPoMfVaJw4VTX6yK7vhZ0iq_I-96x128.jpg"
+        }
+      }
     }
   ],
   "photos": [
@@ -201,6 +240,19 @@
         "urls": {
           "600": "https://dgtzuqphqg23d.cloudfront.net/G_36rf3CSUexPOxOgwLmm0LzgtC1nrhmRvbSpijvEIU-768x576.jpg",
           "100": "https://dgtzuqphqg23d.cloudfront.net/G_36rf3CSUexPOxOgwLmm0LzgtC1nrhmRvbSpijvEIU-128x96.jpg"
+        }
+      }
+    },
+    {
+      "activity_id": 16732562968,
+      "date": "2025-12-13",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/xuf2ydOCy-peZSgocXOPoMfVaJw4VTX6yK7vhZ0iq_I-576x768.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/xuf2ydOCy-peZSgocXOPoMfVaJw4VTX6yK7vhZ0iq_I-96x128.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/xuf2ydOCy-peZSgocXOPoMfVaJw4VTX6yK7vhZ0iq_I-576x768.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/xuf2ydOCy-peZSgocXOPoMfVaJw4VTX6yK7vhZ0iq_I-96x128.jpg"
         }
       }
     }
