@@ -1,0 +1,31 @@
+{
+  "week_start": "2025-12-15",
+  "week_end": "2025-12-21",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 2.82,
+  "total_moving_time_min": 17.9,
+  "activity_count": 1,
+  "avg_suffer_score": 3.0,
+  "activities": [
+    {
+      "id": 16745842176,
+      "name": "轻松恢复跑",
+      "description": "",
+      "type": "Run",
+      "date": "2025-12-15",
+      "distance_km": 2.82,
+      "moving_time_min": 17.9,
+      "average_speed_m_s": 2.621,
+      "average_heartrate": 120.4,
+      "suffer_score": 3.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
