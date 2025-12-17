@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 27.82,
-  "total_moving_time_min": 147.2,
-  "activity_count": 5,
-  "avg_suffer_score": 18.2,
+  "total_distance_km": 41.94,
+  "total_moving_time_min": 218.9,
+  "activity_count": 6,
+  "avg_suffer_score": 23.2,
   "activities": [
     {
       "id": 16745842176,
@@ -92,6 +92,22 @@
       "average_speed_m_s": 2.503,
       "average_heartrate": 125.5,
       "suffer_score": 1.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 16770311784,
+      "name": "MLR",
+      "description": "",
+      "type": "Run",
+      "date": "2025-12-17",
+      "distance_km": 14.12,
+      "moving_time_min": 71.7,
+      "average_speed_m_s": 3.282,
+      "average_heartrate": 143.8,
+      "suffer_score": 48.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
