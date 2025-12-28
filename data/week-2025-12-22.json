@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 113.74,
-  "total_moving_time_min": 587.0,
-  "activity_count": 7,
-  "avg_suffer_score": 40.1,
+  "total_distance_km": 117.62,
+  "total_moving_time_min": 604.1,
+  "activity_count": 8,
+  "avg_suffer_score": 36.8,
   "activities": [
     {
       "id": 16818173992,
@@ -131,6 +131,22 @@
       "average_speed_m_s": 3.262,
       "average_heartrate": 138.9,
       "suffer_score": 54.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 16861786407,
+      "name": "16Km@MP? No, not today 🥵",
+      "description": "Bad shape after 25Km",
+      "type": "Run",
+      "date": "2025-12-28",
+      "distance_km": 3.87,
+      "moving_time_min": 17.1,
+      "average_speed_m_s": 3.762,
+      "average_heartrate": 145.6,
+      "suffer_score": 13.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
