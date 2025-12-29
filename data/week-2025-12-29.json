@@ -1,0 +1,31 @@
+{
+  "week_start": "2025-12-29",
+  "week_end": "2026-01-04",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 25.89,
+  "total_moving_time_min": 118.0,
+  "activity_count": 1,
+  "avg_suffer_score": 135.0,
+  "activities": [
+    {
+      "id": 16875858229,
+      "name": "16Km@MP DONE!",
+      "description": "",
+      "type": "Run",
+      "date": "2025-12-29",
+      "distance_km": 25.89,
+      "moving_time_min": 118.0,
+      "average_speed_m_s": 3.659,
+      "average_heartrate": 153.6,
+      "suffer_score": 135.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
