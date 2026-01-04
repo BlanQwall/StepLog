@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 76.48,
-  "total_moving_time_min": 379.3,
-  "activity_count": 5,
-  "avg_suffer_score": 50.0,
+  "total_distance_km": 100.36,
+  "total_moving_time_min": 502.6,
+  "activity_count": 6,
+  "avg_suffer_score": 51.0,
   "activities": [
     {
       "id": 16875858229,
@@ -93,6 +93,22 @@
       "average_heartrate": 140.2,
       "suffer_score": 32.0,
       "city": "勒特里亚杜",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 16936188074,
+      "name": "下午跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-01-04",
+      "distance_km": 23.89,
+      "moving_time_min": 123.3,
+      "average_speed_m_s": 3.23,
+      "average_heartrate": 141.2,
+      "suffer_score": 56.0,
+      "city": "莱马泰尔",
       "state": "奥克西塔尼大区",
       "country": "法国",
       "photo": null
