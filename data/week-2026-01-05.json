@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 8.95,
-  "total_moving_time_min": 48.6,
-  "activity_count": 1,
-  "avg_suffer_score": 11.0,
+  "total_distance_km": 11.68,
+  "total_moving_time_min": 69.6,
+  "activity_count": 2,
+  "avg_suffer_score": 8.0,
   "activities": [
     {
       "id": 16942150036,
@@ -21,6 +21,22 @@
       "average_speed_m_s": 3.067,
       "average_heartrate": 130.4,
       "suffer_score": 11.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 16948064082,
+      "name": "Kickoff club PPG",
+      "description": "",
+      "type": "Run",
+      "date": "2026-01-05",
+      "distance_km": 2.73,
+      "moving_time_min": 21.0,
+      "average_speed_m_s": 2.166,
+      "average_heartrate": 125.1,
+      "suffer_score": 5.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
