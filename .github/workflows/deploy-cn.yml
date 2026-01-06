@@ -12,25 +12,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 保持你原来的打包逻辑，生成干净的 deploy-cn 目录
+      # 生成 deploy-cn 目录（你现有逻辑，保持不变）
       - name: Build deploy-cn folder
         run: |
           chmod +x build-cn.sh
           ./build-cn.sh
 
-      # 安装 coscmd（Python 版 COS CLI）
+      # 安装 coscmd
       - name: Install coscmd
         run: |
           python -m pip install --upgrade pip
           pip install coscmd
 
-      # 配置 coscmd
+      # 配置 coscmd（固定香港区域）
       - name: Configure coscmd
         env:
           TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
         run: |
-          # appid 就是桶名里的那串数字 1390433657
           coscmd config \
             -a "$TENCENT_SECRET_ID" \
             -s "$TENCENT_SECRET_KEY" \
@@ -40,14 +39,12 @@ jobs:
             -m 30 \
             -p 10
 
-      # 先清空桶里原有文件（可选，但可以保证和 deploy-cn 完全一致）
-      - name: Clear bucket root
+      # 上传站点文件（覆盖模式 + 重试，避免网络抖动）
+      - name: Upload deploy-cn to COS (overwrite, retry)
         run: |
-          # 如果桶里文件很多，这一步会稍微慢一点
-          coscmd delete -rf /
-
-      # 上传新的站点文件
-      - name: Upload deploy-cn to COS
-        run: |
-          cd deploy-cn
-          coscmd upload -rs ./ /
+          for i in 1 2 3; do
+            echo "Upload attempt $i..."
+            coscmd upload -rs ./deploy-cn/ / -f && break
+            echo "Upload failed, retrying in 10 seconds..."
+            sleep 10
+          done
