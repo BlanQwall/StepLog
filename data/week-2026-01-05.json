@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 11.68,
-  "total_moving_time_min": 69.6,
-  "activity_count": 2,
-  "avg_suffer_score": 8.0,
+  "total_distance_km": 35.75,
+  "total_moving_time_min": 188.0,
+  "activity_count": 3,
+  "avg_suffer_score": 26.0,
   "activities": [
     {
       "id": 16942150036,
@@ -37,6 +37,22 @@
       "average_speed_m_s": 2.166,
       "average_heartrate": 125.1,
       "suffer_score": 5.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 16952532968,
+      "name": "(Freezing) LT 5x2Km@SP10 🥶",
+      "description": "",
+      "type": "Run",
+      "date": "2026-01-06",
+      "distance_km": 24.07,
+      "moving_time_min": 118.3,
+      "average_speed_m_s": 3.39,
+      "average_heartrate": 139.5,
+      "suffer_score": 62.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
