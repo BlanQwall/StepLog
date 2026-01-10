@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 87.38,
-  "total_moving_time_min": 457.1,
-  "activity_count": 11,
-  "avg_suffer_score": 21.2,
+  "total_distance_km": 88.21,
+  "total_moving_time_min": 476.6,
+  "activity_count": 12,
+  "avg_suffer_score": 20.0,
   "activities": [
     {
       "id": 16942150036,
@@ -192,6 +192,22 @@
           "100": "https://dgtzuqphqg23d.cloudfront.net/Uy-OzqPCZjsXPet4HAJ9EjP-frVrxbvahwe58bUPuu4-128x96.jpg"
         }
       }
+    },
+    {
+      "id": 17002064323,
+      "name": "Afternoon Swim",
+      "description": null,
+      "type": "Swim",
+      "date": "2026-01-10",
+      "distance_km": 0.82,
+      "moving_time_min": 19.4,
+      "average_speed_m_s": 0.707,
+      "average_heartrate": 125.6,
+      "suffer_score": 7.0,
+      "city": null,
+      "state": null,
+      "country": null,
+      "photo": null
     }
   ],
   "photos": [
