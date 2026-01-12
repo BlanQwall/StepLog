@@ -1,0 +1,52 @@
+{
+  "week_start": "2026-01-12",
+  "week_end": "2026-01-18",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 4.9,
+  "total_moving_time_min": 27.1,
+  "activity_count": 1,
+  "avg_suffer_score": 7.0,
+  "activities": [
+    {
+      "id": 17024558076,
+      "name": "开箱新越野装备",
+      "description": "",
+      "type": "Run",
+      "date": "2026-01-12",
+      "distance_km": 4.9,
+      "moving_time_min": 27.1,
+      "average_speed_m_s": 3.011,
+      "average_heartrate": 134.6,
+      "suffer_score": 7.0,
+      "city": null,
+      "state": null,
+      "country": null,
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/RNWMB7jYOVlt8DA65ki9pf9G2_OxpvhTPW5G2tEu4vw-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/RNWMB7jYOVlt8DA65ki9pf9G2_OxpvhTPW5G2tEu4vw-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/RNWMB7jYOVlt8DA65ki9pf9G2_OxpvhTPW5G2tEu4vw-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/RNWMB7jYOVlt8DA65ki9pf9G2_OxpvhTPW5G2tEu4vw-128x96.jpg"
+        }
+      }
+    }
+  ],
+  "photos": [
+    {
+      "activity_id": 17024558076,
+      "date": "2026-01-12",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/RNWMB7jYOVlt8DA65ki9pf9G2_OxpvhTPW5G2tEu4vw-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/RNWMB7jYOVlt8DA65ki9pf9G2_OxpvhTPW5G2tEu4vw-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/RNWMB7jYOVlt8DA65ki9pf9G2_OxpvhTPW5G2tEu4vw-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/RNWMB7jYOVlt8DA65ki9pf9G2_OxpvhTPW5G2tEu4vw-128x96.jpg"
+        }
+      }
+    }
+  ]
+}
