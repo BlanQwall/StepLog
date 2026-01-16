@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 56.7,
-  "total_moving_time_min": 292.6,
-  "activity_count": 7,
-  "avg_suffer_score": 16.4,
+  "total_distance_km": 67.98,
+  "total_moving_time_min": 349.4,
+  "activity_count": 8,
+  "avg_suffer_score": 19.2,
   "activities": [
     {
       "id": 17024558076,
@@ -128,6 +128,29 @@
       "state": "Occitanie",
       "country": "France",
       "photo": null
+    },
+    {
+      "id": 17066886989,
+      "name": "Morning Run",
+      "description": "",
+      "type": "Run",
+      "date": "2026-01-16",
+      "distance_km": 11.28,
+      "moving_time_min": 56.8,
+      "average_speed_m_s": 3.311,
+      "average_heartrate": 145.1,
+      "suffer_score": 39.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/yXljN3JDkaYtFiQuWzDaP1XbsTOP8U7zUJnL_cHxztU-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/yXljN3JDkaYtFiQuWzDaP1XbsTOP8U7zUJnL_cHxztU-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/yXljN3JDkaYtFiQuWzDaP1XbsTOP8U7zUJnL_cHxztU-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/yXljN3JDkaYtFiQuWzDaP1XbsTOP8U7zUJnL_cHxztU-128x96.jpg"
+        }
+      }
     }
   ],
   "photos": [
@@ -141,6 +164,19 @@
         "urls": {
           "600": "https://dgtzuqphqg23d.cloudfront.net/RNWMB7jYOVlt8DA65ki9pf9G2_OxpvhTPW5G2tEu4vw-768x576.jpg",
           "100": "https://dgtzuqphqg23d.cloudfront.net/RNWMB7jYOVlt8DA65ki9pf9G2_OxpvhTPW5G2tEu4vw-128x96.jpg"
+        }
+      }
+    },
+    {
+      "activity_id": 17066886989,
+      "date": "2026-01-16",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/yXljN3JDkaYtFiQuWzDaP1XbsTOP8U7zUJnL_cHxztU-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/yXljN3JDkaYtFiQuWzDaP1XbsTOP8U7zUJnL_cHxztU-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/yXljN3JDkaYtFiQuWzDaP1XbsTOP8U7zUJnL_cHxztU-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/yXljN3JDkaYtFiQuWzDaP1XbsTOP8U7zUJnL_cHxztU-128x96.jpg"
         }
       }
     }
