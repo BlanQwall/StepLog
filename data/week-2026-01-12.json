@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 67.98,
-  "total_moving_time_min": 349.4,
-  "activity_count": 8,
-  "avg_suffer_score": 19.2,
+  "total_distance_km": 101.58,
+  "total_moving_time_min": 513.8,
+  "activity_count": 9,
+  "avg_suffer_score": 38.3,
   "activities": [
     {
       "id": 17024558076,
@@ -151,6 +151,29 @@
           "100": "https://dgtzuqphqg23d.cloudfront.net/yXljN3JDkaYtFiQuWzDaP1XbsTOP8U7zUJnL_cHxztU-128x96.jpg"
         }
       }
+    },
+    {
+      "id": 17095256400,
+      "name": "Long run in rain 🌧️",
+      "description": "Not as tough as I thought…",
+      "type": "Run",
+      "date": "2026-01-18",
+      "distance_km": 33.61,
+      "moving_time_min": 164.5,
+      "average_speed_m_s": 3.406,
+      "average_heartrate": 153.4,
+      "suffer_score": 191.0,
+      "city": "Saint-Jean-de-Cuculles",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/TDnY67pzBkpOUwJqCeQiiEu6fJT3QKrAgUoYgD74fWw-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/TDnY67pzBkpOUwJqCeQiiEu6fJT3QKrAgUoYgD74fWw-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/TDnY67pzBkpOUwJqCeQiiEu6fJT3QKrAgUoYgD74fWw-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/TDnY67pzBkpOUwJqCeQiiEu6fJT3QKrAgUoYgD74fWw-128x96.jpg"
+        }
+      }
     }
   ],
   "photos": [
@@ -177,6 +200,19 @@
         "urls": {
           "600": "https://dgtzuqphqg23d.cloudfront.net/yXljN3JDkaYtFiQuWzDaP1XbsTOP8U7zUJnL_cHxztU-768x576.jpg",
           "100": "https://dgtzuqphqg23d.cloudfront.net/yXljN3JDkaYtFiQuWzDaP1XbsTOP8U7zUJnL_cHxztU-128x96.jpg"
+        }
+      }
+    },
+    {
+      "activity_id": 17095256400,
+      "date": "2026-01-18",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/TDnY67pzBkpOUwJqCeQiiEu6fJT3QKrAgUoYgD74fWw-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/TDnY67pzBkpOUwJqCeQiiEu6fJT3QKrAgUoYgD74fWw-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/TDnY67pzBkpOUwJqCeQiiEu6fJT3QKrAgUoYgD74fWw-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/TDnY67pzBkpOUwJqCeQiiEu6fJT3QKrAgUoYgD74fWw-128x96.jpg"
         }
       }
     }
