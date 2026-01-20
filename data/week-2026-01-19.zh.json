@@ -1,0 +1,47 @@
+{
+  "week_start": "2026-01-19",
+  "week_end": "2026-01-25",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 10.13,
+  "total_moving_time_min": 47.1,
+  "activity_count": 2,
+  "avg_suffer_score": 16.0,
+  "activities": [
+    {
+      "id": 17119023782,
+      "name": "俱乐部金字塔 1'2'3'2'1'2'3' + 开始放松",
+      "description": "",
+      "type": "Run",
+      "date": "2026-01-20",
+      "distance_km": 6.38,
+      "moving_time_min": 28.9,
+      "average_speed_m_s": 3.682,
+      "average_heartrate": 149.3,
+      "suffer_score": 25.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 17119024012,
+      "name": "俱乐部热身",
+      "description": "",
+      "type": "Run",
+      "date": "2026-01-20",
+      "distance_km": 3.75,
+      "moving_time_min": 18.2,
+      "average_speed_m_s": 3.431,
+      "average_heartrate": 135.8,
+      "suffer_score": 7.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
