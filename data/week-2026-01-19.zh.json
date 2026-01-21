@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 10.13,
-  "total_moving_time_min": 47.1,
-  "activity_count": 2,
-  "avg_suffer_score": 16.0,
+  "total_distance_km": 33.95,
+  "total_moving_time_min": 164.5,
+  "activity_count": 3,
+  "avg_suffer_score": 23.3,
   "activities": [
     {
       "id": 17119023782,
@@ -38,6 +38,22 @@
       "average_heartrate": 135.8,
       "suffer_score": 7.0,
       "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 17126384771,
+      "name": "中长距离跑",
+      "description": "",
+      "type": "Run",
+      "date": "2026-01-21",
+      "distance_km": 23.82,
+      "moving_time_min": 117.4,
+      "average_speed_m_s": 3.382,
+      "average_heartrate": 137.6,
+      "suffer_score": 38.0,
+      "city": "圣让德库库尔",
       "state": "奥克西塔尼大区",
       "country": "法国",
       "photo": null
