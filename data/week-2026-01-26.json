@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 9.91,
-  "total_moving_time_min": 54.5,
-  "activity_count": 2,
-  "avg_suffer_score": 6.5,
+  "total_distance_km": 29.51,
+  "total_moving_time_min": 148.7,
+  "activity_count": 3,
+  "avg_suffer_score": 17.7,
   "activities": [
     {
       "id": 17185692892,
@@ -37,6 +37,22 @@
       "average_speed_m_s": 3.092,
       "average_heartrate": 134.5,
       "suffer_score": 12.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 17203683364,
+      "name": "VMA 7x600m@SP5",
+      "description": "Sunshine 🌞",
+      "type": "Run",
+      "date": "2026-01-28",
+      "distance_km": 19.6,
+      "moving_time_min": 94.3,
+      "average_speed_m_s": 3.465,
+      "average_heartrate": 140.2,
+      "suffer_score": 40.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
