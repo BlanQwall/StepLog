@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 36.85,
-  "total_moving_time_min": 182.3,
-  "activity_count": 4,
-  "avg_suffer_score": 24.5,
+  "total_distance_km": 39.83,
+  "total_moving_time_min": 198.6,
+  "activity_count": 5,
+  "avg_suffer_score": 20.2,
   "activities": [
     {
       "id": 17185692892,
@@ -69,6 +69,22 @@
       "average_speed_m_s": 3.636,
       "average_heartrate": 156.3,
       "suffer_score": 45.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 17219991880,
+      "name": "俱乐部热身",
+      "description": "",
+      "type": "Run",
+      "date": "2026-01-29",
+      "distance_km": 2.99,
+      "moving_time_min": 16.2,
+      "average_speed_m_s": 3.068,
+      "average_heartrate": 127.3,
+      "suffer_score": 3.0,
       "city": "三麻雀村",
       "state": "奥克西塔尼大区",
       "country": "法国",
