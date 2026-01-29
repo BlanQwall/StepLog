@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 29.51,
-  "total_moving_time_min": 148.7,
-  "activity_count": 3,
-  "avg_suffer_score": 17.7,
+  "total_distance_km": 36.85,
+  "total_moving_time_min": 182.3,
+  "activity_count": 4,
+  "avg_suffer_score": 24.5,
   "activities": [
     {
       "id": 17185692892,
@@ -53,6 +53,22 @@
       "average_speed_m_s": 3.465,
       "average_heartrate": 140.2,
       "suffer_score": 40.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 17219991675,
+      "name": "俱乐部 3x8'@10公里比赛配速",
+      "description": "",
+      "type": "Run",
+      "date": "2026-01-29",
+      "distance_km": 7.33,
+      "moving_time_min": 33.6,
+      "average_speed_m_s": 3.636,
+      "average_heartrate": 156.3,
+      "suffer_score": 45.0,
       "city": "三麻雀村",
       "state": "奥克西塔尼大区",
       "country": "法国",
