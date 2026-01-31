@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 39.83,
-  "total_moving_time_min": 198.6,
-  "activity_count": 5,
-  "avg_suffer_score": 20.2,
+  "total_distance_km": 63.86,
+  "total_moving_time_min": 320.5,
+  "activity_count": 6,
+  "avg_suffer_score": 26.7,
   "activities": [
     {
       "id": 17185692892,
@@ -86,6 +86,22 @@
       "average_heartrate": 127.3,
       "suffer_score": 3.0,
       "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 17235769371,
+      "name": "MLR",
+      "description": "",
+      "type": "Run",
+      "date": "2026-01-31",
+      "distance_km": 24.03,
+      "moving_time_min": 122.0,
+      "average_speed_m_s": 3.284,
+      "average_heartrate": 142.3,
+      "suffer_score": 59.0,
+      "city": "Saint-Jean-de-Cuculles",
       "state": "Occitanie",
       "country": "France",
       "photo": null
