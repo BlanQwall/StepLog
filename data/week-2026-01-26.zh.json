@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 69.52,
-  "total_moving_time_min": 350.7,
-  "activity_count": 7,
-  "avg_suffer_score": 24.6,
+  "total_distance_km": 79.11,
+  "total_moving_time_min": 390.2,
+  "activity_count": 8,
+  "avg_suffer_score": 31.9,
   "activities": [
     {
       "id": 17185692892,
@@ -117,6 +117,22 @@
       "average_speed_m_s": 3.121,
       "average_heartrate": 138.8,
       "suffer_score": 12.0,
+      "city": "蒙彼利埃",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 17247717205,
+      "name": "午餐跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-02-01",
+      "distance_km": 9.59,
+      "moving_time_min": 39.5,
+      "average_speed_m_s": 4.049,
+      "average_heartrate": 168.1,
+      "suffer_score": 83.0,
       "city": "蒙彼利埃",
       "state": "奥克西塔尼大区",
       "country": "法国",
