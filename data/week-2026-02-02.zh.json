@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 23.44,
-  "total_moving_time_min": 117.7,
-  "activity_count": 3,
-  "avg_suffer_score": 24.0,
+  "total_distance_km": 35.6,
+  "total_moving_time_min": 175.4,
+  "activity_count": 4,
+  "avg_suffer_score": 27.0,
   "activities": [
     {
       "id": 17268106933,
@@ -61,6 +61,22 @@
       "average_heartrate": 157.5,
       "suffer_score": 51.0,
       "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 17285524517,
+      "name": "2次 2公里",
+      "description": "累了 😴",
+      "type": "Run",
+      "date": "2026-02-04",
+      "distance_km": 12.16,
+      "moving_time_min": 57.7,
+      "average_speed_m_s": 3.511,
+      "average_heartrate": 143.9,
+      "suffer_score": 36.0,
+      "city": "圣让德库库尔",
       "state": "奥克西塔尼大区",
       "country": "法国",
       "photo": null
