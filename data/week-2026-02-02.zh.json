@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 49.38,
-  "total_moving_time_min": 241.1,
-  "activity_count": 7,
-  "avg_suffer_score": 27.9,
+  "total_distance_km": 55.49,
+  "total_moving_time_min": 273.3,
+  "activity_count": 8,
+  "avg_suffer_score": 26.6,
   "activities": [
     {
       "id": 17268106933,
@@ -124,6 +124,22 @@
       "average_speed_m_s": 3.806,
       "average_heartrate": 163.5,
       "suffer_score": 84.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 17309158164,
+      "name": "轻松恢复跑",
+      "description": "",
+      "type": "Run",
+      "date": "2026-02-06",
+      "distance_km": 6.11,
+      "moving_time_min": 32.2,
+      "average_speed_m_s": 3.163,
+      "average_heartrate": 141.7,
+      "suffer_score": 18.0,
       "city": "三麻雀村",
       "state": "奥克西塔尼大区",
       "country": "法国",
