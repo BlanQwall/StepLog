@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 31.0,
-  "total_moving_time_min": 166.8,
-  "activity_count": 3,
-  "avg_suffer_score": 22.0,
+  "total_distance_km": 35.76,
+  "total_moving_time_min": 192.1,
+  "activity_count": 4,
+  "avg_suffer_score": 18.2,
   "activities": [
     {
       "id": 17342409103,
@@ -60,6 +60,22 @@
       "average_speed_m_s": 3.409,
       "average_heartrate": 143.5,
       "suffer_score": 47.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 17380728853,
+      "name": "WU",
+      "description": "",
+      "type": "Run",
+      "date": "2026-02-13",
+      "distance_km": 4.77,
+      "moving_time_min": 25.2,
+      "average_speed_m_s": 3.145,
+      "average_heartrate": 131.6,
+      "suffer_score": 7.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
