@@ -5,9 +5,9 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 42.84,
-  "total_moving_time_min": 221.9,
-  "activity_count": 5,
+  "total_distance_km": 55.15,
+  "total_moving_time_min": 303.6,
+  "activity_count": 6,
   "avg_suffer_score": 22.0,
   "activities": [
     {
@@ -96,6 +96,29 @@
       "state": "Occitanie",
       "country": "France",
       "photo": null
+    },
+    {
+      "id": 17391046111,
+      "name": "Tune-up",
+      "description": "",
+      "type": "Run",
+      "date": "2026-02-14",
+      "distance_km": 12.3,
+      "moving_time_min": 81.7,
+      "average_speed_m_s": 2.51,
+      "average_heartrate": 128.3,
+      "suffer_score": 22.0,
+      "city": "Barcelona",
+      "state": "Catalunya",
+      "country": "Spain",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/EU9FAjAXy7Mdf4odCo5IvIAx1NvLQ4wTWnLvFcEqxrQ-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/EU9FAjAXy7Mdf4odCo5IvIAx1NvLQ4wTWnLvFcEqxrQ-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/EU9FAjAXy7Mdf4odCo5IvIAx1NvLQ4wTWnLvFcEqxrQ-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/EU9FAjAXy7Mdf4odCo5IvIAx1NvLQ4wTWnLvFcEqxrQ-128x96.jpg"
+        }
+      }
     }
   ],
   "photos": [
@@ -109,6 +132,19 @@
         "urls": {
           "600": "https://dgtzuqphqg23d.cloudfront.net/xin6CInzo7uCBawOjFGL5072_pj-bY7dYsH2zOJYd6w-768x576.jpg",
           "100": "https://dgtzuqphqg23d.cloudfront.net/xin6CInzo7uCBawOjFGL5072_pj-bY7dYsH2zOJYd6w-128x96.jpg"
+        }
+      }
+    },
+    {
+      "activity_id": 17391046111,
+      "date": "2026-02-14",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/EU9FAjAXy7Mdf4odCo5IvIAx1NvLQ4wTWnLvFcEqxrQ-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/EU9FAjAXy7Mdf4odCo5IvIAx1NvLQ4wTWnLvFcEqxrQ-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/EU9FAjAXy7Mdf4odCo5IvIAx1NvLQ4wTWnLvFcEqxrQ-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/EU9FAjAXy7Mdf4odCo5IvIAx1NvLQ4wTWnLvFcEqxrQ-128x96.jpg"
         }
       }
     }
