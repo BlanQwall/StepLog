@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 55.15,
-  "total_moving_time_min": 303.6,
-  "activity_count": 6,
-  "avg_suffer_score": 22.0,
+  "total_distance_km": 59.59,
+  "total_moving_time_min": 329.1,
+  "activity_count": 7,
+  "avg_suffer_score": 20.3,
   "activities": [
     {
       "id": 17342409103,
@@ -119,6 +119,22 @@
           "100": "https://dgtzuqphqg23d.cloudfront.net/EU9FAjAXy7Mdf4odCo5IvIAx1NvLQ4wTWnLvFcEqxrQ-128x96.jpg"
         }
       }
+    },
+    {
+      "id": 17403161573,
+      "name": "WU",
+      "description": "",
+      "type": "Run",
+      "date": "2026-02-15",
+      "distance_km": 4.44,
+      "moving_time_min": 25.5,
+      "average_speed_m_s": 2.905,
+      "average_heartrate": 135.4,
+      "suffer_score": 10.0,
+      "city": "Barcelona",
+      "state": "Catalunya",
+      "country": "Spain",
+      "photo": null
     }
   ],
   "photos": [
