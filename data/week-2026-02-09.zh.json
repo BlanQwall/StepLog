@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 55.15,
-  "total_moving_time_min": 303.6,
-  "activity_count": 6,
-  "avg_suffer_score": 22.0,
+  "total_distance_km": 80.88,
+  "total_moving_time_min": 417.4,
+  "activity_count": 8,
+  "avg_suffer_score": 32.6,
   "activities": [
     {
       "id": 17342409103,
@@ -119,6 +119,45 @@
           "100": "https://dgtzuqphqg23d.cloudfront.net/EU9FAjAXy7Mdf4odCo5IvIAx1NvLQ4wTWnLvFcEqxrQ-128x96.jpg"
         }
       }
+    },
+    {
+      "id": 17403161573,
+      "name": "热身",
+      "description": "",
+      "type": "Run",
+      "date": "2026-02-15",
+      "distance_km": 4.44,
+      "moving_time_min": 25.5,
+      "average_speed_m_s": 2.905,
+      "average_heartrate": 135.4,
+      "suffer_score": 10.0,
+      "city": "巴塞罗那",
+      "state": "加泰罗尼亚",
+      "country": "西班牙",
+      "photo": null
+    },
+    {
+      "id": 17403161993,
+      "name": "巴塞罗那 半马",
+      "description": "",
+      "type": "Run",
+      "date": "2026-02-15",
+      "distance_km": 21.29,
+      "moving_time_min": 88.4,
+      "average_speed_m_s": 4.014,
+      "average_heartrate": 153.2,
+      "suffer_score": 119.0,
+      "city": "巴塞罗那",
+      "state": "加泰罗尼亚",
+      "country": "西班牙",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/9znMPRPgyb7xcg-vi-NjaeBbHTuIqsOwwPJzI-m3SYU-576x768.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/9znMPRPgyb7xcg-vi-NjaeBbHTuIqsOwwPJzI-m3SYU-96x128.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/9znMPRPgyb7xcg-vi-NjaeBbHTuIqsOwwPJzI-m3SYU-576x768.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/9znMPRPgyb7xcg-vi-NjaeBbHTuIqsOwwPJzI-m3SYU-96x128.jpg"
+        }
+      }
     }
   ],
   "photos": [
@@ -145,6 +184,19 @@
         "urls": {
           "600": "https://dgtzuqphqg23d.cloudfront.net/EU9FAjAXy7Mdf4odCo5IvIAx1NvLQ4wTWnLvFcEqxrQ-768x576.jpg",
           "100": "https://dgtzuqphqg23d.cloudfront.net/EU9FAjAXy7Mdf4odCo5IvIAx1NvLQ4wTWnLvFcEqxrQ-128x96.jpg"
+        }
+      }
+    },
+    {
+      "activity_id": 17403161993,
+      "date": "2026-02-15",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/9znMPRPgyb7xcg-vi-NjaeBbHTuIqsOwwPJzI-m3SYU-576x768.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/9znMPRPgyb7xcg-vi-NjaeBbHTuIqsOwwPJzI-m3SYU-96x128.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/9znMPRPgyb7xcg-vi-NjaeBbHTuIqsOwwPJzI-m3SYU-576x768.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/9znMPRPgyb7xcg-vi-NjaeBbHTuIqsOwwPJzI-m3SYU-96x128.jpg"
         }
       }
     }
