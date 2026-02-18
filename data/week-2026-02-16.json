@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 17.71,
-  "total_moving_time_min": 89.3,
-  "activity_count": 2,
-  "avg_suffer_score": 17.5,
+  "total_distance_km": 24.66,
+  "total_moving_time_min": 122.7,
+  "activity_count": 3,
+  "avg_suffer_score": 21.7,
   "activities": [
     {
       "id": 17433889192,
@@ -44,6 +44,22 @@
       "average_speed_m_s": 3.367,
       "average_heartrate": 138.4,
       "suffer_score": 10.0,
+      "city": null,
+      "state": null,
+      "country": null,
+      "photo": null
+    },
+    {
+      "id": 17437407402,
+      "name": "5x1000m@SP5",
+      "description": "",
+      "type": "Run",
+      "date": "2026-02-18",
+      "distance_km": 6.95,
+      "moving_time_min": 33.4,
+      "average_speed_m_s": 3.468,
+      "average_heartrate": 147.5,
+      "suffer_score": 30.0,
       "city": null,
       "state": null,
       "country": null,
