@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 12.6,
-  "total_moving_time_min": 64.0,
-  "activity_count": 1,
-  "avg_suffer_score": 25.0,
+  "total_distance_km": 17.71,
+  "total_moving_time_min": 89.3,
+  "activity_count": 2,
+  "avg_suffer_score": 17.5,
   "activities": [
     {
       "id": 17433889192,
@@ -32,6 +32,22 @@
           "100": "https://dgtzuqphqg23d.cloudfront.net/hPAUlJ33FNTZ4fu8rekmU4afH4_I2HXW67U-FFDpP6Y-128x96.jpg"
         }
       }
+    },
+    {
+      "id": 17437402957,
+      "name": "WU",
+      "description": "",
+      "type": "Run",
+      "date": "2026-02-18",
+      "distance_km": 5.11,
+      "moving_time_min": 25.3,
+      "average_speed_m_s": 3.367,
+      "average_heartrate": 138.4,
+      "suffer_score": 10.0,
+      "city": null,
+      "state": null,
+      "country": null,
+      "photo": null
     }
   ],
   "photos": [
