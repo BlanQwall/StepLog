@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 24.66,
-  "total_moving_time_min": 122.7,
-  "activity_count": 3,
-  "avg_suffer_score": 21.7,
+  "total_distance_km": 48.01,
+  "total_moving_time_min": 249.3,
+  "activity_count": 4,
+  "avg_suffer_score": 31.0,
   "activities": [
     {
       "id": 17433889192,
@@ -64,6 +64,29 @@
       "state": null,
       "country": null,
       "photo": null
+    },
+    {
+      "id": 17459341097,
+      "name": "MLR in Luoyang, a city as old as my hometown",
+      "description": "",
+      "type": "Run",
+      "date": "2026-02-20",
+      "distance_km": 23.35,
+      "moving_time_min": 126.7,
+      "average_speed_m_s": 3.072,
+      "average_heartrate": 141.3,
+      "suffer_score": 59.0,
+      "city": null,
+      "state": null,
+      "country": null,
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/UULnNDaSph-cDH7rfwmmiyJX48BHHeJtR6sLlBzsCzs-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/UULnNDaSph-cDH7rfwmmiyJX48BHHeJtR6sLlBzsCzs-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/UULnNDaSph-cDH7rfwmmiyJX48BHHeJtR6sLlBzsCzs-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/UULnNDaSph-cDH7rfwmmiyJX48BHHeJtR6sLlBzsCzs-128x96.jpg"
+        }
+      }
     }
   ],
   "photos": [
@@ -77,6 +100,19 @@
         "urls": {
           "600": "https://dgtzuqphqg23d.cloudfront.net/hPAUlJ33FNTZ4fu8rekmU4afH4_I2HXW67U-FFDpP6Y-768x576.jpg",
           "100": "https://dgtzuqphqg23d.cloudfront.net/hPAUlJ33FNTZ4fu8rekmU4afH4_I2HXW67U-FFDpP6Y-128x96.jpg"
+        }
+      }
+    },
+    {
+      "activity_id": 17459341097,
+      "date": "2026-02-20",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/UULnNDaSph-cDH7rfwmmiyJX48BHHeJtR6sLlBzsCzs-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/UULnNDaSph-cDH7rfwmmiyJX48BHHeJtR6sLlBzsCzs-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/UULnNDaSph-cDH7rfwmmiyJX48BHHeJtR6sLlBzsCzs-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/UULnNDaSph-cDH7rfwmmiyJX48BHHeJtR6sLlBzsCzs-128x96.jpg"
         }
       }
     }
