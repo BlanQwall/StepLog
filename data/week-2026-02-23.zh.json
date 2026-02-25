@@ -1,0 +1,31 @@
+{
+  "week_start": "2026-02-23",
+  "week_end": "2026-03-01",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 18.38,
+  "total_moving_time_min": 91.6,
+  "activity_count": 1,
+  "avg_suffer_score": 75.0,
+  "activities": [
+    {
+      "id": 17515676092,
+      "name": "中长距离跑",
+      "description": "",
+      "type": "Run",
+      "date": "2026-02-25",
+      "distance_km": 18.38,
+      "moving_time_min": 91.6,
+      "average_speed_m_s": 3.343,
+      "average_heartrate": 146.5,
+      "suffer_score": 75.0,
+      "city": "现时",
+      "state": "陕西省",
+      "country": "中国",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
