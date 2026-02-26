@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 18.38,
-  "total_moving_time_min": 91.6,
-  "activity_count": 1,
-  "avg_suffer_score": 75.0,
+  "total_distance_km": 40.82,
+  "total_moving_time_min": 198.1,
+  "activity_count": 2,
+  "avg_suffer_score": 99.5,
   "activities": [
     {
       "id": 17515676092,
@@ -24,6 +24,22 @@
       "city": "Xian Shi",
       "state": "Shaanxi Sheng",
       "country": "China",
+      "photo": null
+    },
+    {
+      "id": 17529134793,
+      "name": "12Km@MP",
+      "description": "",
+      "type": "Run",
+      "date": "2026-02-26",
+      "distance_km": 22.44,
+      "moving_time_min": 106.5,
+      "average_speed_m_s": 3.514,
+      "average_heartrate": 153.1,
+      "suffer_score": 124.0,
+      "city": null,
+      "state": "Shaanxi",
+      "country": "PRC",
       "photo": null
     }
   ],
