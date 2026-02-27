@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 40.82,
-  "total_moving_time_min": 198.1,
-  "activity_count": 2,
-  "avg_suffer_score": 99.5,
+  "total_distance_km": 55.54,
+  "total_moving_time_min": 273.9,
+  "activity_count": 3,
+  "avg_suffer_score": 83.7,
   "activities": [
     {
       "id": 17515676092,
@@ -37,6 +37,22 @@
       "average_speed_m_s": 3.514,
       "average_heartrate": 153.1,
       "suffer_score": 124.0,
+      "city": null,
+      "state": "陕西",
+      "country": "中国",
+      "photo": null
+    },
+    {
+      "id": 17539954955,
+      "name": "变速跑训练 2x5' 5x1' 5x30s",
+      "description": "",
+      "type": "Run",
+      "date": "2026-02-27",
+      "distance_km": 14.72,
+      "moving_time_min": 75.8,
+      "average_speed_m_s": 3.236,
+      "average_heartrate": 144.3,
+      "suffer_score": 52.0,
       "city": null,
       "state": "陕西",
       "country": "中国",
