@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 55.54,
-  "total_moving_time_min": 273.9,
-  "activity_count": 3,
-  "avg_suffer_score": 83.7,
+  "total_distance_km": 89.03,
+  "total_moving_time_min": 444.1,
+  "activity_count": 4,
+  "avg_suffer_score": 98.5,
   "activities": [
     {
       "id": 17515676092,
@@ -56,6 +56,22 @@
       "city": null,
       "state": "Shaanxi",
       "country": "PRC",
+      "photo": null
+    },
+    {
+      "id": 17562545912,
+      "name": "Afternoon Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-03-01",
+      "distance_km": 33.49,
+      "moving_time_min": 170.2,
+      "average_speed_m_s": 3.278,
+      "average_heartrate": 149.2,
+      "suffer_score": 143.0,
+      "city": "Xian Shi",
+      "state": "Shaanxi Sheng",
+      "country": "China",
       "photo": null
     }
   ],
