@@ -1,0 +1,31 @@
+{
+  "week_start": "2026-03-02",
+  "week_end": "2026-03-08",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 8.51,
+  "total_moving_time_min": 43.0,
+  "activity_count": 1,
+  "avg_suffer_score": 22.0,
+  "activities": [
+    {
+      "id": 17572175493,
+      "name": "最后轻松恢复跑在西安和身体素质训练为长途旅行做准备 ✈️",
+      "description": "",
+      "type": "Run",
+      "date": "2026-03-02",
+      "distance_km": 8.51,
+      "moving_time_min": 43.0,
+      "average_speed_m_s": 3.303,
+      "average_heartrate": 139.9,
+      "suffer_score": 22.0,
+      "city": null,
+      "state": "陕西",
+      "country": "中国",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
