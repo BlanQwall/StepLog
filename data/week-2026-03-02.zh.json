@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 8.51,
-  "total_moving_time_min": 43.0,
-  "activity_count": 1,
-  "avg_suffer_score": 22.0,
+  "total_distance_km": 29.97,
+  "total_moving_time_min": 151.3,
+  "activity_count": 2,
+  "avg_suffer_score": 45.0,
   "activities": [
     {
       "id": 17572175493,
@@ -24,6 +24,22 @@
       "city": null,
       "state": "陕西",
       "country": "中国",
+      "photo": null
+    },
+    {
+      "id": 17602403588,
+      "name": "4x1200m@SP5（未完成）",
+      "description": "疲劳，感觉不太好。",
+      "type": "Run",
+      "date": "2026-03-04",
+      "distance_km": 21.46,
+      "moving_time_min": 108.3,
+      "average_speed_m_s": 3.302,
+      "average_heartrate": 144.1,
+      "suffer_score": 68.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
       "photo": null
     }
   ],
