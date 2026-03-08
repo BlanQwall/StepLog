@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 29.97,
-  "total_moving_time_min": 151.3,
-  "activity_count": 2,
-  "avg_suffer_score": 45.0,
+  "total_distance_km": 62.04,
+  "total_moving_time_min": 308.1,
+  "activity_count": 3,
+  "avg_suffer_score": 80.3,
   "activities": [
     {
       "id": 17572175493,
@@ -41,7 +41,44 @@
       "state": "Occitanie",
       "country": "France",
       "photo": null
+    },
+    {
+      "id": 17644139806,
+      "name": "Marseille - Day -21 LR: Escape from the rain",
+      "description": "",
+      "type": "Run",
+      "date": "2026-03-08",
+      "distance_km": 32.07,
+      "moving_time_min": 156.9,
+      "average_speed_m_s": 3.408,
+      "average_heartrate": 148.8,
+      "suffer_score": 151.0,
+      "city": "Marseille",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/dZqErrp8o19Aik3-cSWJihuXMt2751QBilhxQDFFNg0-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/dZqErrp8o19Aik3-cSWJihuXMt2751QBilhxQDFFNg0-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/dZqErrp8o19Aik3-cSWJihuXMt2751QBilhxQDFFNg0-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/dZqErrp8o19Aik3-cSWJihuXMt2751QBilhxQDFFNg0-128x96.jpg"
+        }
+      }
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "activity_id": 17644139806,
+      "date": "2026-03-08",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/dZqErrp8o19Aik3-cSWJihuXMt2751QBilhxQDFFNg0-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/dZqErrp8o19Aik3-cSWJihuXMt2751QBilhxQDFFNg0-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/dZqErrp8o19Aik3-cSWJihuXMt2751QBilhxQDFFNg0-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/dZqErrp8o19Aik3-cSWJihuXMt2751QBilhxQDFFNg0-128x96.jpg"
+        }
+      }
+    }
+  ]
 }
