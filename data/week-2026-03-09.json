@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 25.29,
-  "total_moving_time_min": 128.7,
-  "activity_count": 4,
-  "avg_suffer_score": 21.2,
+  "total_distance_km": 39.36,
+  "total_moving_time_min": 196.8,
+  "activity_count": 5,
+  "avg_suffer_score": 28.4,
   "activities": [
     {
       "id": 17662716026,
@@ -69,6 +69,22 @@
       "average_speed_m_s": 3.52,
       "average_heartrate": 155.2,
       "suffer_score": 45.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 17686896960,
+      "name": "Afternoon Run",
+      "description": "HR still floating 😰",
+      "type": "Run",
+      "date": "2026-03-11",
+      "distance_km": 14.07,
+      "moving_time_min": 68.2,
+      "average_speed_m_s": 3.441,
+      "average_heartrate": 148.5,
+      "suffer_score": 57.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
