@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 44.01,
-  "total_moving_time_min": 221.0,
-  "activity_count": 6,
-  "avg_suffer_score": 24.8,
+  "total_distance_km": 51.64,
+  "total_moving_time_min": 255.6,
+  "activity_count": 7,
+  "avg_suffer_score": 28.7,
   "activities": [
     {
       "id": 17662716026,
@@ -101,6 +101,22 @@
       "average_speed_m_s": 3.201,
       "average_heartrate": 138.3,
       "suffer_score": 7.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 17693177028,
+      "name": "Club SP 3x(6'@SP42 3'@SP21)",
+      "description": "",
+      "type": "Run",
+      "date": "2026-03-12",
+      "distance_km": 7.62,
+      "moving_time_min": 34.5,
+      "average_speed_m_s": 3.682,
+      "average_heartrate": 159.4,
+      "suffer_score": 52.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
