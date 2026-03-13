@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 54.17,
-  "total_moving_time_min": 269.6,
-  "activity_count": 8,
-  "avg_suffer_score": 25.6,
+  "total_distance_km": 65.59,
+  "total_moving_time_min": 322.2,
+  "activity_count": 9,
+  "avg_suffer_score": 30.2,
   "activities": [
     {
       "id": 17662716026,
@@ -133,6 +133,22 @@
       "average_speed_m_s": 3.013,
       "average_heartrate": 136.4,
       "suffer_score": 4.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 17704563996,
+      "name": "5x2Km@SP10",
+      "description": "",
+      "type": "Run",
+      "date": "2026-03-13",
+      "distance_km": 11.42,
+      "moving_time_min": 52.6,
+      "average_speed_m_s": 3.615,
+      "average_heartrate": 153.6,
+      "suffer_score": 67.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
