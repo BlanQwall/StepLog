@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 65.59,
-  "total_moving_time_min": 322.2,
-  "activity_count": 9,
-  "avg_suffer_score": 30.2,
+  "total_distance_km": 90.8,
+  "total_moving_time_min": 442.0,
+  "activity_count": 10,
+  "avg_suffer_score": 42.3,
   "activities": [
     {
       "id": 17662716026,
@@ -150,6 +150,22 @@
       "average_heartrate": 153.6,
       "suffer_score": 67.0,
       "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 17734238440,
+      "name": "22Km@MP (abandoned at 15Km) feel bad 😢",
+      "description": "",
+      "type": "Run",
+      "date": "2026-03-15",
+      "distance_km": 25.21,
+      "moving_time_min": 119.8,
+      "average_speed_m_s": 3.508,
+      "average_heartrate": 155.5,
+      "suffer_score": 151.0,
+      "city": "Saint-Jean-de-Cuculles",
       "state": "Occitanie",
       "country": "France",
       "photo": null
