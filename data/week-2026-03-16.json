@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 11.09,
-  "total_moving_time_min": 55.5,
-  "activity_count": 3,
-  "avg_suffer_score": 15.0,
+  "total_distance_km": 27.25,
+  "total_moving_time_min": 133.2,
+  "activity_count": 4,
+  "avg_suffer_score": 30.0,
   "activities": [
     {
       "id": 17745717347,
@@ -53,6 +53,22 @@
       "average_speed_m_s": 3.647,
       "average_heartrate": 157.1,
       "suffer_score": 36.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 17768487891,
+      "name": "Tempo 10'@MP",
+      "description": "Hope this helps or maybe too late 🫣",
+      "type": "Run",
+      "date": "2026-03-18",
+      "distance_km": 16.16,
+      "moving_time_min": 77.8,
+      "average_speed_m_s": 3.465,
+      "average_heartrate": 148.7,
+      "suffer_score": 75.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
