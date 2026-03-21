@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 47.01,
-  "total_moving_time_min": 230.8,
-  "activity_count": 6,
-  "avg_suffer_score": 38.3,
+  "total_distance_km": 57.27,
+  "total_moving_time_min": 287.8,
+  "activity_count": 7,
+  "avg_suffer_score": 34.7,
   "activities": [
     {
       "id": 17745717347,
@@ -105,7 +105,44 @@
       "state": "Lisboa",
       "country": "Portugal",
       "photo": null
+    },
+    {
+      "id": 17799191655,
+      "name": "Morning Run",
+      "description": "",
+      "type": "Run",
+      "date": "2026-03-21",
+      "distance_km": 10.26,
+      "moving_time_min": 57.0,
+      "average_speed_m_s": 3.0,
+      "average_heartrate": 128.8,
+      "suffer_score": 13.0,
+      "city": "Estoril",
+      "state": "Lisboa",
+      "country": "Portugal",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/0IQ2mqHjAW6UPLOiA-RAdjjvLJMQZIeUX1e06KQM9kg-576x768.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/0IQ2mqHjAW6UPLOiA-RAdjjvLJMQZIeUX1e06KQM9kg-96x128.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/0IQ2mqHjAW6UPLOiA-RAdjjvLJMQZIeUX1e06KQM9kg-576x768.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/0IQ2mqHjAW6UPLOiA-RAdjjvLJMQZIeUX1e06KQM9kg-96x128.jpg"
+        }
+      }
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "activity_id": 17799191655,
+      "date": "2026-03-21",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/0IQ2mqHjAW6UPLOiA-RAdjjvLJMQZIeUX1e06KQM9kg-576x768.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/0IQ2mqHjAW6UPLOiA-RAdjjvLJMQZIeUX1e06KQM9kg-96x128.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/0IQ2mqHjAW6UPLOiA-RAdjjvLJMQZIeUX1e06KQM9kg-576x768.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/0IQ2mqHjAW6UPLOiA-RAdjjvLJMQZIeUX1e06KQM9kg-96x128.jpg"
+        }
+      }
+    }
+  ]
 }
