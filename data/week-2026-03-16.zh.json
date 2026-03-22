@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 57.27,
-  "total_moving_time_min": 287.8,
-  "activity_count": 7,
-  "avg_suffer_score": 34.7,
+  "total_distance_km": 62.55,
+  "total_moving_time_min": 317.7,
+  "activity_count": 8,
+  "avg_suffer_score": 31.1,
   "activities": [
     {
       "id": 17745717347,
@@ -128,6 +128,22 @@
           "100": "https://dgtzuqphqg23d.cloudfront.net/0IQ2mqHjAW6UPLOiA-RAdjjvLJMQZIeUX1e06KQM9kg-96x128.jpg"
         }
       }
+    },
+    {
+      "id": 17811241875,
+      "name": "哦~ 我扭伤了右脚踝… 😱",
+      "description": "希望它尽快好转。",
+      "type": "Run",
+      "date": "2026-03-22",
+      "distance_km": 5.28,
+      "moving_time_min": 29.9,
+      "average_speed_m_s": 2.944,
+      "average_heartrate": 126.6,
+      "suffer_score": 6.0,
+      "city": "埃斯托里尔",
+      "state": "里斯本",
+      "country": "葡萄牙",
+      "photo": null
     }
   ],
   "photos": [
