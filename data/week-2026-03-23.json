@@ -1,0 +1,31 @@
+{
+  "week_start": "2026-03-23",
+  "week_end": "2026-03-29",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 8.25,
+  "total_moving_time_min": 40.3,
+  "activity_count": 1,
+  "avg_suffer_score": 29.0,
+  "activities": [
+    {
+      "id": 17874019676,
+      "name": "Bad shape, weak ankle, low temperature, winds… nothing seems good for this weekend 😱",
+      "description": "",
+      "type": "Run",
+      "date": "2026-03-27",
+      "distance_km": 8.25,
+      "moving_time_min": 40.3,
+      "average_speed_m_s": 3.413,
+      "average_heartrate": 144.5,
+      "suffer_score": 29.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
