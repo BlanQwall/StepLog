@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 32.35,
-  "total_moving_time_min": 166.0,
-  "activity_count": 5,
-  "avg_suffer_score": 21.4,
+  "total_distance_km": 41.8,
+  "total_moving_time_min": 216.4,
+  "activity_count": 6,
+  "avg_suffer_score": 24.3,
   "activities": [
     {
       "id": 17995415580,
@@ -87,6 +87,22 @@
       "suffer_score": 7.0,
       "city": "三麻雀村",
       "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 18028361304,
+      "name": "下午跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-04-08",
+      "distance_km": 9.45,
+      "moving_time_min": 50.4,
+      "average_speed_m_s": 3.122,
+      "average_heartrate": 145.7,
+      "suffer_score": 39.0,
+      "city": "圣让德库库尔",
+      "state": "埃罗省",
       "country": "法国",
       "photo": null
     }
