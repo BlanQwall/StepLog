@@ -1,0 +1,31 @@
+{
+  "week_start": "2026-04-13",
+  "week_end": "2026-04-19",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 2.04,
+  "total_moving_time_min": 19.8,
+  "activity_count": 1,
+  "avg_suffer_score": 3.0,
+  "activities": [
+    {
+      "id": 18094527732,
+      "name": "Club PPG",
+      "description": "",
+      "type": "Run",
+      "date": "2026-04-13",
+      "distance_km": 2.04,
+      "moving_time_min": 19.8,
+      "average_speed_m_s": 1.716,
+      "average_heartrate": 116.7,
+      "suffer_score": 3.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
