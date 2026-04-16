@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 37.42,
-  "total_moving_time_min": 199.1,
-  "activity_count": 7,
-  "avg_suffer_score": 17.6,
+  "total_distance_km": 43.79,
+  "total_moving_time_min": 230.0,
+  "activity_count": 8,
+  "avg_suffer_score": 20.6,
   "activities": [
     {
       "id": 18094527732,
@@ -117,6 +117,22 @@
       "average_speed_m_s": 3.377,
       "average_heartrate": 143.9,
       "suffer_score": 16.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 18136552653,
+      "name": "5x5Km VMA",
+      "description": "",
+      "type": "Run",
+      "date": "2026-04-16",
+      "distance_km": 6.37,
+      "moving_time_min": 30.9,
+      "average_speed_m_s": 3.438,
+      "average_heartrate": 156.7,
+      "suffer_score": 42.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
