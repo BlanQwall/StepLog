@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 22.3,
-  "total_moving_time_min": 122.5,
-  "activity_count": 5,
-  "avg_suffer_score": 16.6,
+  "total_distance_km": 32.3,
+  "total_moving_time_min": 173.8,
+  "activity_count": 6,
+  "avg_suffer_score": 17.8,
   "activities": [
     {
       "id": 18094527732,
@@ -85,6 +85,22 @@
       "average_speed_m_s": 2.974,
       "average_heartrate": 133.4,
       "suffer_score": 4.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 18127367729,
+      "name": "晨跑",
+      "description": "",
+      "type": "Run",
+      "date": "2026-04-16",
+      "distance_km": 10.01,
+      "moving_time_min": 51.4,
+      "average_speed_m_s": 3.247,
+      "average_heartrate": 139.4,
+      "suffer_score": 24.0,
       "city": "三麻雀村",
       "state": "奥克西塔尼大区",
       "country": "法国",
