@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 48.0,
-  "total_moving_time_min": 252.9,
-  "activity_count": 9,
-  "avg_suffer_score": 19.0,
+  "total_distance_km": 72.41,
+  "total_moving_time_min": 366.7,
+  "activity_count": 11,
+  "avg_suffer_score": 29.5,
   "activities": [
     {
       "id": 18094527732,
@@ -150,6 +150,38 @@
       "average_heartrate": 135.8,
       "suffer_score": 6.0,
       "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 18168342477,
+      "name": "WU",
+      "description": "",
+      "type": "Run",
+      "date": "2026-04-19",
+      "distance_km": 3.14,
+      "moving_time_min": 16.9,
+      "average_speed_m_s": 3.096,
+      "average_heartrate": 143.2,
+      "suffer_score": 9.0,
+      "city": "Montpellier",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 18168342657,
+      "name": "Half marathon Montpellier",
+      "description": "10Km@MP then slow-place run from the rest.",
+      "type": "Run",
+      "date": "2026-04-19",
+      "distance_km": 21.27,
+      "moving_time_min": 96.9,
+      "average_speed_m_s": 3.658,
+      "average_heartrate": 158.1,
+      "suffer_score": 144.0,
+      "city": "Montpellier",
       "state": "Occitanie",
       "country": "France",
       "photo": null
