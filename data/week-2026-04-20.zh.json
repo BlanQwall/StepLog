@@ -1,0 +1,52 @@
+{
+  "week_start": "2026-04-20",
+  "week_end": "2026-04-26",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 4.23,
+  "total_moving_time_min": 30.2,
+  "activity_count": 1,
+  "avg_suffer_score": 6.0,
+  "activities": [
+    {
+      "id": 18181490396,
+      "name": "慢跑 → 在川沙镇",
+      "description": "在上海的两个航班之间",
+      "type": "Run",
+      "date": "2026-04-20",
+      "distance_km": 4.23,
+      "moving_time_min": 30.2,
+      "average_speed_m_s": 2.331,
+      "average_heartrate": 123.1,
+      "suffer_score": 6.0,
+      "city": null,
+      "state": null,
+      "country": null,
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/mbIVVi0CE3Jh7nq4fD-JQXZlNrTt4MxrCpXUDNVxLJY-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/mbIVVi0CE3Jh7nq4fD-JQXZlNrTt4MxrCpXUDNVxLJY-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/mbIVVi0CE3Jh7nq4fD-JQXZlNrTt4MxrCpXUDNVxLJY-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/mbIVVi0CE3Jh7nq4fD-JQXZlNrTt4MxrCpXUDNVxLJY-128x96.jpg"
+        }
+      }
+    }
+  ],
+  "photos": [
+    {
+      "activity_id": 18181490396,
+      "date": "2026-04-20",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/mbIVVi0CE3Jh7nq4fD-JQXZlNrTt4MxrCpXUDNVxLJY-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/mbIVVi0CE3Jh7nq4fD-JQXZlNrTt4MxrCpXUDNVxLJY-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/mbIVVi0CE3Jh7nq4fD-JQXZlNrTt4MxrCpXUDNVxLJY-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/mbIVVi0CE3Jh7nq4fD-JQXZlNrTt4MxrCpXUDNVxLJY-128x96.jpg"
+        }
+      }
+    }
+  ]
+}
