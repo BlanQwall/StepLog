@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 16.33,
-  "total_moving_time_min": 87.7,
-  "activity_count": 2,
-  "avg_suffer_score": 34.0,
+  "total_distance_km": 32.51,
+  "total_moving_time_min": 167.6,
+  "activity_count": 3,
+  "avg_suffer_score": 49.3,
   "activities": [
     {
       "id": 18181490396,
@@ -55,6 +55,29 @@
           "100": "https://dgtzuqphqg23d.cloudfront.net/LSSBeQLCTFxMabK-O4B240Qwcpw9QnlNl-h82gyvVxE-96x128.jpg"
         }
       }
+    },
+    {
+      "id": 18206264301,
+      "name": "晨跑",
+      "description": "",
+      "type": "Run",
+      "date": "2026-04-22",
+      "distance_km": 16.18,
+      "moving_time_min": 79.9,
+      "average_speed_m_s": 3.374,
+      "average_heartrate": 150.5,
+      "suffer_score": 80.0,
+      "city": null,
+      "state": "陕西",
+      "country": "中国",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/i4VrXaMAuXG6e8mIpHCdTJidMBbP-A3Vh8_hPc-bKdA-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/i4VrXaMAuXG6e8mIpHCdTJidMBbP-A3Vh8_hPc-bKdA-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/i4VrXaMAuXG6e8mIpHCdTJidMBbP-A3Vh8_hPc-bKdA-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/i4VrXaMAuXG6e8mIpHCdTJidMBbP-A3Vh8_hPc-bKdA-128x96.jpg"
+        }
+      }
     }
   ],
   "photos": [
@@ -81,6 +104,19 @@
         "urls": {
           "600": "https://dgtzuqphqg23d.cloudfront.net/LSSBeQLCTFxMabK-O4B240Qwcpw9QnlNl-h82gyvVxE-576x768.jpg",
           "100": "https://dgtzuqphqg23d.cloudfront.net/LSSBeQLCTFxMabK-O4B240Qwcpw9QnlNl-h82gyvVxE-96x128.jpg"
+        }
+      }
+    },
+    {
+      "activity_id": 18206264301,
+      "date": "2026-04-22",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/i4VrXaMAuXG6e8mIpHCdTJidMBbP-A3Vh8_hPc-bKdA-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/i4VrXaMAuXG6e8mIpHCdTJidMBbP-A3Vh8_hPc-bKdA-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/i4VrXaMAuXG6e8mIpHCdTJidMBbP-A3Vh8_hPc-bKdA-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/i4VrXaMAuXG6e8mIpHCdTJidMBbP-A3Vh8_hPc-bKdA-128x96.jpg"
         }
       }
     }
