@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 32.51,
-  "total_moving_time_min": 167.6,
-  "activity_count": 3,
-  "avg_suffer_score": 49.3,
+  "total_distance_km": 50.24,
+  "total_moving_time_min": 256.2,
+  "activity_count": 5,
+  "avg_suffer_score": 47.0,
   "activities": [
     {
       "id": 18181490396,
@@ -78,6 +78,38 @@
           "100": "https://dgtzuqphqg23d.cloudfront.net/i4VrXaMAuXG6e8mIpHCdTJidMBbP-A3Vh8_hPc-bKdA-128x96.jpg"
         }
       }
+    },
+    {
+      "id": 18224351905,
+      "name": "傍晚跑步",
+      "description": null,
+      "type": "Run",
+      "date": "2026-04-23",
+      "distance_km": 10.13,
+      "moving_time_min": 51.9,
+      "average_speed_m_s": 3.255,
+      "average_heartrate": 144.8,
+      "suffer_score": 35.0,
+      "city": null,
+      "state": "陕西",
+      "country": "中国",
+      "photo": null
+    },
+    {
+      "id": 18224386854,
+      "name": "傍晚跑步",
+      "description": null,
+      "type": "Run",
+      "date": "2026-04-23",
+      "distance_km": 7.59,
+      "moving_time_min": 36.7,
+      "average_speed_m_s": 3.45,
+      "average_heartrate": 156.1,
+      "suffer_score": 52.0,
+      "city": null,
+      "state": "陕西",
+      "country": "中国",
+      "photo": null
     }
   ],
   "photos": [
