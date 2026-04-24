@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 50.24,
-  "total_moving_time_min": 256.2,
-  "activity_count": 5,
-  "avg_suffer_score": 47.0,
+  "total_distance_km": 61.3,
+  "total_moving_time_min": 313.4,
+  "activity_count": 6,
+  "avg_suffer_score": 42.5,
   "activities": [
     {
       "id": 18181490396,
@@ -106,6 +106,22 @@
       "average_speed_m_s": 3.45,
       "average_heartrate": 156.1,
       "suffer_score": 52.0,
+      "city": null,
+      "state": "Shaanxi",
+      "country": "PRC",
+      "photo": null
+    },
+    {
+      "id": 18238576436,
+      "name": "Evening Run",
+      "description": "",
+      "type": "Run",
+      "date": "2026-04-24",
+      "distance_km": 11.06,
+      "moving_time_min": 57.2,
+      "average_speed_m_s": 3.225,
+      "average_heartrate": 139.2,
+      "suffer_score": 20.0,
       "city": null,
       "state": "Shaanxi",
       "country": "PRC",
