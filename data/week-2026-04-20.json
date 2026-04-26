@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 77.91,
-  "total_moving_time_min": 391.2,
-  "activity_count": 8,
-  "avg_suffer_score": 43.5,
+  "total_distance_km": 87.0,
+  "total_moving_time_min": 441.2,
+  "activity_count": 9,
+  "avg_suffer_score": 40.6,
   "activities": [
     {
       "id": 18181490396,
@@ -154,6 +154,22 @@
       "average_speed_m_s": 3.714,
       "average_heartrate": 159.1,
       "suffer_score": 76.0,
+      "city": null,
+      "state": "Shaanxi",
+      "country": "PRC",
+      "photo": null
+    },
+    {
+      "id": 18259849229,
+      "name": "Morning Run",
+      "description": "",
+      "type": "Run",
+      "date": "2026-04-26",
+      "distance_km": 9.09,
+      "moving_time_min": 50.0,
+      "average_speed_m_s": 3.03,
+      "average_heartrate": 137.4,
+      "suffer_score": 17.0,
       "city": null,
       "state": "Shaanxi",
       "country": "PRC",
