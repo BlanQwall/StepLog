@@ -1,0 +1,31 @@
+{
+  "week_start": "2026-04-27",
+  "week_end": "2026-05-03",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 5.25,
+  "total_moving_time_min": 27.3,
+  "activity_count": 1,
+  "avg_suffer_score": 15.0,
+  "activities": [
+    {
+      "id": 18277479806,
+      "name": "傍晚跑步",
+      "description": null,
+      "type": "Run",
+      "date": "2026-04-27",
+      "distance_km": 5.25,
+      "moving_time_min": 27.3,
+      "average_speed_m_s": 3.206,
+      "average_heartrate": 141.5,
+      "suffer_score": 15.0,
+      "city": null,
+      "state": "陕西",
+      "country": "中国",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
