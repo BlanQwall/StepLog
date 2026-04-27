@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 5.25,
-  "total_moving_time_min": 27.3,
-  "activity_count": 1,
-  "avg_suffer_score": 15.0,
+  "total_distance_km": 16.85,
+  "total_moving_time_min": 85.8,
+  "activity_count": 2,
+  "avg_suffer_score": 52.0,
   "activities": [
     {
       "id": 18277479806,
@@ -21,6 +21,22 @@
       "average_speed_m_s": 3.206,
       "average_heartrate": 141.5,
       "suffer_score": 15.0,
+      "city": null,
+      "state": "Shaanxi",
+      "country": "PRC",
+      "photo": null
+    },
+    {
+      "id": 18277528390,
+      "name": "5x2Km",
+      "description": "",
+      "type": "Run",
+      "date": "2026-04-27",
+      "distance_km": 11.6,
+      "moving_time_min": 58.5,
+      "average_speed_m_s": 3.305,
+      "average_heartrate": 162.1,
+      "suffer_score": 89.0,
       "city": null,
       "state": "Shaanxi",
       "country": "PRC",
