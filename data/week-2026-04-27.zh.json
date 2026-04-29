@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 27.0,
-  "total_moving_time_min": 137.3,
-  "activity_count": 3,
-  "avg_suffer_score": 47.7,
+  "total_distance_km": 32.22,
+  "total_moving_time_min": 165.4,
+  "activity_count": 4,
+  "avg_suffer_score": 38.8,
   "activities": [
     {
       "id": 18277479806,
@@ -53,6 +53,22 @@
       "average_speed_m_s": 3.285,
       "average_heartrate": 145.8,
       "suffer_score": 39.0,
+      "city": null,
+      "state": "陕西",
+      "country": "中国",
+      "photo": null
+    },
+    {
+      "id": 18304904007,
+      "name": "傍晚跑步",
+      "description": null,
+      "type": "Run",
+      "date": "2026-04-29",
+      "distance_km": 5.22,
+      "moving_time_min": 28.1,
+      "average_speed_m_s": 3.098,
+      "average_heartrate": 138.1,
+      "suffer_score": 12.0,
       "city": null,
       "state": "陕西",
       "country": "中国",
