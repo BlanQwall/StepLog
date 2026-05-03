@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 56.15,
-  "total_moving_time_min": 290.3,
-  "activity_count": 7,
-  "avg_suffer_score": 31.6,
+  "total_distance_km": 64.7,
+  "total_moving_time_min": 332.7,
+  "activity_count": 8,
+  "avg_suffer_score": 30.2,
   "activities": [
     {
       "id": 18277479806,
@@ -117,6 +117,22 @@
       "average_speed_m_s": 3.304,
       "average_heartrate": 143.9,
       "suffer_score": 30.0,
+      "city": "Saint-Jean-de-Cuculles",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 18362259531,
+      "name": "Afternoon Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-05-03",
+      "distance_km": 8.55,
+      "moving_time_min": 42.5,
+      "average_speed_m_s": 3.355,
+      "average_heartrate": 142.3,
+      "suffer_score": 21.0,
       "city": "Saint-Jean-de-Cuculles",
       "state": "Occitanie",
       "country": "France",
