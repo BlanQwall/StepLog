@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 54.84,
-  "total_moving_time_min": 284.1,
-  "activity_count": 6,
-  "avg_suffer_score": 40.8,
+  "total_distance_km": 74.44,
+  "total_moving_time_min": 401.8,
+  "activity_count": 7,
+  "avg_suffer_score": 41.3,
   "activities": [
     {
       "id": 18493121269,
@@ -102,6 +102,22 @@
       "average_heartrate": 147.8,
       "suffer_score": 37.0,
       "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 18546701292,
+      "name": "Afternoon Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-05-17",
+      "distance_km": 19.6,
+      "moving_time_min": 117.8,
+      "average_speed_m_s": 2.773,
+      "average_heartrate": 131.3,
+      "suffer_score": 44.0,
+      "city": "Les Matelles",
       "state": "Occitanie",
       "country": "France",
       "photo": null
