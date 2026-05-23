@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 54.95,
-  "total_moving_time_min": 289.9,
-  "activity_count": 6,
-  "avg_suffer_score": 37.7,
+  "total_distance_km": 60.78,
+  "total_moving_time_min": 320.0,
+  "activity_count": 7,
+  "avg_suffer_score": 35.6,
   "activities": [
     {
       "id": 18559196262,
@@ -104,6 +104,22 @@
       "city": null,
       "state": null,
       "country": null,
+      "photo": null
+    },
+    {
+      "id": 18624411730,
+      "name": "傍晚跑步",
+      "description": null,
+      "type": "Run",
+      "date": "2026-05-23",
+      "distance_km": 5.83,
+      "moving_time_min": 30.1,
+      "average_speed_m_s": 3.227,
+      "average_heartrate": 145.7,
+      "suffer_score": 23.0,
+      "city": "三麻雀村",
+      "state": "朗格多克-鲁西永 南部-比利牛斯",
+      "country": "法国",
       "photo": null
     }
   ],
