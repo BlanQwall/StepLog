@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 12.03,
-  "total_moving_time_min": 66.9,
-  "activity_count": 3,
-  "avg_suffer_score": 12.0,
+  "total_distance_km": 20.63,
+  "total_moving_time_min": 109.7,
+  "activity_count": 4,
+  "avg_suffer_score": 15.0,
   "activities": [
     {
       "id": 18737424526,
@@ -56,6 +56,22 @@
       "city": null,
       "state": null,
       "country": null,
+      "photo": null
+    },
+    {
+      "id": 18805321745,
+      "name": "晨跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-06-06",
+      "distance_km": 8.59,
+      "moving_time_min": 42.7,
+      "average_speed_m_s": 3.351,
+      "average_heartrate": 143.8,
+      "suffer_score": 24.0,
+      "city": "圣让德库库尔",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
       "photo": null
     }
   ],
