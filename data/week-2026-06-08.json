@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 40.49,
-  "total_moving_time_min": 199.7,
-  "activity_count": 7,
-  "avg_suffer_score": 32.9,
+  "total_distance_km": 48.46,
+  "total_moving_time_min": 236.7,
+  "activity_count": 8,
+  "avg_suffer_score": 36.9,
   "activities": [
     {
       "id": 18840416423,
@@ -117,6 +117,22 @@
       "average_speed_m_s": 3.643,
       "average_heartrate": 168.1,
       "suffer_score": 74.0,
+      "city": "Palavas-les-Flots",
+      "state": "Hérault",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 18906303420,
+      "name": "Afternoon Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-06-13",
+      "distance_km": 7.97,
+      "moving_time_min": 37.0,
+      "average_speed_m_s": 3.591,
+      "average_heartrate": 162.9,
+      "suffer_score": 65.0,
       "city": "Palavas-les-Flots",
       "state": "Hérault",
       "country": "France",
