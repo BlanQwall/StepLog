@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 32.59,
-  "total_moving_time_min": 163.6,
-  "activity_count": 6,
-  "avg_suffer_score": 26.0,
+  "total_distance_km": 40.49,
+  "total_moving_time_min": 199.7,
+  "activity_count": 7,
+  "avg_suffer_score": 32.9,
   "activities": [
     {
       "id": 18840416423,
@@ -103,6 +103,22 @@
       "suffer_score": 34.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 18902481145,
+      "name": "Afternoon Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-06-13",
+      "distance_km": 7.9,
+      "moving_time_min": 36.1,
+      "average_speed_m_s": 3.643,
+      "average_heartrate": 168.1,
+      "suffer_score": 74.0,
+      "city": "Palavas-les-Flots",
+      "state": "Hérault",
       "country": "France",
       "photo": null
     }
