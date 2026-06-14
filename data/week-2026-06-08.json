@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 48.46,
-  "total_moving_time_min": 236.7,
-  "activity_count": 8,
-  "avg_suffer_score": 36.9,
+  "total_distance_km": 55.94,
+  "total_moving_time_min": 269.0,
+  "activity_count": 9,
+  "avg_suffer_score": 39.8,
   "activities": [
     {
       "id": 18840416423,
@@ -133,6 +133,22 @@
       "average_speed_m_s": 3.591,
       "average_heartrate": 162.9,
       "suffer_score": 65.0,
+      "city": "Palavas-les-Flots",
+      "state": "Hérault",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 18912083322,
+      "name": "Morning Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-06-14",
+      "distance_km": 7.48,
+      "moving_time_min": 32.2,
+      "average_speed_m_s": 3.864,
+      "average_heartrate": 165.6,
+      "suffer_score": 63.0,
       "city": "Palavas-les-Flots",
       "state": "Hérault",
       "country": "France",
