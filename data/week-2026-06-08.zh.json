@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 55.94,
-  "total_moving_time_min": 269.0,
-  "activity_count": 9,
-  "avg_suffer_score": 39.8,
+  "total_distance_km": 63.06,
+  "total_moving_time_min": 302.2,
+  "activity_count": 10,
+  "avg_suffer_score": 41.4,
   "activities": [
     {
       "id": 18840416423,
@@ -149,6 +149,22 @@
       "average_speed_m_s": 3.864,
       "average_heartrate": 165.6,
       "suffer_score": 63.0,
+      "city": "帕拉瓦莱斯-莱弗洛",
+      "state": "埃罗省",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 18915134588,
+      "name": "晨跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-06-14",
+      "distance_km": 7.12,
+      "moving_time_min": 33.3,
+      "average_speed_m_s": 3.566,
+      "average_heartrate": 159.5,
+      "suffer_score": 56.0,
       "city": "帕拉瓦莱斯-莱弗洛",
       "state": "埃罗省",
       "country": "法国",
