@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 43.53,
-  "total_moving_time_min": 227.1,
-  "activity_count": 5,
-  "avg_suffer_score": 32.0,
+  "total_distance_km": 49.81,
+  "total_moving_time_min": 265.3,
+  "activity_count": 6,
+  "avg_suffer_score": 28.3,
   "activities": [
     {
       "id": 18946080886,
@@ -88,6 +88,22 @@
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
+      "photo": null
+    },
+    {
+      "id": 18992476816,
+      "name": "Morning Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-06-20",
+      "distance_km": 6.28,
+      "moving_time_min": 38.2,
+      "average_speed_m_s": 2.736,
+      "average_heartrate": 135.1,
+      "suffer_score": 10.0,
+      "city": null,
+      "state": null,
+      "country": null,
       "photo": null
     }
   ],
