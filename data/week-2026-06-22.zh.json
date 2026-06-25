@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 40.54,
-  "total_moving_time_min": 207.4,
-  "activity_count": 5,
-  "avg_suffer_score": 19.2,
+  "total_distance_km": 54.49,
+  "total_moving_time_min": 283.7,
+  "activity_count": 7,
+  "avg_suffer_score": 17.1,
   "activities": [
     {
       "id": 19025563711,
@@ -86,6 +86,38 @@
       "average_heartrate": 137.2,
       "suffer_score": 8.0,
       "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 19057552052,
+      "name": "晨跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-06-25",
+      "distance_km": 2.49,
+      "moving_time_min": 17.4,
+      "average_speed_m_s": 2.381,
+      "average_heartrate": 134.4,
+      "suffer_score": 7.0,
+      "city": "三麻雀村",
+      "state": "朗格多克-鲁西永 南部-比利牛斯",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 19057552231,
+      "name": "晨跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-06-25",
+      "distance_km": 11.46,
+      "moving_time_min": 58.9,
+      "average_speed_m_s": 3.242,
+      "average_heartrate": 136.4,
+      "suffer_score": 17.0,
+      "city": "圣让德库库尔",
       "state": "奥克西塔尼大区",
       "country": "法国",
       "photo": null

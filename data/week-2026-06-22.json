@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 40.54,
-  "total_moving_time_min": 207.4,
-  "activity_count": 5,
-  "avg_suffer_score": 19.2,
+  "total_distance_km": 54.49,
+  "total_moving_time_min": 283.7,
+  "activity_count": 7,
+  "avg_suffer_score": 17.1,
   "activities": [
     {
       "id": 19025563711,
@@ -86,6 +86,38 @@
       "average_heartrate": 137.2,
       "suffer_score": 8.0,
       "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 19057552052,
+      "name": "Morning Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-06-25",
+      "distance_km": 2.49,
+      "moving_time_min": 17.4,
+      "average_speed_m_s": 2.381,
+      "average_heartrate": 134.4,
+      "suffer_score": 7.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Languedoc-Roussillon Midi-Pyrénées",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 19057552231,
+      "name": "Morning Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-06-25",
+      "distance_km": 11.46,
+      "moving_time_min": 58.9,
+      "average_speed_m_s": 3.242,
+      "average_heartrate": 136.4,
+      "suffer_score": 17.0,
+      "city": "Saint-Jean-de-Cuculles",
       "state": "Occitanie",
       "country": "France",
       "photo": null
