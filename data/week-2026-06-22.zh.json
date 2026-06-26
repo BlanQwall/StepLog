@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 54.49,
-  "total_moving_time_min": 283.7,
-  "activity_count": 7,
-  "avg_suffer_score": 17.1,
+  "total_distance_km": 61.9,
+  "total_moving_time_min": 319.9,
+  "activity_count": 9,
+  "avg_suffer_score": 17.8,
   "activities": [
     {
       "id": 19025563711,
@@ -118,6 +118,38 @@
       "average_heartrate": 136.4,
       "suffer_score": 17.0,
       "city": "圣让德库库尔",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 19076583058,
+      "name": "傍晚跑步",
+      "description": null,
+      "type": "Run",
+      "date": "2026-06-26",
+      "distance_km": 5.14,
+      "moving_time_min": 24.7,
+      "average_speed_m_s": 3.474,
+      "average_heartrate": 152.6,
+      "suffer_score": 30.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 19076836250,
+      "name": "傍晚跑步",
+      "description": null,
+      "type": "Run",
+      "date": "2026-06-26",
+      "distance_km": 2.27,
+      "moving_time_min": 11.6,
+      "average_speed_m_s": 3.282,
+      "average_heartrate": 150.5,
+      "suffer_score": 10.0,
+      "city": "三麻雀村",
       "state": "奥克西塔尼大区",
       "country": "法国",
       "photo": null
