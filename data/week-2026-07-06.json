@@ -1,0 +1,31 @@
+{
+  "week_start": "2026-07-06",
+  "week_end": "2026-07-12",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 8.58,
+  "total_moving_time_min": 42.6,
+  "activity_count": 1,
+  "avg_suffer_score": 23.0,
+  "activities": [
+    {
+      "id": 19197122503,
+      "name": "Morning Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-07-06",
+      "distance_km": 8.58,
+      "moving_time_min": 42.6,
+      "average_speed_m_s": 3.359,
+      "average_heartrate": 142.5,
+      "suffer_score": 23.0,
+      "city": "Saint-Jean-de-Cuculles",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
