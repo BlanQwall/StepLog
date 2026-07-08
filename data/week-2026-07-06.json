@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 27.97,
-  "total_moving_time_min": 151.5,
-  "activity_count": 2,
-  "avg_suffer_score": 49.0,
+  "total_distance_km": 48.59,
+  "total_moving_time_min": 259.3,
+  "activity_count": 3,
+  "avg_suffer_score": 57.3,
   "activities": [
     {
       "id": 19197122503,
@@ -39,6 +39,22 @@
       "suffer_score": 75.0,
       "city": "Montferrier-sur-Lez",
       "state": "Hérault",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 19224898802,
+      "name": "Morning Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-07-08",
+      "distance_km": 20.61,
+      "moving_time_min": 107.8,
+      "average_speed_m_s": 3.186,
+      "average_heartrate": 145.4,
+      "suffer_score": 74.0,
+      "city": "Prades-le-Lez",
+      "state": "Occitanie",
       "country": "France",
       "photo": null
     }
