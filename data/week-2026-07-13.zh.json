@@ -1,0 +1,31 @@
+{
+  "week_start": "2026-07-13",
+  "week_end": "2026-07-19",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 19.47,
+  "total_moving_time_min": 107.5,
+  "activity_count": 1,
+  "avg_suffer_score": 117.0,
+  "activities": [
+    {
+      "id": 19346017098,
+      "name": "晨跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-07-17",
+      "distance_km": 19.47,
+      "moving_time_min": 107.5,
+      "average_speed_m_s": 3.019,
+      "average_heartrate": 151.1,
+      "suffer_score": 117.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
