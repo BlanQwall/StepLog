@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 27.48,
-  "total_moving_time_min": 145.1,
-  "activity_count": 2,
-  "avg_suffer_score": 74.5,
+  "total_distance_km": 45.89,
+  "total_moving_time_min": 242.2,
+  "activity_count": 3,
+  "avg_suffer_score": 75.7,
   "activities": [
     {
       "id": 19384933328,
@@ -39,6 +39,22 @@
       "suffer_score": 59.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 19413772111,
+      "name": "Summer Communte 6 home to work",
+      "description": "",
+      "type": "Run",
+      "date": "2026-07-22",
+      "distance_km": 18.41,
+      "moving_time_min": 97.2,
+      "average_speed_m_s": 3.159,
+      "average_heartrate": 146.0,
+      "suffer_score": 78.0,
+      "city": "Le Triadou",
+      "state": "Languedoc-Roussillon Midi-Pyrénées",
       "country": "France",
       "photo": null
     }
