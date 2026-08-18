@@ -1,0 +1,47 @@
+{
+  "week_start": "2026-08-17",
+  "week_end": "2026-08-23",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 30.44,
+  "total_moving_time_min": 162.2,
+  "activity_count": 2,
+  "avg_suffer_score": 43.0,
+  "activities": [
+    {
+      "id": 19775948612,
+      "name": "晨跑",
+      "description": "",
+      "type": "Run",
+      "date": "2026-08-17",
+      "distance_km": 11.53,
+      "moving_time_min": 62.2,
+      "average_speed_m_s": 3.09,
+      "average_heartrate": 142.8,
+      "suffer_score": 34.0,
+      "city": "圣让德库库尔",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 19789862025,
+      "name": "晨跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-08-18",
+      "distance_km": 18.92,
+      "moving_time_min": 100.0,
+      "average_speed_m_s": 3.151,
+      "average_heartrate": 142.7,
+      "suffer_score": 52.0,
+      "city": "圣让德库库尔",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
