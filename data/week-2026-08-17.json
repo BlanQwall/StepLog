@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 30.44,
-  "total_moving_time_min": 162.2,
-  "activity_count": 2,
-  "avg_suffer_score": 43.0,
+  "total_distance_km": 31.79,
+  "total_moving_time_min": 169.2,
+  "activity_count": 3,
+  "avg_suffer_score": 30.0,
   "activities": [
     {
       "id": 19775948612,
@@ -38,6 +38,22 @@
       "average_heartrate": 142.7,
       "suffer_score": 52.0,
       "city": "Saint-Jean-de-Cuculles",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 19798673921,
+      "name": "Evening Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-08-18",
+      "distance_km": 1.35,
+      "moving_time_min": 6.9,
+      "average_speed_m_s": 3.247,
+      "average_heartrate": 147.1,
+      "suffer_score": 4.0,
+      "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
       "photo": null
