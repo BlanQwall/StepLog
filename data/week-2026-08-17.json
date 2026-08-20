@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 46.39,
-  "total_moving_time_min": 247.8,
-  "activity_count": 4,
-  "avg_suffer_score": 28.2,
+  "total_distance_km": 48.36,
+  "total_moving_time_min": 258.8,
+  "activity_count": 5,
+  "avg_suffer_score": 23.8,
   "activities": [
     {
       "id": 19775948612,
@@ -70,6 +70,22 @@
       "average_heartrate": 136.9,
       "suffer_score": 23.0,
       "city": "Les Matelles",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 19827467662,
+      "name": "Evening Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-08-20",
+      "distance_km": 1.97,
+      "moving_time_min": 10.9,
+      "average_speed_m_s": 2.999,
+      "average_heartrate": 140.0,
+      "suffer_score": 6.0,
+      "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
       "photo": null
