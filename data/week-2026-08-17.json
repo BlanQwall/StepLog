@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 70.03,
-  "total_moving_time_min": 371.8,
-  "activity_count": 7,
-  "avg_suffer_score": 29.6,
+  "total_distance_km": 71.55,
+  "total_moving_time_min": 383.8,
+  "activity_count": 8,
+  "avg_suffer_score": 26.1,
   "activities": [
     {
       "id": 19775948612,
@@ -118,6 +118,22 @@
       "average_heartrate": 142.4,
       "suffer_score": 43.0,
       "city": "Saint-Jean-de-Cuculles",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 19841170534,
+      "name": "Night Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-08-21",
+      "distance_km": 1.52,
+      "moving_time_min": 12.0,
+      "average_speed_m_s": 2.116,
+      "average_heartrate": 119.3,
+      "suffer_score": 2.0,
+      "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
       "photo": null
