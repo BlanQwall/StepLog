@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 55.03,
-  "total_moving_time_min": 290.1,
-  "activity_count": 6,
-  "avg_suffer_score": 27.3,
+  "total_distance_km": 70.03,
+  "total_moving_time_min": 371.8,
+  "activity_count": 7,
+  "avg_suffer_score": 29.6,
   "activities": [
     {
       "id": 19775948612,
@@ -102,6 +102,22 @@
       "average_heartrate": 158.1,
       "suffer_score": 45.0,
       "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 19835251811,
+      "name": "午餐跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-08-21",
+      "distance_km": 15.0,
+      "moving_time_min": 81.7,
+      "average_speed_m_s": 3.059,
+      "average_heartrate": 142.4,
+      "suffer_score": 43.0,
+      "city": "圣让德库库尔",
       "state": "奥克西塔尼大区",
       "country": "法国",
       "photo": null
