@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 11.24,
-  "total_moving_time_min": 63.4,
-  "activity_count": 2,
-  "avg_suffer_score": 7.0,
+  "total_distance_km": 30.4,
+  "total_moving_time_min": 171.3,
+  "activity_count": 3,
+  "avg_suffer_score": 25.7,
   "activities": [
     {
       "id": 19873283119,
@@ -38,6 +38,22 @@
       "average_heartrate": 121.4,
       "suffer_score": 1.0,
       "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 19888560414,
+      "name": "夏季通勤 8",
+      "description": "",
+      "type": "Run",
+      "date": "2026-08-25",
+      "distance_km": 19.16,
+      "moving_time_min": 107.9,
+      "average_speed_m_s": 2.959,
+      "average_heartrate": 142.6,
+      "suffer_score": 63.0,
+      "city": "蒙彼利埃",
       "state": "奥克西塔尼大区",
       "country": "法国",
       "photo": null
