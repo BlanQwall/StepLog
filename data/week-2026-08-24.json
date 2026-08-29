@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 84.2,
-  "total_moving_time_min": 459.9,
-  "activity_count": 10,
-  "avg_suffer_score": 23.3,
+  "total_distance_km": 87.2,
+  "total_moving_time_min": 476.4,
+  "activity_count": 11,
+  "avg_suffer_score": 21.6,
   "activities": [
     {
       "id": 19873283119,
@@ -166,6 +166,22 @@
       "average_heartrate": 133.5,
       "suffer_score": 28.0,
       "city": "Montpellier",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 19946349000,
+      "name": "Lunch Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-08-29",
+      "distance_km": 3.01,
+      "moving_time_min": 16.5,
+      "average_speed_m_s": 3.042,
+      "average_heartrate": 135.8,
+      "suffer_score": 5.0,
+      "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
       "photo": null
