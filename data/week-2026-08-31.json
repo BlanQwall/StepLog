@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 5.1,
-  "total_moving_time_min": 27.7,
-  "activity_count": 1,
-  "avg_suffer_score": 6.0,
+  "total_distance_km": 7.35,
+  "total_moving_time_min": 51.2,
+  "activity_count": 2,
+  "avg_suffer_score": 4.5,
   "activities": [
     {
       "id": 19971969190,
@@ -21,6 +21,22 @@
       "average_speed_m_s": 3.064,
       "average_heartrate": 132.5,
       "suffer_score": 6.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 19979573098,
+      "name": "Evening Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-08-31",
+      "distance_km": 2.25,
+      "moving_time_min": 23.5,
+      "average_speed_m_s": 1.594,
+      "average_heartrate": 109.2,
+      "suffer_score": 3.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
