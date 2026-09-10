@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 84.36,
-  "total_moving_time_min": 453.3,
-  "activity_count": 7,
-  "avg_suffer_score": 22.1,
+  "total_distance_km": 87.95,
+  "total_moving_time_min": 468.4,
+  "activity_count": 8,
+  "avg_suffer_score": 21.4,
   "activities": [
     {
       "id": 20069407267,
@@ -117,6 +117,22 @@
       "average_speed_m_s": 3.194,
       "average_heartrate": 135.5,
       "suffer_score": 7.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 20121098067,
+      "name": "10x1’",
+      "description": "",
+      "type": "Run",
+      "date": "2026-09-10",
+      "distance_km": 3.58,
+      "moving_time_min": 15.2,
+      "average_speed_m_s": 3.943,
+      "average_heartrate": 151.4,
+      "suffer_score": 16.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
