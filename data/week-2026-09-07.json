@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 109.73,
-  "total_moving_time_min": 579.9,
-  "activity_count": 9,
-  "avg_suffer_score": 25.7,
+  "total_distance_km": 136.43,
+  "total_moving_time_min": 720.6,
+  "activity_count": 11,
+  "avg_suffer_score": 27.8,
   "activities": [
     {
       "id": 20069407267,
@@ -153,7 +153,60 @@
       "state": "Occitanie",
       "country": "France",
       "photo": null
+    },
+    {
+      "id": 20154975173,
+      "name": "WU locker toilets…",
+      "description": "",
+      "type": "Run",
+      "date": "2026-09-13",
+      "distance_km": 3.34,
+      "moving_time_min": 22.3,
+      "average_speed_m_s": 2.503,
+      "average_heartrate": 122.4,
+      "suffer_score": 4.0,
+      "city": null,
+      "state": null,
+      "country": null,
+      "photo": null
+    },
+    {
+      "id": 20154984810,
+      "name": "Course Eiffage du Viaduc de Millau",
+      "description": "Mode jog",
+      "type": "Run",
+      "date": "2026-09-13",
+      "distance_km": 23.35,
+      "moving_time_min": 118.5,
+      "average_speed_m_s": 3.285,
+      "average_heartrate": 142.9,
+      "suffer_score": 71.0,
+      "city": "Millau",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/nrJJq-MOBJVco9wZGJHexsFo5ZzLCfKoH8DHPvoz0A0-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/nrJJq-MOBJVco9wZGJHexsFo5ZzLCfKoH8DHPvoz0A0-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/nrJJq-MOBJVco9wZGJHexsFo5ZzLCfKoH8DHPvoz0A0-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/nrJJq-MOBJVco9wZGJHexsFo5ZzLCfKoH8DHPvoz0A0-128x96.jpg"
+        }
+      }
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "activity_id": 20154984810,
+      "date": "2026-09-13",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/nrJJq-MOBJVco9wZGJHexsFo5ZzLCfKoH8DHPvoz0A0-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/nrJJq-MOBJVco9wZGJHexsFo5ZzLCfKoH8DHPvoz0A0-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/nrJJq-MOBJVco9wZGJHexsFo5ZzLCfKoH8DHPvoz0A0-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/nrJJq-MOBJVco9wZGJHexsFo5ZzLCfKoH8DHPvoz0A0-128x96.jpg"
+        }
+      }
+    }
+  ]
 }
