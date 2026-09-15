@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 28.46,
-  "total_moving_time_min": 160.2,
-  "activity_count": 2,
-  "avg_suffer_score": 29.0,
+  "total_distance_km": 37.58,
+  "total_moving_time_min": 209.5,
+  "activity_count": 4,
+  "avg_suffer_score": 21.0,
   "activities": [
     {
       "id": 20174471283,
@@ -48,6 +48,38 @@
           "100": "https://dgtzuqphqg23d.cloudfront.net/GcCp9umN3txGnk1wmPWLYniPGXuPTHBHAIe9K5CDREM-128x96.jpg"
         }
       }
+    },
+    {
+      "id": 20189359503,
+      "name": "Evening Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-09-15",
+      "distance_km": 5.29,
+      "moving_time_min": 31.5,
+      "average_speed_m_s": 2.796,
+      "average_heartrate": 124.5,
+      "suffer_score": 7.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 20189368756,
+      "name": "Club Pyramide 3’2’1’2’3’",
+      "description": "",
+      "type": "Run",
+      "date": "2026-09-15",
+      "distance_km": 3.83,
+      "moving_time_min": 17.9,
+      "average_speed_m_s": 3.579,
+      "average_heartrate": 154.2,
+      "suffer_score": 19.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
     }
   ],
   "photos": [
