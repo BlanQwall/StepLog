@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 9.51,
-  "total_moving_time_min": 54.1,
-  "activity_count": 1,
-  "avg_suffer_score": 26.0,
+  "total_distance_km": 28.46,
+  "total_moving_time_min": 160.2,
+  "activity_count": 2,
+  "avg_suffer_score": 29.0,
   "activities": [
     {
       "id": 20174471283,
@@ -25,7 +25,44 @@
       "state": "奥克西塔尼大区",
       "country": "法国",
       "photo": null
+    },
+    {
+      "id": 20180997827,
+      "name": "夏季通勤 11 (最后一个？)",
+      "description": "",
+      "type": "Run",
+      "date": "2026-09-15",
+      "distance_km": 18.95,
+      "moving_time_min": 106.1,
+      "average_speed_m_s": 2.977,
+      "average_heartrate": 133.5,
+      "suffer_score": 32.0,
+      "city": "蒙费里耶-苏尔-莱茨",
+      "state": "埃罗省",
+      "country": "法国",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/GcCp9umN3txGnk1wmPWLYniPGXuPTHBHAIe9K5CDREM-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/GcCp9umN3txGnk1wmPWLYniPGXuPTHBHAIe9K5CDREM-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/GcCp9umN3txGnk1wmPWLYniPGXuPTHBHAIe9K5CDREM-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/GcCp9umN3txGnk1wmPWLYniPGXuPTHBHAIe9K5CDREM-128x96.jpg"
+        }
+      }
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "activity_id": 20180997827,
+      "date": "2026-09-15",
+      "type": "Run",
+      "photo": {
+        "url": "https://dgtzuqphqg23d.cloudfront.net/GcCp9umN3txGnk1wmPWLYniPGXuPTHBHAIe9K5CDREM-768x576.jpg",
+        "thumb": "https://dgtzuqphqg23d.cloudfront.net/GcCp9umN3txGnk1wmPWLYniPGXuPTHBHAIe9K5CDREM-128x96.jpg",
+        "urls": {
+          "600": "https://dgtzuqphqg23d.cloudfront.net/GcCp9umN3txGnk1wmPWLYniPGXuPTHBHAIe9K5CDREM-768x576.jpg",
+          "100": "https://dgtzuqphqg23d.cloudfront.net/GcCp9umN3txGnk1wmPWLYniPGXuPTHBHAIe9K5CDREM-128x96.jpg"
+        }
+      }
+    }
+  ]
 }
