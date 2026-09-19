@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 77.87,
-  "total_moving_time_min": 412.8,
-  "activity_count": 7,
-  "avg_suffer_score": 29.6,
+  "total_distance_km": 92.95,
+  "total_moving_time_min": 499.7,
+  "activity_count": 8,
+  "avg_suffer_score": 28.6,
   "activities": [
     {
       "id": 20174471283,
@@ -125,6 +125,22 @@
       "average_heartrate": 146.6,
       "suffer_score": 86.0,
       "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 20236268656,
+      "name": "Relaxing run with heavy legs",
+      "description": "",
+      "type": "Run",
+      "date": "2026-09-19",
+      "distance_km": 15.08,
+      "moving_time_min": 87.0,
+      "average_speed_m_s": 2.89,
+      "average_heartrate": 130.3,
+      "suffer_score": 22.0,
+      "city": "Les Matelles",
       "state": "Occitanie",
       "country": "France",
       "photo": null
