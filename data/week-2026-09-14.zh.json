@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 92.95,
-  "total_moving_time_min": 499.7,
-  "activity_count": 8,
-  "avg_suffer_score": 28.6,
+  "total_distance_km": 94.11,
+  "total_moving_time_min": 537.0,
+  "activity_count": 9,
+  "avg_suffer_score": 28.4,
   "activities": [
     {
       "id": 20174471283,
@@ -143,6 +143,22 @@
       "city": "莱马泰尔",
       "state": "奥克西塔尼大区",
       "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 20254981513,
+      "name": "下午游泳",
+      "description": null,
+      "type": "Swim",
+      "date": "2026-09-20",
+      "distance_km": 1.16,
+      "moving_time_min": 37.3,
+      "average_speed_m_s": 0.519,
+      "average_heartrate": 143.1,
+      "suffer_score": 27.0,
+      "city": null,
+      "state": null,
+      "country": null,
       "photo": null
     }
   ],
