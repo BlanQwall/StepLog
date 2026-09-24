@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cycle 2 · Barcelona HM · StepLog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../assets/season.css" />
+  <style>
+    .weeks-table-wrap {
+      overflow-x: auto;
+      margin-top: 0.5rem;
+    }
+    .weeks-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    .weeks-table th,
+    .weeks-table td {
+      padding: 0.4rem 0.6rem;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+    .weeks-table thead th {
+      background: #edf1ff;
+      font-weight: 600;
+    }
+    .weeks-table tbody tr:nth-child(even) {
+      background: #f7f7f7;
+    }
+    .weeks-table tr.current-week-row {
+      font-weight: 600;
+      background: #e0ecff;
+    }
+    .header-main {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .header-text {
+      flex: 1 1 auto;
+    }
+    .berlin-logo {
+      max-width: 240px;
+      height: auto;
+      opacity: 0.9;
+    }
+
+@media (max-width: 720px) {
+  .header-main {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .header-text {
+    max-width: 100%;
+  }
+
+  .berlin-logo {
+    max-width: 70%;
+    height: auto;
+    margin-top: 0.5rem;
+    align-self: flex-start;
+  }
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="header-main">
+    <div class="header-text">
+      <a href="../index.html" class="back-link">← Back to Season Plan</a>
+      <h1>Cycle 2 · Barcelona Half Marathon</h1>
+      <p class="subtitle">
+        2025-11-10 → 2026-02-15 · Final event: Barcelona Half Marathon · Target: Half Marathon @ 4:16/km
+      </p>
+    </div>
+    <img src="../assets/Berlin_2026_logo.png" alt="Berlin 2026 Logo" class="berlin-logo" />
+  </div>
+
+  <section>
+    <h2>1. Purpose of this Cycle</h2>
+    <p>Cycle 2 starts immediately after the 2025 Alès 10K (early November) and ends at the Barcelona Half Marathon on 2026-02-15.</p>
+    <p>This cycle focuses on transforming the speed advantage developed in Cycle 1 into longer-distance sustainability, especially improving lactate threshold performance.</p>
+    <p>Primary Goal: 🎯 Finish the Barcelona Half Marathon at 4:16/km average pace.</p>
+  </section>
+
+  <section>
+    <h2>2. Training Plan Overview</h2>
+    <p>Transition period to early December where the kilometrage is gradually increased from 60Km/week to 80-110Km/week (week after Nature MarathonMan). Try to keep and increase the LT2 level.</p>
+    <ul>
+    <li>Maintain long-distance tempo runs</li>
+    <li>Sustained lactate-threshold workouts</li>
+    <li>Overall intensity at medium-high level</li>
+    <li>Emphasis on endurance durability. Maintain 80-110 km/week kilometrage.
+    </ul>
+    <p>Training load should be progressive but controlled, balancing intensity with recovery.</p>
+  </section>
+
+  <section>
+    <h2>3. Key Milestone Races</h2>
+    <ul>
+      <li>Nov 30, 2025 — 20K de Montpellier  (baseline long-distance stress test)</li> 
+      <li>Dec 7, 2025 — Nature MarathonMan de Saint-Mathieu-de-Tréviers (marathon; endurance & strength stimulus)</li> 
+      <li>Jan, 2026 - Half marathon/20K undefined</li>
+      <li>Feb 15, 2026 — Barcelona Half Marathon (Cycle 2 goal race)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Implementation Summary</h2>
+    <div class="weeks-table-wrap">
+      <table class="weeks-table">
+        <thead>
+          <tr>
+            <th>Week #</th>
+            <th>Date range</th>
+            <th>Distance</th>
+            <th>Sessions</th>
+            <th>Avg effort</th>
+          </tr>
+        </thead>
+        <tbody id="weeks-body">
+          <!-- Filled by JavaScript -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+
+
+  <section>
+    <h2>5. Race Report</h2>
+    <h3>20Km de Montpellier (2025-11-30)</h3>
+    <h3>Nature MarathonMan (2025-12-07)
+    <h3>Semi-MarathonMan</h3>
+    <h3>Barcelona Half Marathon</h3>
+  </section>
+
+  <section>
+    <h2>6. Final Cycle Evaluatio</h2>
+      <p>The final evaluation of Cycle 2 will be conducted after the Barcelona Half Marathon on 2026-02-15. Key performance indicators will include:</p>
+  </section>
+
+  <script>
+    function parseLocalDate(str) {
+      const parts = str.split("-");
+      return new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
+    }
+
+    function formatDate(date) {
+      const y = date.getFullYear();
+      const m = String(date.getMonth() + 1).padStart(2, "0");
+      const d = String(date.getDate()).padStart(2, "0");
+      return y + "-" + m + "-" + d;
+    }
+
+    const cycle = {
+      startDate: "2025-11-10",
+      endDate: "2026-02-15"
+    };
+
+    function buildWeeks(cycle) {
+      const weeks = [];
+      let current = parseLocalDate(cycle.startDate);
+      const end = parseLocalDate(cycle.endDate);
+      let order = 1;
+
+      while (current <= end) {
+        const startStr = formatDate(current);
+        const weekEnd = new Date(current);
+        weekEnd.setDate(weekEnd.getDate() + 6);
+        const endStr = formatDate(weekEnd);
+
+        weeks.push({
+          order: order,
+          startDate: startStr,
+          endDate: endStr,
+          weekUrl: "../../weeklog/week-berlin.html?week=" + startStr
+        });
+
+        current.setDate(current.getDate() + 7);
+        order += 1;
+      }
+
+      return weeks;
+    }
+
+    function populateWeeksTable() {
+      const weeks = buildWeeks(cycle);
+      const tbody = document.getElementById("weeks-body");
+      const today = new Date();
+
+      const rowsHtml = weeks.map(function (week) {
+        const dr = week.startDate + " → " + week.endDate;
+        const start = parseLocalDate(week.startDate);
+        const end = parseLocalDate(week.endDate);
+        const isCurrent = today >= start && today <= end;
+        const isPastOrCurrent = today >= start;
+
+        var dateCell;
+        if (isPastOrCurrent) {
+          dateCell =
+            '<a href="' +
+            week.weekUrl +
+            '">' +
+            dr +
+            "</a>";
+        } else {
+          dateCell = dr;
+        }
+
+        const rowClass = isCurrent ? ' class="current-week-row"' : "";
+
+        return (
+          "<tr data-week-start=\"" +
+          week.startDate +
+          "\"" +
+          rowClass +
+          ">" +
+          "<td>" +
+          week.order +
+          "</td>" +
+          "<td>" +
+          dateCell +
+          "</td>" +
+          "<td></td>" +
+          "<td></td>" +
+          "<td></td>" +
+          "</tr>"
+        );
+      }).join("");
+
+      tbody.innerHTML = rowsHtml;
+
+      populateFromJson(weeks);
+    }
+
+    function populateFromJson(weeks) {
+      weeks.forEach(function (week) {
+        const row = document.querySelector('tr[data-week-start="' + week.startDate + '"]');
+        if (!row) return;
+
+        const cells = row.querySelectorAll("td");
+        if (cells.length < 5) return;
+
+        const distanceCell = cells[2];
+        const sessionsCell = cells[3];
+        const effortCell = cells[4];
+
+        // cycle-2.html is in berlin-2026/cycles/, data is in ../../data/
+        const jsonPath = "../../data/week-" + week.startDate + ".json";
+
+        fetch(jsonPath)
+          .then(function (resp) {
+            if (!resp.ok) {
+              throw new Error("No data");
+            }
+            return resp.json();
+          })
+          .then(function (data) {
+            if (typeof data.total_distance_km === "number") {
+              distanceCell.textContent = data.total_distance_km.toFixed(2) + " km";
+            }
+            if (typeof data.activity_count === "number") {
+              sessionsCell.textContent = data.activity_count;
+            }
+            if (typeof data.avg_suffer_score === "number") {
+              effortCell.textContent = data.avg_suffer_score.toFixed(1);
+            }
+          })
+          .catch(function () {
+            // No JSON for this week: leave cells empty
+          });
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", populateWeeksTable);
+  </script>
+</body>
+</html>

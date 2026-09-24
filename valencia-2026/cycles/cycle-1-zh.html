@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cycle 1 · 阿莱斯 10K · StepLog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../assets/season.css" />
+  <style>
+    .weeks-table-wrap {
+      overflow-x: auto;
+      margin-top: 0.5rem;
+    }
+    .weeks-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    .weeks-table th,
+    .weeks-table td {
+      padding: 0.4rem 0.6rem;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+    .weeks-table thead th {
+      background: #edf1ff;
+      font-weight: 600;
+    }
+    .weeks-table tbody tr:nth-child(even) {
+      background: #f7f7f7;
+    }
+    /* chart */
+    .chart-container {
+      margin-top: 1rem;
+    }
+    #cycle1-weeks-chart {
+      width: 100%;
+      max-width: 900px;
+      height: 320px;
+      border: 1px solid #eee;
+      background: #fff;
+      display: block;
+    }
+    .chart-legend {
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+    }
+    .chart-legend-item {
+      display: inline-flex;
+      align-items: center;
+      margin-right: 1.5rem;
+    }
+    .legend-color {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin-right: 0.35rem;
+      border-radius: 2px;
+    }
+    .legend-distance {
+      background: #1f77b4;
+    }
+    .legend-sessions {
+      background: #2ca02c;
+    }
+    .legend-effort {
+      background: #d62728;
+    }
+    .header-main {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .header-text {
+      flex: 1 1 auto;
+    }
+
+    .berlin-logo {
+      max-width: 240px;
+      height: auto;
+      opacity: 0.9;
+    }
+
+@media (max-width: 720px) {
+  .header-main {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .header-text {
+    max-width: 100%;
+  }
+
+  .berlin-logo {
+    max-width: 70%;
+    height: auto;
+    margin-top: 0.5rem;
+    align-self: flex-start;
+  }
+}
+  </style>
+</head>
+
+<body>
+  <div class="header-main">
+    <div class="header-text">
+      <a href="../index-zh.html" class="back-link">← 返回赛季总览</a>
+      <h1>Cycle 1 · 阿莱斯 10K</h1>
+      <p class="subtitle">
+        2025-09-29 → 2025-11-09 · 终点赛事：Foulées d'Agglo Alès 10K · 目标：10K @ 4:00/km
+      </p>
+    </div>
+    <img src="../assets/Berlin_2026_logo-zh.png" alt="Berlin 2026 Logo" class="berlin-logo" />
+  </div>
+
+  <section>
+    <h2>1. 背景与目标</h2>
+    <p>
+      我把 Cycle 1 设计成 StepLog 项目的第一个训练周期。这个周期背后的长期目标，是为 2026 年柏林马拉松
+      Sub-3 打下扎实的速度基础。
+    </p>
+    <p>
+      这个周期的直接目标，是在 2025-11-09 的 Foulées d'Agglo Alès 10 公里比赛中跑进 40 分钟，
+      对应的目标配速是 4:00/km。因为之前从来没有执行过这样系统、以强度为中心的训练计划，
+      所以整个周期中我最需要注意的风险，就是在适应新训练量和新强度的同时尽量避免受伤。
+    </p>
+  </section>
+
+  <section>
+    <h2>2. 训练计划概要</h2>
+    <p>
+      整个周期大约持续了八周。我把每周的目标跑量控制在 60 公里左右，实际上比我之前每周 90–100 公里的
+      训练量要低。关键的变化在于：从单纯堆积里程，转向更多依靠高质量的强度训练来提升能力。
+    </p>
+    <p>每一周，我大致按以下结构来安排训练：</p>
+    <ul>
+      <li>
+        周二安排一次偏向 VMA 的速度训练，围绕 10 公里目标配速展开，用来提升速度与跑步经济性。
+      </li>
+      <li>
+        周四安排一次接近比赛配速的较长配速训练，重点练习在目标强度下持续用力的能力。
+      </li>
+      <li>
+        在周中、周六和周日安排数次较短的有氧跑，以维持和巩固有氧基础。
+      </li>
+    </ul>
+    <p>
+      这个周期的一大特点是基本没有特别长的 Long Run。我刻意不去追求单次距离的长度，而是优先保证
+      自己在关键强度课前后都有足够的恢复，以便更好地消化训练，同时降低受伤风险。
+    </p>
+  </section>
+
+  <section>
+    <h2>3. 关键节点赛事</h2>
+    <p>
+      在这个周期中，我把几场 10 公里比赛当作阶段性测试，用来检验体能和配速控制：
+    </p>
+    <ul>
+      <li>2025-10-05：塞特（Sète）10 公里比赛。</li>
+      <li>2025-10-26：上海 10 公里精英赛。</li>
+      <li>2025-11-09：Foulées d'Agglo Alès 10K —— 本周期的目标赛事。</li>
+    </ul>
+    <p>
+      这些中间赛事帮助我判断自己对训练计划的适应情况，以及 4:00/km 左右的配速目标是否现实。
+    </p>
+  </section>
+
+  <section>
+    <h2>4. 实施情况总览</h2>
+    <p>
+      下表基于每周的 week JSON 数据自动生成，概括了本周期每一周的总里程、训练次数以及平均主观强度。
+      更详细的日常记录保存在对应的 week 页面中。
+    </p>
+    <div class="weeks-table-wrap">
+      <table class="weeks-table">
+        <thead>
+          <tr>
+            <th>周次</th>
+            <th>日期范围</th>
+            <th>距离</th>
+            <th>训练次数</th>
+            <th>平均主观强度</th>
+          </tr>
+        </thead>
+        <tbody id="cycle1-weeks-body">
+          <!-- Rows will be generated from data/week-YYYY-MM-DD-zh.json -->
+        </tbody>
+      </table>
+    </div>
+    <div class="chart-container">
+      <canvas id="cycle1-weeks-chart" width="900" height="320"></canvas>
+      <div class="chart-legend">
+        <span class="chart-legend-item">
+          <span class="legend-color legend-distance"></span>
+          距离（公里）
+        </span>
+        <span class="chart-legend-item">
+          <span class="legend-color legend-sessions"></span>
+          训练次数
+        </span>
+        <span class="chart-legend-item">
+          <span class="legend-color legend-effort"></span>
+          平均主观强度
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>5. 比赛纪要 – 阿莱斯 10K</h2>
+    <p>
+      本周期的目标赛事是 2025-11-09 在法国阿莱斯（Alès）举行的 Foulées d'Agglo Alès 10 公里比赛。
+      当天气温大约 10℃，天气和整体环境都非常理想，属于很适合发挥的一天。
+    </p>
+    <p>
+      比赛开始后，我按照计划的目标配速起跑，前半程整体比较顺利，基本能够稳定在目标节奏上。
+      赛道是两圈路线，进入第二圈之后，配速维持开始变得困难，特别是在比赛中段的那一段。
+    </p>
+    <p>
+      在第 7、8、9 公里，我明显感到维持目标配速越来越吃力，这一阶段的配速下降到了
+      4:10–4:15/km 左右。这说明整体的配速策略是合理的，但在 5 公里之后持续维持目标配速的能力
+      还有待加强。
+    </p>
+    <p>
+      最终，我以大约 41 分 15 秒的成绩完成比赛，比 40 分钟的目标慢了大约 1 分钟。
+      尽管如此，综合训练过程和比赛体验，这个结果仍然基本符合我的预期，也清晰地暴露了
+      当前速度耐力上的薄弱环节。
+    </p>
+  </section>
+
+  <section>
+    <h2>6. 周期最终评估</h2>
+    <p>
+      回头看 Cycle 1，我对整体效果是满意的。我在 VMA 相关的强度训练上取得了实质性的突破：
+      与之前相比，我的速度能力有了明显提升，现在可以用大约 4:05–4:10/km 的配速完成 10 公里的努力，
+      而不会产生特别强烈的抗拒感或心理压力。
+    </p>
+    <p>
+      目前最需要改进的，是在 10 公里后半程维持配速的能力，尤其是 5 公里之后到终点这段。
+      不过，从训练结构、身体状态以及比赛反馈来看，这个周期的方向是正确的，我也基本避免了受伤，
+      为后续训练保留了良好的连续性。
+    </p>
+    <p>
+      总体来说，Cycle 1 成功打下了我想要的速度基础，也让我对接下来的 Cycle 2 更有信心：
+      带着这套速度能力，开始把配速向半程马拉松距离延伸。
+    </p>
+  </section>
+
+  <script>
+    // ----- Cycle 1 weeks summary table (auto-generated from data/week-YYYY-MM-DD-zh.json) -----
+    const CYCLE1_WEEKS = [
+      { order: 1, startDate: "2025-09-29" },
+      { order: 2, startDate: "2025-10-06" },
+      { order: 3, startDate: "2025-10-13" },
+      { order: 4, startDate: "2025-10-20" },
+      { order: 5, startDate: "2025-10-27" },
+      { order: 6, startDate: "2025-11-03" }, // 比赛周
+    ];
+
+    function cycle1MakeUTCDate(isoStr) {
+      // isoStr is "YYYY-MM-DD"
+      const [y, m, d] = isoStr.split("-").map(Number);
+      return new Date(Date.UTC(y, m - 1, d));
+    }
+
+    function cycle1FormatISODate(d) {
+      const y = d.getUTCFullYear();
+      const m = String(d.getUTCMonth() + 1).padStart(2, "0");
+      const day = String(d.getUTCDate()).padStart(2, "0");
+      return `${y}-${m}-${day}`;
+    }
+
+    function buildCycle1WeeksChart() {
+      const canvas = document.getElementById("cycle1-weeks-chart");
+      const tbody = document.getElementById("cycle1-weeks-body");
+      if (!canvas || !tbody) return;
+
+      const rows = Array.from(tbody.querySelectorAll("tr"));
+      if (!rows.length) return;
+
+      const labels = [];
+      const distances = [];
+      const sessions = [];
+      const efforts = [];
+
+      rows.forEach((row) => {
+        const cells = row.querySelectorAll("td");
+        if (cells.length < 5) return;
+
+        const weekLabel = cells[0].textContent.trim();
+        const distanceText = cells[2].textContent.trim(); // e.g. "60.0 公里"
+        const sessionsText = cells[3].textContent.trim();
+        const effortText = cells[4].textContent.trim();
+
+        const distanceVal = parseFloat(distanceText.split(" ")[0]);
+        const sessionsVal = parseFloat(sessionsText);
+        const effortVal = parseFloat(effortText);
+
+        if (
+          !Number.isNaN(distanceVal) ||
+          !Number.isNaN(sessionsVal) ||
+          !Number.isNaN(effortVal)
+        ) {
+          labels.push(weekLabel);
+          distances.push(Number.isNaN(distanceVal) ? null : distanceVal);
+          sessions.push(Number.isNaN(sessionsVal) ? null : sessionsVal);
+          efforts.push(Number.isNaN(effortVal) ? null : effortVal);
+        }
+      });
+
+      if (!labels.length) return;
+
+      const ctx = canvas.getContext("2d");
+      const width = canvas.width;
+      const height = canvas.height;
+
+      ctx.clearRect(0, 0, width, height);
+
+      const paddingLeft = 40;
+      const paddingRight = 20;
+      const paddingTop = 20;
+      const paddingBottom = 40;
+
+      const chartWidth = width - paddingLeft - paddingRight;
+      const chartHeight = height - paddingTop - paddingBottom;
+
+      function getMax(values) {
+        return values.reduce((max, v) => {
+          if (v === null || Number.isNaN(v)) return max;
+          return Math.max(max, v);
+        }, 0);
+      }
+
+      const maxDistance = getMax(distances);
+      const maxSessions = getMax(sessions);
+      const maxEffort = getMax(efforts);
+
+      let globalMax = Math.max(maxDistance, maxSessions, maxEffort);
+      if (!globalMax || !Number.isFinite(globalMax)) {
+        globalMax = 1;
+      }
+
+      globalMax *= 1.1;
+
+      function valueToY(v) {
+        if (v === null || Number.isNaN(v)) return null;
+        const ratio = v / globalMax;
+        return paddingTop + (1 - ratio) * chartHeight;
+      }
+
+      const stepX = labels.length > 1 ? chartWidth / (labels.length - 1) : 0;
+
+      // axes
+      ctx.strokeStyle = "#ccc";
+      ctx.lineWidth = 1;
+      // y axis
+      ctx.beginPath();
+      ctx.moveTo(paddingLeft, paddingTop);
+      ctx.lineTo(paddingLeft, paddingTop + chartHeight);
+      ctx.stroke();
+      // x axis
+      ctx.beginPath();
+      ctx.moveTo(paddingLeft, paddingTop + chartHeight);
+      ctx.lineTo(paddingLeft + chartWidth, paddingTop + chartHeight);
+      ctx.stroke();
+
+      // y ticks
+      ctx.fillStyle = "#666";
+      ctx.font = "11px system-ui, -apple-system, BlinkMacSystemFont, sans-serif";
+      const ticks = 4;
+      for (let i = 0; i <= ticks; i++) {
+        const ratio = i / ticks;
+        const y = paddingTop + (1 - ratio) * chartHeight;
+        const val = (globalMax * ratio).toFixed(0);
+        ctx.fillText(val, 4, y + 3);
+
+        ctx.strokeStyle = i === 0 ? "#ccc" : "#eee";
+        ctx.beginPath();
+        ctx.moveTo(paddingLeft, y);
+        ctx.lineTo(paddingLeft + chartWidth, y);
+        ctx.stroke();
+      }
+
+      // x labels
+      ctx.fillStyle = "#333";
+      labels.forEach((label, idx) => {
+        const x = paddingLeft + stepX * idx;
+        const y = paddingTop + chartHeight + 14;
+        ctx.fillText(label, x - 8, y + 10);
+      });
+
+      function drawLine(values, color) {
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        let started = false;
+        values.forEach((v, idx) => {
+          const y = valueToY(v);
+          if (y === null) return;
+          const x = paddingLeft + stepX * idx;
+          if (!started) {
+            ctx.moveTo(x, y);
+            started = true;
+          } else {
+            ctx.lineTo(x, y);
+          }
+        });
+        ctx.stroke();
+      }
+
+      drawLine(distances, "#1f77b4"); // 距离
+      drawLine(sessions, "#2ca02c");  // 训练次数
+      drawLine(efforts, "#d62728");   // 平均主观强度
+    }
+
+    function populateCycle1WeeksTable() {
+      const tbody = document.getElementById("cycle1-weeks-body");
+      if (!tbody) return;
+
+      const ONE_DAY_MS = 24 * 60 * 60 * 1000;
+      let remaining = CYCLE1_WEEKS.length;
+
+      CYCLE1_WEEKS.forEach((w) => {
+        const tr = document.createElement("tr");
+
+        // 周次
+        const tdWeek = document.createElement("td");
+        tdWeek.textContent = String(w.order);
+        tr.appendChild(tdWeek);
+
+        // 日期范围 + week 页面链接
+        const startStr = w.startDate;
+        const startDate = cycle1MakeUTCDate(startStr);
+        const endDate = new Date(startDate.getTime() + 6 * ONE_DAY_MS);
+        const endStr = cycle1FormatISODate(endDate);
+
+        const tdRange = document.createElement("td");
+        const link = document.createElement("a");
+        link.href = `../../weeklog/week-berlin-zh.html?week=${startStr}`;
+        link.textContent = `${startStr} \u2192 ${endStr}`;
+        tdRange.appendChild(link);
+        tr.appendChild(tdRange);
+
+        // 距离、次数、平均主观强度（初始为空，读取 JSON 后填入）
+        const tdDistance = document.createElement("td");
+        const tdSessions = document.createElement("td");
+        const tdEffort = document.createElement("td");
+
+        tdDistance.textContent = "";
+        tdSessions.textContent = "";
+        tdEffort.textContent = "";
+
+        tr.appendChild(tdDistance);
+        tr.appendChild(tdSessions);
+        tr.appendChild(tdEffort);
+
+        tbody.appendChild(tr);
+
+        // 对应的中文周数据 JSON（使用 -zh.json 命名）
+        const jsonPath = `../../data/week-${startStr}.zh.json`;
+        fetch(jsonPath)
+          .then((resp) => {
+            if (!resp.ok) {
+              throw new Error(`Failed to load ${jsonPath}: ${resp.status}`);
+            }
+            return resp.json();
+          })
+          .then((data) => {
+            if (!data || typeof data !== "object") return;
+
+            const totalDist = data.total_distance_km;
+            const activityCount = data.activity_count;
+            const avgSuffer = data.avg_suffer_score;
+
+            if (typeof totalDist === "number") {
+              tdDistance.textContent = `${totalDist.toFixed(1)} 公里`;
+            }
+            if (typeof activityCount === "number") {
+              tdSessions.textContent = String(activityCount);
+            }
+            if (typeof avgSuffer === "number") {
+              tdEffort.textContent = `${avgSuffer.toFixed(1)}`;
+            }
+          })
+          .catch((err) => {
+            console.warn(err.message);
+          })
+          .finally(() => {
+            remaining -= 1;
+            if (remaining === 0) {
+              buildCycle1WeeksChart();
+            }
+          });
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", populateCycle1WeeksTable);
+  </script>
+</body>
+</html>
