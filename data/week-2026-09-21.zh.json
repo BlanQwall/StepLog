@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 32.41,
-  "total_moving_time_min": 173.6,
-  "activity_count": 6,
-  "avg_suffer_score": 18.5,
+  "total_distance_km": 35.17,
+  "total_moving_time_min": 187.6,
+  "activity_count": 7,
+  "avg_suffer_score": 17.1,
   "activities": [
     {
       "id": 20285833479,
@@ -101,6 +101,22 @@
       "average_speed_m_s": 2.712,
       "average_heartrate": 134.5,
       "suffer_score": 11.0,
+      "city": "柏林",
+      "state": "柏林",
+      "country": "德国",
+      "photo": null
+    },
+    {
+      "id": 20331997642,
+      "name": "晨跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-09-26",
+      "distance_km": 2.76,
+      "moving_time_min": 14.0,
+      "average_speed_m_s": 3.287,
+      "average_heartrate": 145.1,
+      "suffer_score": 9.0,
       "city": "柏林",
       "state": "柏林",
       "country": "德国",
