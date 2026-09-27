@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 77.92,
-  "total_moving_time_min": 383.1,
-  "activity_count": 8,
-  "avg_suffer_score": 39.5,
+  "total_distance_km": 80.18,
+  "total_moving_time_min": 397.3,
+  "activity_count": 9,
+  "avg_suffer_score": 35.7,
   "activities": [
     {
       "id": 20285833479,
@@ -136,6 +136,22 @@
       "city": "Berlin",
       "state": "Berlin",
       "country": "Germany",
+      "photo": null
+    },
+    {
+      "id": 20351382114,
+      "name": "Morning Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-09-27",
+      "distance_km": 2.26,
+      "moving_time_min": 14.3,
+      "average_speed_m_s": 2.64,
+      "average_heartrate": 132.8,
+      "suffer_score": 5.0,
+      "city": null,
+      "state": null,
+      "country": null,
       "photo": null
     }
   ],
