@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 16.33,
-  "total_moving_time_min": 85.4,
-  "activity_count": 2,
-  "avg_suffer_score": 19.0,
+  "total_distance_km": 22.74,
+  "total_moving_time_min": 120.3,
+  "activity_count": 4,
+  "avg_suffer_score": 15.5,
   "activities": [
     {
       "id": 20381471542,
@@ -40,6 +40,38 @@
       "city": "三麻雀村",
       "state": "奥克西塔尼大区",
       "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 20410773820,
+      "name": "热身",
+      "description": "",
+      "type": "Run",
+      "date": "2026-10-01",
+      "distance_km": 2.24,
+      "moving_time_min": 13.2,
+      "average_speed_m_s": 2.837,
+      "average_heartrate": 127.7,
+      "suffer_score": 2.0,
+      "city": "三麻雀村",
+      "state": "朗格多克-鲁西永 南部-比利牛斯",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 20410774463,
+      "name": "俱乐部坡度跑 4x(30'' 20'' 10'')",
+      "description": "",
+      "type": "Run",
+      "date": "2026-10-01",
+      "distance_km": 4.17,
+      "moving_time_min": 21.8,
+      "average_speed_m_s": 3.184,
+      "average_heartrate": 150.9,
+      "suffer_score": 22.0,
+      "city": null,
+      "state": null,
+      "country": null,
       "photo": null
     }
   ],
