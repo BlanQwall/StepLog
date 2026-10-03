@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 30.24,
-  "total_moving_time_min": 157.0,
-  "activity_count": 5,
-  "avg_suffer_score": 16.6,
+  "total_distance_km": 34.58,
+  "total_moving_time_min": 175.6,
+  "activity_count": 6,
+  "avg_suffer_score": 17.8,
   "activities": [
     {
       "id": 20381471542,
@@ -85,6 +85,22 @@
       "average_speed_m_s": 3.407,
       "average_heartrate": 143.6,
       "suffer_score": 21.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 20434642648,
+      "name": "To another goal now",
+      "description": "",
+      "type": "Run",
+      "date": "2026-10-03",
+      "distance_km": 4.34,
+      "moving_time_min": 18.5,
+      "average_speed_m_s": 3.906,
+      "average_heartrate": 156.5,
+      "suffer_score": 24.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
       "country": "France",
