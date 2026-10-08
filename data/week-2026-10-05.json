@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 31.12,
-  "total_moving_time_min": 161.2,
-  "activity_count": 4,
-  "avg_suffer_score": 23.0,
+  "total_distance_km": 46.94,
+  "total_moving_time_min": 242.1,
+  "activity_count": 5,
+  "avg_suffer_score": 32.6,
   "activities": [
     {
       "id": 20455775298,
@@ -71,6 +71,22 @@
       "suffer_score": 9.0,
       "city": "Saint-Mathieu-de-Tréviers",
       "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 20503831521,
+      "name": "Afternoon Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-10-08",
+      "distance_km": 15.82,
+      "moving_time_min": 81.0,
+      "average_speed_m_s": 3.257,
+      "average_heartrate": 147.4,
+      "suffer_score": 71.0,
+      "city": "Lauret",
+      "state": "Languedoc-Roussillon",
       "country": "France",
       "photo": null
     }
