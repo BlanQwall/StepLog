@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 46.94,
-  "total_moving_time_min": 242.1,
-  "activity_count": 5,
-  "avg_suffer_score": 32.6,
+  "total_distance_km": 78.36,
+  "total_moving_time_min": 429.3,
+  "activity_count": 6,
+  "avg_suffer_score": 56.5,
   "activities": [
     {
       "id": 20455775298,
@@ -87,6 +87,22 @@
       "suffer_score": 71.0,
       "city": "劳雷特",
       "state": "朗格多克-鲁西荣",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 20525990976,
+      "name": "晨跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-10-10",
+      "distance_km": 31.42,
+      "moving_time_min": 187.2,
+      "average_speed_m_s": 2.797,
+      "average_heartrate": 148.8,
+      "suffer_score": 176.0,
+      "city": "克莱蒙-莱艾罗",
+      "state": "奥克西塔尼大区",
       "country": "法国",
       "photo": null
     }
