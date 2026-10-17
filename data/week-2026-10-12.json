@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 55.8,
-  "total_moving_time_min": 298.4,
-  "activity_count": 6,
-  "avg_suffer_score": 23.7,
+  "total_distance_km": 68.71,
+  "total_moving_time_min": 364.4,
+  "activity_count": 8,
+  "avg_suffer_score": 24.1,
   "activities": [
     {
       "id": 20549651554,
@@ -103,6 +103,38 @@
       "suffer_score": 21.0,
       "city": "Nantes",
       "state": "Pays de la Loire",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 20616450684,
+      "name": "6x1Km La Loire",
+      "description": "",
+      "type": "Run",
+      "date": "2026-10-17",
+      "distance_km": 9.64,
+      "moving_time_min": 48.5,
+      "average_speed_m_s": 3.309,
+      "average_heartrate": 144.9,
+      "suffer_score": 46.0,
+      "city": "Nantes",
+      "state": "Pays de la Loire",
+      "country": "France",
+      "photo": null
+    },
+    {
+      "id": 20616450722,
+      "name": "WU",
+      "description": "",
+      "type": "Run",
+      "date": "2026-10-17",
+      "distance_km": 3.27,
+      "moving_time_min": 17.4,
+      "average_speed_m_s": 3.133,
+      "average_heartrate": 129.3,
+      "suffer_score": 5.0,
+      "city": "Nantes",
+      "state": "Loire-Atlantique",
       "country": "France",
       "photo": null
     }
