@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 68.71,
-  "total_moving_time_min": 364.4,
-  "activity_count": 8,
-  "avg_suffer_score": 24.1,
+  "total_distance_km": 75.01,
+  "total_moving_time_min": 413.0,
+  "activity_count": 9,
+  "avg_suffer_score": 22.6,
   "activities": [
     {
       "id": 20549651554,
@@ -135,6 +135,22 @@
       "suffer_score": 5.0,
       "city": "南特",
       "state": "卢瓦尔-阿特兰蒂克",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 20638318013,
+      "name": "没有孩子的生活",
+      "description": "送完孩子去夏令营后和Ling He在一起✌🏻",
+      "type": "Run",
+      "date": "2026-10-18",
+      "distance_km": 6.3,
+      "moving_time_min": 48.6,
+      "average_speed_m_s": 2.16,
+      "average_heartrate": 116.2,
+      "suffer_score": 10.0,
+      "city": "勒特里亚杜",
+      "state": "朗格多克-鲁西永 南部-比利牛斯",
       "country": "法国",
       "photo": null
     }
