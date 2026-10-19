@@ -1,0 +1,31 @@
+{
+  "week_start": "2026-10-19",
+  "week_end": "2026-10-25",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 12.53,
+  "total_moving_time_min": 68.0,
+  "activity_count": 1,
+  "avg_suffer_score": 19.0,
+  "activities": [
+    {
+      "id": 20645918850,
+      "name": "Lunch Run",
+      "description": null,
+      "type": "Run",
+      "date": "2026-10-19",
+      "distance_km": 12.53,
+      "moving_time_min": 68.0,
+      "average_speed_m_s": 3.073,
+      "average_heartrate": 131.8,
+      "suffer_score": 19.0,
+      "city": null,
+      "state": null,
+      "country": null,
+      "photo": null
+    }
+  ],
+  "photos": []
+}
