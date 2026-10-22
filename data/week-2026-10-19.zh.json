@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 36.62,
-  "total_moving_time_min": 195.3,
-  "activity_count": 4,
-  "avg_suffer_score": 35.8,
+  "total_distance_km": 49.43,
+  "total_moving_time_min": 256.4,
+  "activity_count": 6,
+  "avg_suffer_score": 39.5,
   "activities": [
     {
       "id": 20645918850,
@@ -70,6 +70,38 @@
       "average_heartrate": 142.9,
       "suffer_score": 60.0,
       "city": "拉格朗德莫特",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 20691731040,
+      "name": "俱乐部 LT2 - 热身加速跑 + 5x(2'@SP10+2'@SP42)",
+      "description": "好的乳酸阈值训练 👍",
+      "type": "Run",
+      "date": "2026-10-22",
+      "distance_km": 7.61,
+      "moving_time_min": 32.5,
+      "average_speed_m_s": 3.899,
+      "average_heartrate": 164.1,
+      "suffer_score": 78.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    },
+    {
+      "id": 20691731052,
+      "name": "热身",
+      "description": "",
+      "type": "Run",
+      "date": "2026-10-22",
+      "distance_km": 5.2,
+      "moving_time_min": 28.6,
+      "average_speed_m_s": 3.026,
+      "average_heartrate": 137.8,
+      "suffer_score": 16.0,
+      "city": "三麻雀村",
       "state": "奥克西塔尼大区",
       "country": "法国",
       "photo": null
