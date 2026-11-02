@@ -1,0 +1,31 @@
+{
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 15.41,
+  "total_moving_time_min": 80.5,
+  "activity_count": 1,
+  "avg_suffer_score": 63.0,
+  "activities": [
+    {
+      "id": 20825288153,
+      "name": "4x2公里@目标配速",
+      "description": "试试旧鞋",
+      "type": "Run",
+      "date": "2026-11-02",
+      "distance_km": 15.41,
+      "moving_time_min": 80.5,
+      "average_speed_m_s": 3.19,
+      "average_heartrate": 142.8,
+      "suffer_score": 63.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    }
+  ],
+  "photos": []
+}

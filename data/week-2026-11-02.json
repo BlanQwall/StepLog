@@ -1,0 +1,31 @@
+{
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 15.41,
+  "total_moving_time_min": 80.5,
+  "activity_count": 1,
+  "avg_suffer_score": 63.0,
+  "activities": [
+    {
+      "id": 20825288153,
+      "name": "4x2Km@SP10",
+      "description": "Try old shoes",
+      "type": "Run",
+      "date": "2026-11-02",
+      "distance_km": 15.41,
+      "moving_time_min": 80.5,
+      "average_speed_m_s": 3.19,
+      "average_heartrate": 142.8,
+      "suffer_score": 63.0,
+      "city": "Saint-Mathieu-de-Tréviers",
+      "state": "Occitanie",
+      "country": "France",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
