@@ -5,10 +5,10 @@
     "Run",
     "Swim"
   ],
-  "total_distance_km": 38.38,
-  "total_moving_time_min": 210.5,
-  "activity_count": 4,
-  "avg_suffer_score": 42.0,
+  "total_distance_km": 44.4,
+  "total_moving_time_min": 234.1,
+  "activity_count": 5,
+  "avg_suffer_score": 46.8,
   "activities": [
     {
       "id": 20825288153,
@@ -72,6 +72,22 @@
       "city": null,
       "state": null,
       "country": null,
+      "photo": null
+    },
+    {
+      "id": 20905065062,
+      "name": "晨跑",
+      "description": null,
+      "type": "Run",
+      "date": "2026-11-08",
+      "distance_km": 6.02,
+      "moving_time_min": 23.6,
+      "average_speed_m_s": 4.248,
+      "average_heartrate": 168.9,
+      "suffer_score": 66.0,
+      "city": "阿列斯",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
       "photo": null
     }
   ],
