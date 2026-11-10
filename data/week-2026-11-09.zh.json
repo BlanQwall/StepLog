@@ -1,0 +1,47 @@
+{
+  "week_start": "2026-11-09",
+  "week_end": "2026-11-15",
+  "activity_types": [
+    "Run",
+    "Swim"
+  ],
+  "total_distance_km": 9.67,
+  "total_moving_time_min": 51.9,
+  "activity_count": 2,
+  "avg_suffer_score": 30.0,
+  "activities": [
+    {
+      "id": 20937335407,
+      "name": "傍晚跑步",
+      "description": null,
+      "type": "Run",
+      "date": "2026-11-10",
+      "distance_km": 3.26,
+      "moving_time_min": 20.7,
+      "average_speed_m_s": 2.629,
+      "average_heartrate": 126.9,
+      "suffer_score": 5.0,
+      "city": null,
+      "state": null,
+      "country": null,
+      "photo": null
+    },
+    {
+      "id": 20937335452,
+      "name": "傍晚跑步",
+      "description": null,
+      "type": "Run",
+      "date": "2026-11-10",
+      "distance_km": 6.41,
+      "moving_time_min": 31.2,
+      "average_speed_m_s": 3.422,
+      "average_heartrate": 157.1,
+      "suffer_score": 55.0,
+      "city": "三麻雀村",
+      "state": "奥克西塔尼大区",
+      "country": "法国",
+      "photo": null
+    }
+  ],
+  "photos": []
+}
